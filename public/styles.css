@@ -1,11 +1,13 @@
 /* Variable defs */
 :root {
   /* Articles */
-  --gallery-col-width: 30%;
+  --gallery-col-width: 40%;
   --gallery-gutter: 15px;
 
-  --article-border: 5px solid #555555;
-  --article-padding: 5px;
+  --article-border: 2px solid #555555;
+  --article-padding: 10px;
+
+  --abstract-height: 35%;
 
   --star-size: 35px;
   --star-margin: 10px;
@@ -20,8 +22,7 @@
 }
 
 .col {
-  flex: var(--gallery-col-width);
-  margin: var(--gallery-gutter);
+  flex: 1;
 }
 
 .wrap {
@@ -30,6 +31,10 @@
 
 .down {
   flex-direction: column;
+}
+
+.ctr {
+  justify-content: center;
 }
 
 .ctr-item {
@@ -61,8 +66,11 @@
 }
 
 .gallery-wall article {
-  position: relative;
   border: var(--article-border);
+  position: relative;
+  flex: var(--gallery-col-width);
+  max-width: var(--gallery-col-width);
+  margin: var(--gallery-gutter);
   padding: var(--article-padding);
 }
 
@@ -70,21 +78,27 @@
   text-align: center;
 }
 
-.gallery-wall article .abstract {
+.gallery-wall .abstract {
   border-top: var(--article-border);
+  min-height: var(--abstract-height);
   overflow: scroll;
-  min-height: 45%;
 }
 
-.gallery-wall article .abstract p {
+.gallery-wall .abstract p {
   text-align: left;
 }
 
-.gallery-wall article .abstract label {
+.gallery-wall .abstract label {
   font-weight: bold;
 }
 
-.gallery-wall article .head h3 {
+.gallery-wall .head h3 {
   text-transform: uppercase;
   text-align: left
+}
+
+.gallery-wall .thumb-img {
+  max-width: 40%;
+  height: auto;
+  flex: 30%;
 }
