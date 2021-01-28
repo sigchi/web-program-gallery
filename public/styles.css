@@ -1,0 +1,90 @@
+/* Variable defs */
+:root {
+  /* Articles */
+  --gallery-col-width: 30%;
+  --gallery-gutter: 15px;
+
+  --article-border: 5px solid #555555;
+  --article-padding: 5px;
+
+  --star-size: 35px;
+  --star-margin: 10px;
+  --star-active: gold;
+  --star-inactive: gray;
+  --star-inactive-opacity: 0.2;
+}
+
+/* Utils */
+.ctn {
+  display: flex;
+}
+
+.col {
+  flex: var(--gallery-col-width);
+  margin: var(--gallery-gutter);
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.down {
+  flex-direction: column;
+}
+
+.ctr-item {
+  align-self: center;
+}
+
+/* Articles */
+.star-box {
+  opacity: var(--star-inactive-opacity);
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  margin: var(--star-margin);
+  width: var(--star-size);
+  height: var(--star-size);
+}
+
+.star-box.active {
+  opacity: 1;
+}
+
+.star {
+  fill: var(--star-inactive);
+}
+
+.active .star {
+  fill: var(--star-active);
+}
+
+.gallery-wall article {
+  position: relative;
+  border: var(--article-border);
+  padding: var(--article-padding);
+}
+
+.gallery-wall article h3, .gallery-wall article p {
+  text-align: center;
+}
+
+.gallery-wall article .abstract {
+  border-top: var(--article-border);
+  overflow: scroll;
+  min-height: 45%;
+}
+
+.gallery-wall article .abstract p {
+  text-align: left;
+}
+
+.gallery-wall article .abstract label {
+  font-weight: bold;
+}
+
+.gallery-wall article .head h3 {
+  text-transform: uppercase;
+  text-align: left
+}
