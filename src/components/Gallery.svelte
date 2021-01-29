@@ -11,11 +11,13 @@
   };
 
   const filters = ['title', 'session', 'abstract', 'author'];
+  const modes = ['list', 'compact', 'detail'];
   const sessionEntries = Object.entries(program.sessions);
 
   let selectedTracks = [...program.tracks];
   let contentFilter = filters[0];
-  let showAbstract = false;
+  let displayMode = modes[1];
+
   let shownCandidates = [];
   let orderedContents = shuffle(program.contents);
   let selectedContents = [];
@@ -93,6 +95,13 @@
 <button on:click={() => { orderedContents = shuffle(orderedContents); }}>shuffle</button>
 <button on:click={sortNow}>ending soon</button>
 
+{#each modes as md}
+  <label>
+    <input type=radio bind:group={displayMode} value={md} />
+    {md}
+  </label>
+{/each}
+
 {#each program.tracks as track}
   <label>
     <input type=checkbox bind:group={selectedTracks} value={track} />
@@ -109,6 +118,9 @@
 
 <section class="gallery-wall ctn wrap ctr">
   {#each selectedContents as content}
-    <Article {content} {showAbstract} sessions={program.sessions} />
+    <Article
+      {content}
+      mode={displayMode}
+      sessions={program.sessions} />
   {/each}
 </section>

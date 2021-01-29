@@ -2,7 +2,7 @@
   import Star from './Star.svelte';
   import VidThumb from './VidThumb.svelte';
 
-  export let content = {}, sessions = {}, showAbstract = false;
+  export let content = {}, sessions = {}, mode = 'list';
 
   const id = `${content.track}-${content.sequence}`;
   const session = sessions[content.session[0]].name;
@@ -28,16 +28,18 @@
   </section>
 
   <!-- Videos/Images -->
-  <section class="imgs col ctn ctr wrap">
-    {#each Object.entries(content.videos) as [name, url]}
-      <VidThumb {url} />
-    {/each}
-    {#if Object.keys(content.videos).length === 0}
-      {#each Object.entries(content.images) as [name, url]}
-        <img class="thumb-img col" src={url} />
+  {#if mode !== 'list'}
+    <section class="imgs col ctn ctr wrap">
+      {#each Object.entries(content.videos) as [name, url]}
+        <VidThumb {url} />
       {/each}
-    {/if}
-  </section>
+      {#if Object.keys(content.videos).length === 0}
+        {#each Object.entries(content.images) as [name, url]}
+          <img class="thumb-img col" src={url} />
+        {/each}
+      {/if}
+    </section>
+  {/if}
 
   <!-- Other Links -->
   <section class="links col">
@@ -45,7 +47,7 @@
   </section>
 
   <!-- Abstract -->
-  {#if showAbstract}
+  {#if mode === 'detail'}
     <section id={`${id}-abstract`} class="abstract col">
       <label for={`${id}-abstract`}>Abstract:</label>
       <p>{content.abstract}</p>
