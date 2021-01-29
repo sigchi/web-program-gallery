@@ -4,6 +4,9 @@ module.exports = {
     src: { url: '/dist' },
     './contrib/program-examples': { url: '/data' },
   },
+  buildOptions: {
+    sourcemap: true,
+  },
   plugins: [
     '@snowpack/plugin-svelte',
     [
