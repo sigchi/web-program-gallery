@@ -17,11 +17,11 @@
     "@rollup/plugin-run": "^2.0.2",
     "@snowpack/plugin-build-script": "^2.1.0",
     "@snowpack/plugin-svelte": "^3.5.2",
+    "qoala-flat": "git+https://github.com/jjsullivan5196/qoala-flat.git#0.2.2",
     "rollup": "^2.38.0",
     "rollup-plugin-svelte": "^7.1.0",
     "snowpack": "^3.0.11",
     "svelte": "^3.32.0",
-    "svelte-preprocess": "^4.6.3",
-    "qoala-flat": "git+https://github.com/jjsullivan5196/qoala-flat.git#0.2.0"
+    "svelte-preprocess": "^4.6.3"
   }
 }
