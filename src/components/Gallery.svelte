@@ -10,6 +10,36 @@
     tracks: [],
   };
 
+  const filters = ['title', 'session', 'abstract', 'author'];
+  const sessionEntries = Object.entries(program.sessions);
+
+  let selectedTracks = [...program.tracks];
+  let contentFilter = filters[0];
+  let showAbstract = false;
+  let shownCandidates = [];
+  let orderedContents = shuffle(program.contents);
+  let selectedContents = [];
+
+  function sortNow() {
+    const now = Date.now();
+
+    orderedContents = [...program.contents].sort((p1, p2) => {
+      const [t1, t2] = [p1, p2].map(e => {
+        const end = Math.min(...e.session.map(id => {
+          return program.sessions[id] ? program.sessions[id].end : Infinity;
+        }));
+
+        if(typeof(end) === 'number') {
+          return now > end ? Infinity : end;
+        } else {
+          return Infinity;
+        }
+      });
+
+      return (t1 - t2) || (p1.sequence - p2.sequence);
+    });
+  }
+
   function getSearchOptions(filter, contents, authors, sessions) {
     switch(filter) {
       case 'title':
@@ -47,16 +77,6 @@
     }
   }
 
-  const filters = ['title', 'session', 'abstract', 'author'];
-  const sessionEntries = Object.entries(program.sessions);
-
-  let selectedTracks = [...program.tracks];
-  let contentFilter = filters[0];
-  let showAbstract = false;
-  let shownCandidates = [];
-  let orderedContents = shuffle(program.contents);
-  let selectedContents = [];
-
   $: trackContents = orderedContents.filter(
     (c) => selectedTracks.includes(c.track)
   );
@@ -71,6 +91,7 @@
 
 <button on:click={() => { showAbstract = !showAbstract; }}>abstract</button>
 <button on:click={() => { orderedContents = shuffle(orderedContents); }}>shuffle</button>
+<button on:click={sortNow}>ending soon</button>
 
 {#each program.tracks as track}
   <label>
