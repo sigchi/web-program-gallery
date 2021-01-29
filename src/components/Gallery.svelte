@@ -1,23 +1,71 @@
 <script>
   import Article from './Article.svelte';
-
-  function filterContent(tracks) {
-    return (item) => {
-      return tracks.includes(item.track);
-    }
-  }
+  import Typeahead from './Typeahead.svelte';
 
   export let program = {
     sessions: {},
     contents: [],
+    authors: [],
     tracks: [],
   };
 
-  let selectedTracks = [...program.tracks];
-  let showAbstract = false;
+  function getSearchOptions(filter, contents, authors, sessions) {
+    switch(filter) {
+      case 'title':
+        return {
+          candidates: contents,
+          key: 'title',
+          results(selected) {
+            return selected;
+          },
+        };
+      case 'abstract':
+        return {
+          candidates: contents,
+          key: 'abstract',
+          results(selected) {
+            return selected;
+          },
+        };
+      case 'session':
+        return {
+          candidates: sessions,
+          key: '1.name',
+          results(selected) {
+            const ids = selected.map((s) => Number(s[0]));
+            return contents.filter((c) => ids.includes(c.session[0]));
+          }
+        };
+      case 'author':
+        return {
+          candidates: authors,
+          results(selected) {
+            return contents.filter((c) => c.authors.some(a => selected.includes(a)));
+          }
+        };
+    }
+  }
 
-  $: selectedContents = program.contents.filter(filterContent(selectedTracks));
+  const filters = ['title', 'session', 'abstract', 'author'];
+  const sessionEntries = Object.entries(program.sessions);
+
+  let selectedTracks = [...program.tracks];
+  let contentFilter = filters[0];
+  let showAbstract = false;
+  let shownCandidates = [];
+  let selectedContents = [];
+
+  $: trackContents = program.contents.filter(
+    (c) => selectedTracks.includes(c.track)
+  );
+  $: searchOpts = getSearchOptions(
+    contentFilter, trackContents, program.authors, sessionEntries
+  );
+  $: selectedContents = shownCandidates.length > 0 ? searchOpts.results(shownCandidates) : trackContents;
 </script>
+
+<!-- TODO Figure out why this is angry -->
+<!-- <Typeahead candidates={searchOpts.candidates} key={searchOpts.key} bind:selected={shownCandidates} /> -->
 
 <button on:click={() => { showAbstract = !showAbstract; }}>Abstract</button>
 
@@ -25,6 +73,13 @@
   <label>
     <input type=checkbox bind:group={selectedTracks} value={track} />
     {track}
+  </label>
+{/each}
+
+{#each filters as flt}
+  <label>
+    <input type=radio bind:group={contentFilter} value={flt} />
+    {flt}
   </label>
 {/each}
 
