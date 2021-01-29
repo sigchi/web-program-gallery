@@ -1,6 +1,7 @@
 <script>
   import Article from './Article.svelte';
   import Typeahead from './Typeahead.svelte';
+  import { shuffle } from '../util.js';
 
   export let program = {
     sessions: {},
@@ -53,9 +54,10 @@
   let contentFilter = filters[0];
   let showAbstract = false;
   let shownCandidates = [];
+  let orderedContents = shuffle(program.contents);
   let selectedContents = [];
 
-  $: trackContents = program.contents.filter(
+  $: trackContents = orderedContents.filter(
     (c) => selectedTracks.includes(c.track)
   );
   $: searchOpts = getSearchOptions(
@@ -67,7 +69,8 @@
 <!-- TODO Figure out why this is angry -->
 <!-- <Typeahead candidates={searchOpts.candidates} key={searchOpts.key} bind:selected={shownCandidates} /> -->
 
-<button on:click={() => { showAbstract = !showAbstract; }}>Abstract</button>
+<button on:click={() => { showAbstract = !showAbstract; }}>abstract</button>
+<button on:click={() => { orderedContents = shuffle(orderedContents); }}>shuffle</button>
 
 {#each program.tracks as track}
   <label>
