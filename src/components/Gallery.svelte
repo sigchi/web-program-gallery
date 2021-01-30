@@ -20,7 +20,7 @@
   let contentFilter = filters[0];
   let displayMode = modes[1];
 
-  let shownCandidates = [];
+  let shownCandidates = undefined;
   let orderedContents = shuffle(program.contents);
   let selectedContents = [];
 
@@ -93,13 +93,10 @@
     contentFilter, trackContents, program.authors, sessionEntries
   );
 
-  $: selectedContents = shownCandidates.length > 0
-  ? searchOpts.results(shownCandidates)
-  : trackContents;
+  $: selectedContents = shownCandidates || trackContents;
 </script>
 
-<!-- TODO Figure out why this is angry -->
-<!-- <Typeahead candidates={searchOpts.candidates} key={searchOpts.key} bind:selected={shownCandidates} /> -->
+<Typeahead bind:selected={shownCandidates} {...searchOpts} />
 
 <button on:click={() => { showAbstract = !showAbstract; }}>abstract</button>
 <button on:click={() => { orderedContents = shuffle(orderedContents); }}>shuffle</button>
@@ -132,7 +129,7 @@
 {/each}
 
 <section class="gallery-wall ctn wrap ctr">
-  {#each selectedContents as content}
+  {#each selectedContents as content (content.id)}
     <Article
       {content}
       mode={displayMode}

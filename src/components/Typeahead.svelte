@@ -4,20 +4,36 @@
 
   export let candidates = [];
   export let key = '';
-  export let selected = [];
+  export let results = (s) => s;
+  export let selected = undefined;
 
   let query = '';
+  let shown = undefined;
 
-  $: options = key ? { keys: [key] } : {}
+  const defaultOptions = {
+    includeScore: true,
+  };
+
+  $: options = { ...defaultOptions, ...(key ? { keys: [key] } : {}) };
   $: fuzzy = new Fuse(candidates, options);
-  $: query && (selected = fuzzy.search(query, options).map(r => r.item));
-  $: console.log(selected.length);
+
+  $: if(query) {
+    const searchResults = fuzzy.search(query, options);
+    const exact = searchResults.filter((r) => r.score < 0.1).map((r) => r.item);
+
+    shown = searchResults.map((r) => r.item);
+    selected = exact.length > 0 ? results(exact) : results(shown);
+  } else {
+    shown = selected = undefined;
+  }
 </script>
 
 <input type=text bind:value={query} list="typeahead" />
 <datalist id="typeahead">
-  {#each selected as it}
-    <option value={key ? getPath(it, key) : it} />
-  {/each}
+  {#if shown !== undefined}
+    {#each shown as it}
+      <option value={key ? getPath(it, key) : it} />
+    {/each}
+  {/if}
 </datalist>
 
