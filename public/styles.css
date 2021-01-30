@@ -61,7 +61,7 @@
   fill: var(--star-inactive);
 }
 
-.active .star {
+.star-box.active .star {
   fill: var(--star-active);
 }
 

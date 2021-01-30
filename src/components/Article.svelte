@@ -1,6 +1,7 @@
 <script>
   import Star from './Star.svelte';
   import VidThumb from './VidThumb.svelte';
+  import stars from '../stars.js';
 
   export let content = {}, sessions = {}, mode = 'list';
 
@@ -9,10 +10,12 @@
   const links = Object.entries(content.links)
         .map(([name, href]) => `<a href="${href}">${name}</a>`)
         .join(' | ');
+
+  $: starred = $stars.includes(content.id);
 </script>
 
 <article {id} class="col ctn down">
-  <Star />
+  <Star {starred} on:click={() => { stars.toggle(content.id); }} />
 
   <!-- Header -->
   <section class="head col">

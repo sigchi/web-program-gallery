@@ -2,6 +2,7 @@
   import Article from './Article.svelte';
   import Typeahead from './Typeahead.svelte';
   import { shuffle } from '../util.js';
+  import stars from '../stars.js';
 
   export let program = {
     sessions: {},
@@ -14,6 +15,7 @@
   const modes = ['list', 'compact', 'detail'];
   const sessionEntries = Object.entries(program.sessions);
 
+  let starredOnly = false;
   let selectedTracks = [...program.tracks];
   let contentFilter = filters[0];
   let displayMode = modes[1];
@@ -38,7 +40,7 @@
         }
       });
 
-      return (t1 - t2) || (p1.sequence - p2.sequence);
+      return (t1 - t2) || (p1.id - p2.id);
     });
   }
 
@@ -79,13 +81,21 @@
     }
   }
 
-  $: trackContents = orderedContents.filter(
+  $: trackContents = starredOnly
+  ? orderedContents.filter(
+    (c) => $stars.includes(c.id) && selectedTracks.includes(c.track)
+  )
+  : orderedContents.filter(
     (c) => selectedTracks.includes(c.track)
   );
+
   $: searchOpts = getSearchOptions(
     contentFilter, trackContents, program.authors, sessionEntries
   );
-  $: selectedContents = shownCandidates.length > 0 ? searchOpts.results(shownCandidates) : trackContents;
+
+  $: selectedContents = shownCandidates.length > 0
+  ? searchOpts.results(shownCandidates)
+  : trackContents;
 </script>
 
 <!-- TODO Figure out why this is angry -->
@@ -101,6 +111,11 @@
     {md}
   </label>
 {/each}
+
+<label>
+  <input type=checkbox bind:checked={starredOnly} />
+  Starred
+</label>
 
 {#each program.tracks as track}
   <label>
