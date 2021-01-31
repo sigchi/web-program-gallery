@@ -96,7 +96,16 @@
   $: selectedContents = shownCandidates || trackContents;
 </script>
 
-<Typeahead bind:selected={shownCandidates} {...searchOpts} />
+<label>
+  Search: <Typeahead bind:selected={shownCandidates} {...searchOpts} />
+</label>
+
+{#each filters as flt}
+  <label>
+    <input type=radio bind:group={contentFilter} value={flt} />
+    {flt}
+  </label>
+{/each}
 
 <button on:click={() => { showAbstract = !showAbstract; }}>abstract</button>
 <button on:click={() => { orderedContents = shuffle(orderedContents); }}>shuffle</button>
@@ -118,13 +127,6 @@
   <label>
     <input type=checkbox bind:group={selectedTracks} value={track} />
     {track}
-  </label>
-{/each}
-
-{#each filters as flt}
-  <label>
-    <input type=radio bind:group={contentFilter} value={flt} />
-    {flt}
   </label>
 {/each}
 

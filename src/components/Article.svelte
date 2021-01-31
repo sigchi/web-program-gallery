@@ -34,11 +34,11 @@
   {#if mode !== 'list'}
     <section class="imgs col ctn ctr wrap">
       {#each Object.entries(content.videos) as [name, url]}
-        <VidThumb {url} />
+        <VidThumb {name} {url} />
       {/each}
       {#if Object.keys(content.videos).length === 0}
         {#each Object.entries(content.images) as [name, url]}
-          <img class="thumb-img col" src={url} />
+          <img class="thumb-img col" alt={name} src={url} />
         {/each}
       {/if}
     </section>
