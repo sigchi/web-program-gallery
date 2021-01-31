@@ -1,13 +1,13 @@
 /* Variable defs */
 .sigchi-gallery {
   /* Articles */
-  --gallery-col-width: 40%;
+  --gallery-col-width: 30%;
   --gallery-gutter: 15px;
 
   --article-border: 2px solid #555555;
   --article-padding: 10px;
   --article-thumbnail-width: 40%;
-  --abstract-height: 35%;
+  --abstract-height: 25%;
 
   --star-size: 35px;
   --star-margin: 10px;
@@ -19,10 +19,11 @@
 /* Utils */
 .ctn {
   display: flex;
+  flex-direction: row;
 }
 
 .col {
-  flex: 1;
+  flex: 1 1 auto;
 }
 
 .wrap {
@@ -68,8 +69,7 @@
 .sigchi-gallery article {
   border: var(--article-border);
   position: relative;
-  flex: var(--gallery-col-width);
-  max-width: var(--gallery-col-width);
+  width: var(--gallery-col-width);
   margin: var(--gallery-gutter);
   padding: var(--article-padding);
 }
@@ -98,7 +98,6 @@
 }
 
 .sigchi-gallery .thumb-img {
-  flex: var(--article-thumbnail-width);
   max-width: var(--article-thumbnail-width);
   height: auto;
 }
