@@ -5,7 +5,7 @@
 
   export let content = {}, sessions = {}, mode = 'list';
 
-  const id = `${content.track}-${content.sequence}`;
+  const id = content.id;
   const session = sessions[content.session[0]].name;
   const links = Object.entries(content.links)
         .map(([name, href]) => `<a href="${href}">${name}</a>`)
