@@ -57,6 +57,3 @@
     </section>
   {/if}
 </article>
-
-<style>
-</style>
