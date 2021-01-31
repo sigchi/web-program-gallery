@@ -1,5 +1,5 @@
 /* Variable defs */
-:root {
+.sigchi-gallery {
   /* Articles */
   --gallery-col-width: 40%;
   --gallery-gutter: 15px;
@@ -7,7 +7,6 @@
   --article-border: 2px solid #555555;
   --article-padding: 10px;
   --article-thumbnail-width: 40%;
-
   --abstract-height: 35%;
 
   --star-size: 35px;
@@ -66,7 +65,7 @@
   fill: var(--star-active);
 }
 
-.gallery-wall article {
+.sigchi-gallery article {
   border: var(--article-border);
   position: relative;
   flex: var(--gallery-col-width);
@@ -75,30 +74,30 @@
   padding: var(--article-padding);
 }
 
-.gallery-wall article h3, .gallery-wall article p {
+.sigchi-gallery article h3, .sigchi-gallery article p {
   text-align: center;
 }
 
-.gallery-wall .abstract {
+.sigchi-gallery .abstract {
   border-top: var(--article-border);
   min-height: var(--abstract-height);
   overflow: scroll;
 }
 
-.gallery-wall .abstract p {
+.sigchi-gallery .abstract p {
   text-align: left;
 }
 
-.gallery-wall .abstract label {
+.sigchi-gallery .abstract label {
   font-weight: bold;
 }
 
-.gallery-wall .head h3 {
+.sigchi-gallery .head h3 {
   text-transform: uppercase;
   text-align: left
 }
 
-.gallery-wall .thumb-img {
+.sigchi-gallery .thumb-img {
   flex: var(--article-thumbnail-width);
   max-width: var(--article-thumbnail-width);
   height: auto;

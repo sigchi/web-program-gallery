@@ -130,7 +130,7 @@
   </label>
 {/each}
 
-<section class="gallery-wall ctn wrap ctr">
+<section class="sigchi-gallery ctn wrap ctr">
   {#each selectedContents as content (content.id)}
     <Article
       {content}
