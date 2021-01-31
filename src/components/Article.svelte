@@ -15,7 +15,7 @@
 </script>
 
 <article {id} class="col ctn down">
-  <Star {starred} on:click={() => { stars.toggle(content.id); }} />
+  <Star {starred} on:star={() => { stars.toggle(content.id); }} />
 
   <!-- Header -->
   <section class="head col">
