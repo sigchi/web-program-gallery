@@ -31,7 +31,7 @@
   </section>
 
   <!-- Videos/Images -->
-  {#if mode !== 'list'}
+  {#if mode !== 'list' && content.images !== undefined && content.videos !== undefined}
     <section class="imgs col ctn ctr wrap">
       {#each Object.entries(content.videos) as [name, url]}
         <VidThumb {name} {url} />
