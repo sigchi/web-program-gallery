@@ -1,5 +1,7 @@
 import { writable } from 'svelte/store';
 
+const STORAGE_KEY = 'sigchi-gallery-stars';
+
 function stars(init) {
   const { subscribe, update } = writable(init);
 
@@ -21,13 +23,22 @@ function stars(init) {
   };
 }
 
-const STORAGE_KEY = 'sigchi-gallery-stars';
-const init = JSON.parse(window.localStorage.getItem(STORAGE_KEY)) || [];
+function retrieveStars() {
+  if(typeof window !== 'undefined') {
+    return JSON.parse(window.localStorage.getItem(STORAGE_KEY)) || [];
+  } else {
+    return [];
+  }
+}
+
+const init = retrieveStars();
 const starStore = stars(init)
 
-starStore.subscribe((stars) => {
-  const json = JSON.stringify(stars);
-  window.localStorage.setItem(STORAGE_KEY, json);
-});
+if(typeof window !== 'undefined') {
+  starStore.subscribe((stars) => {
+    const json = JSON.stringify(stars);
+    window.localStorage.setItem(STORAGE_KEY, json);
+  });
+}
 
 export default starStore;

@@ -1,8 +1,9 @@
 import { promises as fs } from 'fs'
 import Gallery from '../src/components/Gallery.svelte';
-import program from '../build/data/uist-2020.json';
+import program from '../build/dist/program.js';
 
 const page = './build/index.html';
+
 const { head, html } = Gallery.render({ program });
 
 fs.readFile(page, 'utf8').then((text) => {

@@ -1,9 +1,10 @@
 import Gallery from './components/Gallery.svelte';
-import program from '/data/uist-2020.json';
+import program from './program.js';
 
 const element = document.querySelector('main');
 
 export const app = new Gallery({
+  hydrate: true,
   target: element,
   props: { program },
 });
