@@ -107,7 +107,6 @@
   </label>
 {/each}
 
-<button on:click={() => { showAbstract = !showAbstract; }}>abstract</button>
 <button on:click={() => { orderedContents = shuffle(orderedContents); }}>shuffle</button>
 <button on:click={sortNow}>ending soon</button>
 
