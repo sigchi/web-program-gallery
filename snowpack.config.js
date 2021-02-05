@@ -1,11 +1,11 @@
 module.exports = {
   alias: {
-    'web-program-gallery': '.',
+    'web-program-gallery/src': './src',
   },
   mount: {
-    public: { url: '/', static: true },
-    src: { url: '/dist' },
-    './contrib/program-examples': { url: '/data' },
+    src: { url: '/web-program-gallery/src' },
+    public: { url: '/' },
+    'contrib/program-examples': { url: '/data' },
   },
   buildOptions: {
     sourcemap: true,

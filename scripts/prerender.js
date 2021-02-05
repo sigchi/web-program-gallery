@@ -1,6 +1,6 @@
 import { promises as fs } from 'fs'
 import Gallery from '../src/components/Gallery.svelte';
-import program from '../build/dist/program.js';
+import program from '../build/js/program.js';
 
 const page = './build/index.html';
 
