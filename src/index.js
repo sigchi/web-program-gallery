@@ -1,4 +1,4 @@
-import Gallery from './components/Gallery.svelte';
+import Gallery from 'web-program-gallery/src/components/Gallery.svelte';
 import program from './program.js';
 
 const element = document.querySelector('main');

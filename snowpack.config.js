@@ -1,4 +1,7 @@
 module.exports = {
+  alias: {
+    'web-program-gallery': '.',
+  },
   mount: {
     public: { url: '/', static: true },
     src: { url: '/dist' },
@@ -10,7 +13,7 @@ module.exports = {
   plugins: [
     '@snowpack/plugin-svelte',
     [
-      'qoala-flat',
+      '.',
       {
         input: ['.program.json'],
         output: ['.json'],
@@ -19,11 +22,11 @@ module.exports = {
           copy: ['title', 'abstract', 'keywords'],
           linkSections: {
             videos: /youtube\.com/,
-            images: /\.jpg$/
+            images: /\.jpg$/,
           },
-          tzOffset: 5 * 60 * 60 * 1000
-        }
-      }
-    ]
+          tzOffset: 5 * 60 * 60 * 1000,
+        },
+      },
+    ],
   ],
 }
