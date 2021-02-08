@@ -12,12 +12,19 @@
 
 <label class="star-item">
   <input type="checkbox" bind:checked={starred} on:change={onStar} />
-  <span class="star">&starf;</span>
+  <svg
+    class="star-img"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 260 245"
+    aria-label="Star this item"
+  >
+    <path class="star" d="m55,237 74-228 74,228L9,96h240" />
+  </svg>
 </label>
 
 <style>
   .star-item,
-  .star {
+  .star-img {
     position: absolute;
     top: 0;
     right: 0;
@@ -31,16 +38,15 @@
 
   .star {
     opacity: var(--sigchi-star-inactive-opacity);
-    color: var(--sigchi-star-inactive);
-    font-size: var(--sigchi-star-size);
+    fill: var(--sigchi-star-inactive);
   }
 
   .star-item input {
     opacity: 0;
   }
 
-  .star-item input:checked + .star {
+  .star-item input:checked + svg .star {
     opacity: 1;
-    color: var(--sigchi-star-active);
+    fill: var(--sigchi-star-active);
   }
 </style>
