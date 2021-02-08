@@ -112,9 +112,7 @@
   </div>
 
   <div>
-    <label>
-      Search: <Typeahead bind:selected={shownCandidates} {...searchOpts} />
-    </label>
+    <Typeahead bind:selected={shownCandidates} {...searchOpts} />
 
     {#each filters as flt}
       <label>

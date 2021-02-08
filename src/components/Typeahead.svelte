@@ -2,6 +2,7 @@
   import Fuse from 'fuse.js';
   import { getPath } from '../util.js';
 
+  export let placeholder = 'Search';
   export let candidates = [];
   export let key = '';
   export let results = (s) => s;
@@ -28,7 +29,10 @@
   }
 </script>
 
-<input type=text bind:value={query} list="typeahead" />
+<input
+  type=text
+  aria-label={placeholder} {placeholder}
+  bind:value={query} list="typeahead" />
 <datalist id="typeahead">
   {#if shown !== undefined}
     {#each shown as it}
@@ -36,4 +40,3 @@
     {/each}
   {/if}
 </datalist>
-
