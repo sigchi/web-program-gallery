@@ -13,7 +13,7 @@
   --star-margin: 10px;
   --star-active: gold;
   --star-inactive: gray;
-  --star-inactive-opacity: 0.2;
+  --star-inactive-opacity: 0.5;
 }
 
 /* Utils */
@@ -43,27 +43,32 @@
 }
 
 /* Articles */
-.ns-sigchi .star-box {
-  opacity: var(--star-inactive-opacity);
+.ns-sigchi .star-item,
+.ns-sigchi .star {
   position: absolute;
   top: 0;
   right: 0;
+}
 
+.ns-sigchi .star-item {
   margin: var(--star-margin);
   width: var(--star-size);
   height: var(--star-size);
 }
 
-.ns-sigchi .star-box.active {
-  opacity: 1;
-}
-
 .ns-sigchi .star {
-  fill: var(--star-inactive);
+  opacity: var(--star-inactive-opacity);
+  color: var(--star-inactive);
+  font-size: var(--star-size);
 }
 
-.ns-sigchi .active .star {
-  fill: var(--star-active);
+.ns-sigchi .star-item input {
+  opacity: 0;
+}
+
+.ns-sigchi .star-item input:checked + .star {
+  opacity: 1;
+  color: var(--star-active);
 }
 
 .ns-sigchi .gallery article {
