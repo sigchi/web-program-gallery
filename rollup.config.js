@@ -1,8 +1,8 @@
 import { nodeResolve } from "@rollup/plugin-node-resolve";
 import json from "@rollup/plugin-json";
 import run from "@rollup/plugin-run";
+import css from "rollup-plugin-css-only";
 import svelte from "rollup-plugin-svelte";
-import sveltePreprocess from "svelte-preprocess";
 
 export default {
   input: "scripts/prerender.js",
@@ -13,8 +13,8 @@ export default {
   plugins: [
     nodeResolve(),
     json(),
+    css({ output: "bundle.css" }),
     svelte({
-      preprocess: sveltePreprocess(),
       compilerOptions: {
         dev: false,
         generate: "ssr",
