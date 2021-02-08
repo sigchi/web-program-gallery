@@ -7,6 +7,7 @@
 <div class="modal-bg" transition:fade on:click>
   <div transition:fly={{ y: -200 }}>
     <iframe
+      title="video-playback"
       src="https://www.youtube.com/embed/{watchId}"
       frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
