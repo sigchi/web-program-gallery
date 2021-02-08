@@ -24,19 +24,19 @@
   />
 
   <section>
-    <!--sigchi- Header -->
+    <!-- Header -->
     <h3>{content.track} #{content.sequence}:</h3>
     <p>{session}</p>
     <h3>{content.title}</h3>
 
-    <!--sigchi- Authors -->
+    <!-- Authors -->
     <p>{content.authors.join(", ")}</p>
     <p>{content.affiliations.join(" | ")}</p>
 
-    <!--sigchi- Other Links -->
+    <!-- Other Links -->
     <p>{@html links}</p>
 
-    <!--sigchi- Videos/Images -->
+    <!-- Videos/Images -->
     {#if mode !== "list" && content.images !== undefined && content.videos !== undefined}
       <div>
         {#each Object.entries(content.videos) as [name, url]}
@@ -51,7 +51,7 @@
     {/if}
   </section>
 
-  <!--sigchi- Abstract -->
+  <!-- Abstract -->
   {#if mode === "detail"}
     <aside>
       <hr />
