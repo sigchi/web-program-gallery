@@ -18,7 +18,7 @@
 <article>
   <Star
     {starred}
-    on:star={() => {
+    on:change={() => {
       stars.toggle(content.id);
     }}
   />
