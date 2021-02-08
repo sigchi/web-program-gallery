@@ -1,7 +1,7 @@
-import Gallery from 'web-program-gallery/src/components/Gallery.svelte';
-import program from './program.js';
+import Gallery from "web-program-gallery/src/components/Gallery.svelte";
+import program from "./program.js";
 
-const element = document.querySelector('main');
+const element = document.querySelector("main");
 
 export const app = new Gallery({
   hydrate: true,

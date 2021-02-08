@@ -1,25 +1,25 @@
 module.exports = {
   alias: {
-    'web-program-gallery/src': './src',
+    "web-program-gallery/src": "./src",
   },
   mount: {
-    src: { url: '/web-program-gallery/src' },
-    public: { url: '/' },
-    'contrib/program-examples': { url: '/data' },
+    src: { url: "/web-program-gallery/src" },
+    public: { url: "/" },
+    "contrib/program-examples": { url: "/data" },
   },
   buildOptions: {
     sourcemap: true,
   },
   plugins: [
-    '@snowpack/plugin-svelte',
+    "@snowpack/plugin-svelte",
     [
-      '.',
+      ".",
       {
-        input: ['.program.json'],
-        output: ['.json'],
+        input: [".program.json"],
+        output: [".json"],
         options: {
-          types: ['Paper', 'Poster', 'Demo', 'SIC', 'DC'],
-          copy: ['title', 'abstract', 'keywords'],
+          types: ["Paper", "Poster", "Demo", "SIC", "DC"],
+          copy: ["title", "abstract", "keywords"],
           linkSections: {
             videos: /youtube\.com/,
             images: /\.jpg$/,
@@ -29,4 +29,4 @@ module.exports = {
       },
     ],
   ],
-}
+};

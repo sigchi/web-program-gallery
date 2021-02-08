@@ -1,25 +1,23 @@
 <script>
-  import { createEventDispatcher } from 'svelte';
+  import { createEventDispatcher } from "svelte";
 
   export let starred = false;
 
   const dispatch = createEventDispatcher();
 
   function onStar() {
-    dispatch('star', {});
+    dispatch("star", {});
   }
 </script>
 
 <label class="star-item">
-  <input
-    type=checkbox
-    bind:checked={starred}
-    on:change={onStar} />
+  <input type="checkbox" bind:checked={starred} on:change={onStar} />
   <span class="star">&starf;</span>
 </label>
 
 <style>
-  .star-item, .star {
+  .star-item,
+  .star {
     position: absolute;
     top: 0;
     right: 0;

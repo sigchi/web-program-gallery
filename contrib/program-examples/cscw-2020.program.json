@@ -378,9 +378,7 @@
       "typeId": 11673,
       "roomId": 10405,
       "chairIds": [],
-      "contentIds": [
-        43289
-      ],
+      "contentIds": [43289],
       "timeSlotId": 11611
     },
     {
@@ -389,9 +387,7 @@
       "typeId": 11673,
       "roomId": 10402,
       "chairIds": [],
-      "contentIds": [
-        43293
-      ],
+      "contentIds": [43293],
       "timeSlotId": 11611
     },
     {
@@ -399,18 +395,8 @@
       "name": "Family, Children, and Youth",
       "typeId": 11671,
       "roomId": 10401,
-      "chairIds": [
-        40871
-      ],
-      "contentIds": [
-        41591,
-        41504,
-        41597,
-        41559,
-        41501,
-        41502,
-        41505
-      ],
+      "chairIds": [40871],
+      "contentIds": [41591, 41504, 41597, 41559, 41501, 41502, 41505],
       "timeSlotId": 11524
     },
     {
@@ -419,9 +405,7 @@
       "typeId": 11673,
       "roomId": 10405,
       "chairIds": [],
-      "contentIds": [
-        43272
-      ],
+      "contentIds": [43272],
       "timeSlotId": 11634
     },
     {
@@ -429,19 +413,8 @@
       "name": "Learning, Education, and Mentoring",
       "typeId": 11671,
       "roomId": 10402,
-      "chairIds": [
-        43314
-      ],
-      "contentIds": [
-        41464,
-        41520,
-        41539,
-        41604,
-        41547,
-        41507,
-        41480,
-        41482
-      ],
+      "chairIds": [43314],
+      "contentIds": [41464, 41520, 41539, 41604, 41547, 41507, 41480, 41482],
       "timeSlotId": 11524
     },
     {
@@ -450,9 +423,7 @@
       "typeId": 11673,
       "roomId": 10405,
       "chairIds": [],
-      "contentIds": [
-        43290
-      ],
+      "contentIds": [43290],
       "timeSlotId": 11611
     },
     {
@@ -461,9 +432,7 @@
       "typeId": 11673,
       "roomId": 10402,
       "chairIds": [],
-      "contentIds": [
-        43269
-      ],
+      "contentIds": [43269],
       "timeSlotId": 11611
     },
     {
@@ -471,19 +440,8 @@
       "name": "Videos, Live Streaming, and VR",
       "typeId": 11671,
       "roomId": 10404,
-      "chairIds": [
-        43331
-      ],
-      "contentIds": [
-        41513,
-        41429,
-        41561,
-        41535,
-        41453,
-        41408,
-        41395,
-        41575
-      ],
+      "chairIds": [43331],
+      "contentIds": [41513, 41429, 41561, 41535, 41453, 41408, 41395, 41575],
       "timeSlotId": 11518
     },
     {
@@ -491,19 +449,8 @@
       "name": "Online Community Reflections",
       "typeId": 11671,
       "roomId": 10403,
-      "chairIds": [
-        42813
-      ],
-      "contentIds": [
-        41444,
-        41506,
-        41569,
-        41486,
-        41436,
-        41526,
-        41557,
-        41439
-      ],
+      "chairIds": [42813],
+      "contentIds": [41444, 41506, 41569, 41486, 41436, 41526, 41557, 41439],
       "timeSlotId": 11518
     },
     {
@@ -511,19 +458,8 @@
       "name": "Technological Inclusion and Non/Use",
       "typeId": 11671,
       "roomId": 10402,
-      "chairIds": [
-        43323
-      ],
-      "contentIds": [
-        42829,
-        41583,
-        41470,
-        41438,
-        41396,
-        41402,
-        41448,
-        42832
-      ],
+      "chairIds": [43323],
+      "contentIds": [42829, 41583, 41470, 41438, 41396, 41402, 41448, 42832],
       "timeSlotId": 11518
     },
     {
@@ -531,19 +467,8 @@
       "name": "Data Work",
       "typeId": 11671,
       "roomId": 10405,
-      "chairIds": [
-        40666
-      ],
-      "contentIds": [
-        41584,
-        41521,
-        41542,
-        41471,
-        41552,
-        41602,
-        41476,
-        41499
-      ],
+      "chairIds": [40666],
+      "contentIds": [41584, 41521, 41542, 41471, 41552, 41602, 41476, 41499],
       "timeSlotId": 11518
     },
     {
@@ -551,19 +476,8 @@
       "name": "Privacy and Security",
       "typeId": 11671,
       "roomId": 10402,
-      "chairIds": [
-        43322
-      ],
-      "contentIds": [
-        41481,
-        41579,
-        41512,
-        41577,
-        41479,
-        41418,
-        41452,
-        42830
-      ],
+      "chairIds": [43322],
+      "contentIds": [41481, 41579, 41512, 41577, 41479, 41418, 41452, 42830],
       "timeSlotId": 11531
     },
     {
@@ -571,19 +485,8 @@
       "name": "Crowds and Collaboration",
       "typeId": 11671,
       "roomId": 10404,
-      "chairIds": [
-        43318
-      ],
-      "contentIds": [
-        41589,
-        41566,
-        41548,
-        41551,
-        41593,
-        41424,
-        41532,
-        41419
-      ],
+      "chairIds": [43318],
+      "contentIds": [41589, 41566, 41548, 41551, 41593, 41424, 41532, 41419],
       "timeSlotId": 11531
     },
     {
@@ -591,19 +494,8 @@
       "name": "Misinformation and Trust",
       "typeId": 11671,
       "roomId": 10403,
-      "chairIds": [
-        40970
-      ],
-      "contentIds": [
-        41582,
-        41463,
-        41431,
-        41600,
-        41485,
-        41594,
-        41405,
-        41466
-      ],
+      "chairIds": [40970],
+      "contentIds": [41582, 41463, 41431, 41600, 41485, 41594, 41405, 41466],
       "timeSlotId": 11531
     },
     {
@@ -611,19 +503,8 @@
       "name": "Gender, Sexuality, and Race",
       "typeId": 11671,
       "roomId": 10401,
-      "chairIds": [
-        42823
-      ],
-      "contentIds": [
-        41398,
-        41420,
-        41596,
-        41523,
-        41541,
-        41588,
-        41491,
-        41516
-      ],
+      "chairIds": [42823],
+      "contentIds": [41398, 41420, 41596, 41523, 41541, 41588, 41491, 41516],
       "timeSlotId": 11533
     },
     {
@@ -631,19 +512,8 @@
       "name": "Civic Engagement and Politics",
       "typeId": 11671,
       "roomId": 10403,
-      "chairIds": [
-        43327
-      ],
-      "contentIds": [
-        41483,
-        41484,
-        41401,
-        41461,
-        41421,
-        41457,
-        41440,
-        41564
-      ],
+      "chairIds": [43327],
+      "contentIds": [41483, 41484, 41401, 41461, 41421, 41457, 41440, 41564],
       "timeSlotId": 11522
     },
     {
@@ -652,9 +522,7 @@
       "typeId": 11673,
       "roomId": 10405,
       "chairIds": [],
-      "contentIds": [
-        43268
-      ],
+      "contentIds": [43268],
       "timeSlotId": 11634
     },
     {
@@ -663,9 +531,7 @@
       "typeId": 11673,
       "roomId": 10403,
       "chairIds": [],
-      "contentIds": [
-        43275
-      ],
+      "contentIds": [43275],
       "timeSlotId": 11634
     },
     {
@@ -673,19 +539,8 @@
       "name": "Collaboration: Creating and Writing Together",
       "typeId": 11671,
       "roomId": 10404,
-      "chairIds": [
-        40806
-      ],
-      "contentIds": [
-        41430,
-        41545,
-        41522,
-        41601,
-        41435,
-        41555,
-        41434,
-        41451
-      ],
+      "chairIds": [40806],
+      "contentIds": [41430, 41545, 41522, 41601, 41435, 41555, 41434, 41451],
       "timeSlotId": 11533
     },
     {
@@ -693,19 +548,8 @@
       "name": "Conversation and Communication",
       "typeId": 11671,
       "roomId": 10402,
-      "chairIds": [
-        43329
-      ],
-      "contentIds": [
-        41518,
-        41489,
-        41528,
-        41456,
-        41394,
-        41546,
-        41495,
-        41580
-      ],
+      "chairIds": [43329],
+      "contentIds": [41518, 41489, 41528, 41456, 41394, 41546, 41495, 41580],
       "timeSlotId": 11533
     },
     {
@@ -713,19 +557,8 @@
       "name": "Teams, Groups, and Creativity",
       "typeId": 11671,
       "roomId": 10404,
-      "chairIds": [
-        43315
-      ],
-      "contentIds": [
-        41478,
-        41404,
-        41411,
-        41423,
-        41581,
-        41416,
-        41571,
-        41492
-      ],
+      "chairIds": [43315],
+      "contentIds": [41478, 41404, 41411, 41423, 41581, 41416, 41571, 41492],
       "timeSlotId": 11524
     },
     {
@@ -734,9 +567,7 @@
       "typeId": 11673,
       "roomId": 10402,
       "chairIds": [],
-      "contentIds": [
-        43270
-      ],
+      "contentIds": [43270],
       "timeSlotId": 11634
     },
     {
@@ -745,9 +576,7 @@
       "typeId": 11673,
       "roomId": 10403,
       "chairIds": [],
-      "contentIds": [
-        43291
-      ],
+      "contentIds": [43291],
       "timeSlotId": 11611
     },
     {
@@ -756,9 +585,7 @@
       "typeId": 11673,
       "roomId": 10401,
       "chairIds": [],
-      "contentIds": [
-        43271
-      ],
+      "contentIds": [43271],
       "timeSlotId": 11611
     },
     {
@@ -766,19 +593,8 @@
       "name": "Data and Social Media for Health",
       "typeId": 11671,
       "roomId": 10405,
-      "chairIds": [
-        43342
-      ],
-      "contentIds": [
-        41462,
-        41567,
-        41556,
-        41400,
-        41554,
-        42826,
-        41525,
-        41450
-      ],
+      "chairIds": [43342],
+      "contentIds": [41462, 41567, 41556, 41400, 41554, 42826, 41525, 41450],
       "timeSlotId": 11531
     },
     {
@@ -786,19 +602,8 @@
       "name": "Family, Home, and Aging with Technology",
       "typeId": 11671,
       "roomId": 10401,
-      "chairIds": [
-        40785
-      ],
-      "contentIds": [
-        41474,
-        41493,
-        41510,
-        41595,
-        41415,
-        41417,
-        41514,
-        41543
-      ],
+      "chairIds": [40785],
+      "contentIds": [41474, 41493, 41510, 41595, 41415, 41417, 41514, 41543],
       "timeSlotId": 11522
     },
     {
@@ -806,19 +611,8 @@
       "name": "Understanding and Fighting Toxicity / Moderation",
       "typeId": 11671,
       "roomId": 10402,
-      "chairIds": [
-        41322
-      ],
-      "contentIds": [
-        41587,
-        41403,
-        41426,
-        41529,
-        41536,
-        41454,
-        41558,
-        41590
-      ],
+      "chairIds": [41322],
+      "contentIds": [41587, 41403, 41426, 41529, 41536, 41454, 41558, 41590],
       "timeSlotId": 11522
     },
     {
@@ -826,19 +620,8 @@
       "name": "Health, Caregiving, and Chatbots",
       "typeId": 11671,
       "roomId": 10403,
-      "chairIds": [
-        43309
-      ],
-      "contentIds": [
-        41428,
-        41496,
-        41586,
-        41603,
-        41469,
-        41427,
-        41534,
-        41414
-      ],
+      "chairIds": [43309],
+      "contentIds": [41428, 41496, 41586, 41603, 41469, 41427, 41534, 41414],
       "timeSlotId": 11533
     },
     {
@@ -869,13 +652,7 @@
       "typeId": 11683,
       "roomId": 10404,
       "chairIds": [],
-      "contentIds": [
-        43114,
-        43148,
-        43163,
-        43150,
-        43160
-      ],
+      "contentIds": [43114, 43148, 43163, 43150, 43160],
       "timeSlotId": 11526
     },
     {
@@ -884,13 +661,7 @@
       "typeId": 11682,
       "roomId": 10411,
       "chairIds": [],
-      "contentIds": [
-        43124,
-        43152,
-        43126,
-        43123,
-        43149
-      ],
+      "contentIds": [43124, 43152, 43126, 43123, 43149],
       "timeSlotId": 11526
     },
     {
@@ -899,9 +670,7 @@
       "typeId": 11673,
       "roomId": 10404,
       "chairIds": [],
-      "contentIds": [
-        43274
-      ],
+      "contentIds": [43274],
       "timeSlotId": 11611
     },
     {
@@ -910,9 +679,7 @@
       "typeId": 11673,
       "roomId": 10403,
       "chairIds": [],
-      "contentIds": [
-        43292
-      ],
+      "contentIds": [43292],
       "timeSlotId": 11611
     },
     {
@@ -920,19 +687,8 @@
       "name": "Social Support, Donation, and Money",
       "typeId": 11671,
       "roomId": 10400,
-      "chairIds": [
-        43325
-      ],
-      "contentIds": [
-        41445,
-        41458,
-        41498,
-        41490,
-        41477,
-        41540,
-        41447,
-        41497
-      ],
+      "chairIds": [43325],
+      "contentIds": [41445, 41458, 41498, 41490, 41477, 41540, 41447, 41497],
       "timeSlotId": 11533
     },
     {
@@ -941,9 +697,7 @@
       "typeId": 11670,
       "roomId": 10411,
       "chairIds": [],
-      "contentIds": [
-        42943
-      ],
+      "contentIds": [42943],
       "timeSlotId": 11533
     },
     {
@@ -952,9 +706,7 @@
       "typeId": 11670,
       "roomId": 10411,
       "chairIds": [],
-      "contentIds": [
-        42960
-      ],
+      "contentIds": [42960],
       "timeSlotId": 11524
     },
     {
@@ -963,9 +715,7 @@
       "typeId": 11685,
       "roomId": 10405,
       "chairIds": [],
-      "contentIds": [
-        43184
-      ],
+      "contentIds": [43184],
       "timeSlotId": 11520
     },
     {
@@ -974,12 +724,7 @@
       "typeId": 11683,
       "roomId": 10403,
       "chairIds": [],
-      "contentIds": [
-        43140,
-        43156,
-        43105,
-        43170
-      ],
+      "contentIds": [43140, 43156, 43105, 43170],
       "timeSlotId": 11526
     },
     {
@@ -988,14 +733,7 @@
       "typeId": 11682,
       "roomId": 10411,
       "chairIds": [],
-      "contentIds": [
-        43154,
-        43132,
-        43153,
-        43130,
-        43146,
-        43172
-      ],
+      "contentIds": [43154, 43132, 43153, 43130, 43146, 43172],
       "timeSlotId": 11526
     },
     {
@@ -1004,12 +742,7 @@
       "typeId": 11683,
       "roomId": 10403,
       "chairIds": [],
-      "contentIds": [
-        43106,
-        43137,
-        43112,
-        43174
-      ],
+      "contentIds": [43106, 43137, 43112, 43174],
       "timeSlotId": 11526
     },
     {
@@ -1018,9 +751,7 @@
       "typeId": 11673,
       "roomId": 10404,
       "chairIds": [],
-      "contentIds": [
-        43273
-      ],
+      "contentIds": [43273],
       "timeSlotId": 11634
     },
     {
@@ -1029,9 +760,7 @@
       "typeId": 11673,
       "roomId": 10404,
       "chairIds": [],
-      "contentIds": [
-        43276
-      ],
+      "contentIds": [43276],
       "timeSlotId": 11634
     },
     {
@@ -1039,19 +768,8 @@
       "name": "Interpreting and Explaining AI",
       "typeId": 11671,
       "roomId": 10405,
-      "chairIds": [
-        41224
-      ],
-      "contentIds": [
-        41443,
-        41494,
-        41475,
-        41563,
-        41565,
-        41509,
-        41446,
-        41442
-      ],
+      "chairIds": [41224],
+      "contentIds": [41443, 41494, 41475, 41563, 41565, 41509, 41446, 41442],
       "timeSlotId": 11524
     },
     {
@@ -1059,17 +777,8 @@
       "name": "Accessibility / Women's Empowerment",
       "typeId": 11671,
       "roomId": 10401,
-      "chairIds": [
-        43321
-      ],
-      "contentIds": [
-        41410,
-        41599,
-        42831,
-        41468,
-        41574,
-        41560
-      ],
+      "chairIds": [43321],
+      "contentIds": [41410, 41599, 42831, 41468, 41574, 41560],
       "timeSlotId": 11531
     },
     {
@@ -1077,19 +786,8 @@
       "name": "Storytelling / Research Method Reflections",
       "typeId": 11671,
       "roomId": 10400,
-      "chairIds": [
-        41041
-      ],
-      "contentIds": [
-        41598,
-        41511,
-        41500,
-        42825,
-        41488,
-        41465,
-        41549,
-        41533
-      ],
+      "chairIds": [41041],
+      "contentIds": [41598, 41511, 41500, 42825, 41488, 41465, 41549, 41533],
       "timeSlotId": 11524
     },
     {
@@ -1098,9 +796,7 @@
       "typeId": 11673,
       "roomId": 10402,
       "chairIds": [],
-      "contentIds": [
-        43267
-      ],
+      "contentIds": [43267],
       "timeSlotId": 11634
     },
     {
@@ -1109,9 +805,7 @@
       "typeId": 11673,
       "roomId": 10404,
       "chairIds": [],
-      "contentIds": [
-        43266
-      ],
+      "contentIds": [43266],
       "timeSlotId": 11611
     },
     {
@@ -1120,9 +814,7 @@
       "typeId": 11685,
       "roomId": 10405,
       "chairIds": [],
-      "contentIds": [
-        43183
-      ],
+      "contentIds": [43183],
       "timeSlotId": 11529
     },
     {
@@ -1131,9 +823,7 @@
       "typeId": 11688,
       "roomId": 10400,
       "chairIds": [],
-      "contentIds": [
-        43305
-      ],
+      "contentIds": [43305],
       "timeSlotId": 11635
     },
     {
@@ -1142,13 +832,7 @@
       "typeId": 11682,
       "roomId": 10411,
       "chairIds": [],
-      "contentIds": [
-        43147,
-        43134,
-        43155,
-        43131,
-        43133
-      ],
+      "contentIds": [43147, 43134, 43155, 43131, 43133],
       "timeSlotId": 11526
     },
     {
@@ -1156,19 +840,8 @@
       "name": "Coordination and Collaboration",
       "typeId": 11671,
       "roomId": 10404,
-      "chairIds": [
-        43310
-      ],
-      "contentIds": [
-        41449,
-        41409,
-        41550,
-        41573,
-        41592,
-        41572,
-        41432,
-        41455
-      ],
+      "chairIds": [43310],
+      "contentIds": [41449, 41409, 41550, 41573, 41592, 41572, 41432, 41455],
       "timeSlotId": 11522
     },
     {
@@ -1176,19 +849,8 @@
       "name": "Human-AI Collaboration / Images in AI",
       "typeId": 11671,
       "roomId": 10405,
-      "chairIds": [
-        43328
-      ],
-      "contentIds": [
-        41412,
-        41585,
-        41422,
-        41538,
-        41562,
-        41515,
-        41399,
-        41578
-      ],
+      "chairIds": [43328],
+      "contentIds": [41412, 41585, 41422, 41538, 41562, 41515, 41399, 41578],
       "timeSlotId": 11522
     },
     {
@@ -1196,19 +858,8 @@
       "name": "Work: Companies, P2P, and Freelancing",
       "typeId": 11671,
       "roomId": 10403,
-      "chairIds": [
-        41269
-      ],
-      "contentIds": [
-        42828,
-        41503,
-        41537,
-        41407,
-        41472,
-        41519,
-        41487,
-        41441
-      ],
+      "chairIds": [41269],
+      "contentIds": [42828, 41503, 41537, 41407, 41472, 41519, 41487, 41441],
       "timeSlotId": 11524
     },
     {
@@ -1217,9 +868,7 @@
       "typeId": 11673,
       "roomId": 10403,
       "chairIds": [],
-      "contentIds": [
-        43265
-      ],
+      "contentIds": [43265],
       "timeSlotId": 11634
     },
     {
@@ -1228,9 +877,7 @@
       "typeId": 11670,
       "roomId": 10411,
       "chairIds": [],
-      "contentIds": [
-        42959
-      ],
+      "contentIds": [42959],
       "timeSlotId": 11531
     },
     {
@@ -1243,9 +890,7 @@
       "typeId": 11670,
       "roomId": 10411,
       "chairIds": [],
-      "contentIds": [
-        42958
-      ],
+      "contentIds": [42958],
       "timeSlotId": 11516,
       "videos": []
     },
@@ -1255,12 +900,7 @@
       "typeId": 11683,
       "roomId": 10404,
       "chairIds": [],
-      "contentIds": [
-        43164,
-        43125,
-        43176,
-        43167
-      ],
+      "contentIds": [43164, 43125, 43176, 43167],
       "timeSlotId": 11526
     },
     {
@@ -1268,19 +908,8 @@
       "name": "Physical Interaction & Robots",
       "typeId": 11671,
       "roomId": 10401,
-      "chairIds": [
-        42961
-      ],
-      "contentIds": [
-        41406,
-        41524,
-        41460,
-        41568,
-        41570,
-        41517,
-        41531,
-        41576
-      ],
+      "chairIds": [42961],
+      "contentIds": [41406, 41524, 41460, 41568, 41570, 41517, 41531, 41576],
       "timeSlotId": 11518
     },
     {
@@ -1289,11 +918,7 @@
       "typeId": 11683,
       "roomId": 10402,
       "chairIds": [],
-      "contentIds": [
-        43166,
-        43135,
-        43169
-      ],
+      "contentIds": [43166, 43135, 43169],
       "timeSlotId": 11526
     },
     {
@@ -1302,12 +927,7 @@
       "typeId": 11683,
       "roomId": 10402,
       "chairIds": [],
-      "contentIds": [
-        43107,
-        43175,
-        43109,
-        43173
-      ],
+      "contentIds": [43107, 43175, 43109, 43173],
       "timeSlotId": 11526
     },
     {
@@ -1316,13 +936,7 @@
       "typeId": 11683,
       "roomId": 10401,
       "chairIds": [],
-      "contentIds": [
-        43158,
-        43168,
-        43120,
-        43129,
-        43161
-      ],
+      "contentIds": [43158, 43168, 43120, 43129, 43161],
       "timeSlotId": 11526
     },
     {
@@ -1331,11 +945,7 @@
       "typeId": 11683,
       "roomId": 10401,
       "chairIds": [],
-      "contentIds": [
-        43162,
-        43110,
-        43111
-      ],
+      "contentIds": [43162, 43110, 43111],
       "timeSlotId": 11526
     },
     {
@@ -1344,11 +954,7 @@
       "typeId": 11683,
       "roomId": 10400,
       "chairIds": [],
-      "contentIds": [
-        43113,
-        43138,
-        43141
-      ],
+      "contentIds": [43113, 43138, 43141],
       "timeSlotId": 11526
     },
     {
@@ -1357,12 +963,7 @@
       "typeId": 11683,
       "roomId": 10400,
       "chairIds": [],
-      "contentIds": [
-        43136,
-        43108,
-        43104,
-        43139
-      ],
+      "contentIds": [43136, 43108, 43104, 43139],
       "timeSlotId": 11526
     },
     {
@@ -1371,13 +972,7 @@
       "typeId": 11682,
       "roomId": 10411,
       "chairIds": [],
-      "contentIds": [
-        43127,
-        43157,
-        43128,
-        43151,
-        43171
-      ],
+      "contentIds": [43127, 43157, 43128, 43151, 43171],
       "timeSlotId": 11526
     },
     {
@@ -1385,19 +980,8 @@
       "name": "UX of AI",
       "typeId": 11671,
       "roomId": 10405,
-      "chairIds": [
-        41132
-      ],
-      "contentIds": [
-        42783,
-        41530,
-        41425,
-        41467,
-        41397,
-        41459,
-        41508,
-        41437
-      ],
+      "chairIds": [41132],
+      "contentIds": [42783, 41530, 41425, 41467, 41397, 41459, 41508, 41437],
       "timeSlotId": 11533
     }
   ],
@@ -12949,9 +12533,7 @@
       "title": "CUI@CSCW: Collaborating through Conversational User Interfaces",
       "trackId": 11107,
       "tags": [],
-      "keywords": [
-        "http://www.speech-interaction.org/CSCW2020/ i"
-      ],
+      "keywords": ["http://www.speech-interaction.org/CSCW2020/ i"],
       "abstract": "The virtual CUI@CSCW workshop will bring together the burgeoning communities centred on the design, development, application, and study of Conversational User Interfaces (CUIs). We will examine the challenges involved in transforming CUIs into everyday computing devices capable of supporting collaborative activities across space and time. Additionally, we intend to establish a cohesive CUI community and research agenda within CSCW and examine the roles in which CSCW research can contribute insights into understanding how CUIs are or can be used in various settings. By bringing together existing researchers and new ideas in this space, we intend to foster a strong community and enable potential future collaborations. We invite researchers from academia and practitioners from industry to submit position papers. The submission should describe the authorsÕ work related to the workshop challenges, or any other key topic that authors feel should be addressed by the community. More details are on our website. We will prioritise papers that respond to pressing social topics, including remote working, isolation, and healthcare. We are ambitious for papers to be diverse in terms of topic, discipline, and approach, and workshop participation to be open and accessible to all people.",
       "authors": []
     },
@@ -12973,9 +12555,7 @@
       "title": "Civic Technologies: Research, Practice, and Open Challenges",
       "trackId": 11107,
       "tags": [],
-      "keywords": [
-        "https://cscwcivictechnologies.wordpress.com"
-      ],
+      "keywords": ["https://cscwcivictechnologies.wordpress.com"],
       "abstract": "Over the last years, civic technology projects have emerged around the world to advance open government and community action. Although Computer-Supported Cooperative Work (CSCW) and Human-Computer Interaction (HCI) communities have shown a growing interest in researching issues around civic technologies, yet most research still focuses on projects from the Global North. The goal of this workshop is, therefore, to advance CSCW research by raising awareness for the ongoing challenges and open questions around civic technology by bridging the gap between researchers and practitioners from different regions. The workshop will be organized around three central topics: (1) discuss how the local context and infrastructure affect the design, implementation, adoption, and maintenance of civic technology; (2) identify key elements of the configuration of trust among government, citizenry, and local organizations and how these elements change depending on the sociopolitical context where community engagement takes place; (3) discover what methods and strategies are best suited for conducting research on civic technologies in different contexts. These core topics will be covered across sessions that will initiate in-depth discussions and, thereby, stimulate collaboration between the CSCW research community and practitioners of civic technologies from both Global North and South.",
       "authors": []
     },
@@ -12985,9 +12565,7 @@
       "title": "The Future of Social AR",
       "trackId": 11107,
       "tags": [],
-      "keywords": [
-        "https://futuresocialar.com/"
-      ],
+      "keywords": ["https://futuresocialar.com/"],
       "abstract": "As augmented reality (AR) technologies become more pervasive, there is a growing interest in Social AR systems designed to support face to face interactions with collocated others. Prior research on AR often focuses on the technical aspects of the technology. However, at this early juncture, it is crucial to reflect and discuss the ethical, political, societal, and privacy implications of Social AR. This workshop aims to bring together industry practitioners and academic researchers to discuss the opportunities and challenges of social AR: from platforms to content creation, to self-representation. We aim to use a design fiction approach where workshop participants create speculative scenarios that interrogate the values imbued into Social AR. Based on these discussions, we will put together a set of initial recommendations for designers of Social AR technologies.",
       "authors": []
     },
@@ -12997,9 +12575,7 @@
       "title": "Toward Equitable Participatory Design: Data Feminism for CSCW amidst Multiple Pandemics",
       "trackId": 11107,
       "tags": [],
-      "keywords": [
-        "https://cscw2020datafeminism.wordpress.com"
-      ],
+      "keywords": ["https://cscw2020datafeminism.wordpress.com"],
       "abstract": "CSCW, like all communities amidst 2020's multiple pandemics of COVID-19, anti-Black racism, a global economic crisis, is reckoning with its roles, responsibilities, and practices. Reviewing our work with communities and with data demands we address harms from overexposure via surveillance and data and algorithmic bias and from underexposure when our design and data work is not participatory and equitable from its inception. This workshop will elicit narratives of good and bad design and data work with communities, apply the lenses of equitable participatory design and data feminism to current CSCW projects and our global context, and develop practical outputs for supporting academics and practitioners in pursuit of democratic and just partnerships in this moment and the future.",
       "authors": []
     },
@@ -13009,9 +12585,7 @@
       "title": "Reconsidering Scale and Scaling in CSCW Research",
       "trackId": 11107,
       "tags": [],
-      "keywords": [
-        "https://scaleandscalingcscw2020.wordpress.com"
-      ],
+      "keywords": ["https://scaleandscalingcscw2020.wordpress.com"],
       "abstract": "This one-day workshop invites discussion on the various socio-technical processes and dynamics that characterize scale and scaling in local, community-sited initiatives. Seeking to move beyond a view of scale as mere growth in numbers and a matter of technology- mediated replication, the workshop aims at developing a nuanced vocabulary to talk about various forms of scale and practices of scaling in CSCW research. It will bring together interdisciplinary scholars, activists, practitioners and representatives of the public sector who wish to question and further develop the notion of scale generally associated with processes of upscaling. The workshop provides a forum to discuss: i) concepts, theories and empirical cases that broaden our view of what constitutes scale; and ii) the implications for CSCW research in assessing the long-term impact and sustenance of socio-technical innovations. The workshop will accommodate up to twenty participants and will be run virtually.",
       "authors": []
     },
@@ -13045,9 +12619,7 @@
       "title": "Collective Organizing and Social Responsibility at CSCW",
       "trackId": 11107,
       "tags": [],
-      "keywords": [
-        "https://sites.google.com/view/collectiveorganizing"
-      ],
+      "keywords": ["https://sites.google.com/view/collectiveorganizing"],
       "abstract": "To support timing and logistics across rooms. We are welcome to additional",
       "authors": []
     },
@@ -13057,9 +12629,7 @@
       "title": "From Needs to Strengths: Operationalizing an Assets-Based Design of Technology",
       "trackId": 11107,
       "tags": [],
-      "keywords": [
-        "https://assetsbaseddesign.wordpress.com/"
-      ],
+      "keywords": ["https://assetsbaseddesign.wordpress.com/"],
       "abstract": "Guided by a human-centered design focus on users' needs, Computer-Supported Collaborative Work (CSCW) research and practice have increasingly explored how to address the multiple inequities affecting historically marginalized groups. A growing body of CSCW and Human-Computer Interaction (HCI) research, building upon education and community development literature, argues that centering on needs dismisses marginalized users' capacity for driving change. Needs-based views often lead to designs for the ``here and now,'' further marginalizing populations and perpetuating stereotypes. In contrast, an assets-based approach that puts users' knowledge, strengths, and capacities---assets---at the core of design can better promote sustained impact. Translating assets into meaningful designs that interact with intersecting systems of oppression, however, raises critical questions: What are assets? Whose assets are privileged? What ethical considerations surface when facilitating assets-based reflections? How can an assets-based design tackle systems-level problems? In this workshop, we will bring together researchers and industry actors to explore the implications of assets-based perspectives across domains, including Education, Information and Communication Technologies and Development (ICTD), and Participatory Design (PD). Specifically, we will work to develop guidelines and methodologies for CSCW researchers and designers to identify when and how to pursue an assets-based approach, navigating issues of power to translate assets into design effectively.",
       "authors": []
     },
@@ -13069,9 +12639,7 @@
       "title": "MOVE 2020",
       "trackId": 11107,
       "tags": [],
-      "keywords": [
-        "https://sites.google.com/view/move-workshop-2020/home"
-      ],
+      "keywords": ["https://sites.google.com/view/move-workshop-2020/home"],
       "abstract": "The interest in sharing the Data-Information-Knowledge-Wisdom (DIKW) continuum has been amplified by the latest multi-scale social changes including but not limited to pandemics, economic crises, climate change, and racial issues. This workshop aims to inspire research and discussion on measuring sharing of the DIKW continuum, including through computer-mediated methods, represented by its ontologies. The implied suggestion is that there are ways to improve human adaptation by social technologies that enable rapidly finding solutions for complex global situations. We therefore invite research on: Ontologies as a medium that enables comparing and measuring the DIKW continuum. Ontologies and their convergence or divergence with the values that motivate and determine DIKW sharing. Properties and dynamics of ontologies shared via social technologies in their relation to human adaptation.",
       "authors": []
     },
@@ -13081,9 +12649,7 @@
       "title": "Beyond Checklist Approaches to Ethics in Design",
       "trackId": 11107,
       "tags": [],
-      "keywords": [
-        "https://ethicsindesignworkshop.wordpress.com/"
-      ],
+      "keywords": ["https://ethicsindesignworkshop.wordpress.com/"],
       "abstract": "Recent public discussions about technologies and social values have called for greater consideration of ethics during technology development and deployment, leading many organizations to create and promote compliance- or checklist-oriented toolkits and frameworks to address values and ethical issues. However, surfacing discussion and consideration of ethics in broader, more open-ended ways during the design process may help surface unique needs, social corner cases, or new or different understandings of values and ethics. This one-day workshop will convene CSCW researchers and practitioners to propose and consider new interventions and approaches to ethics in design that go beyond formal checklist- and compliance-oriented approaches. CSCWÕs rich set of methods when investigating values and ethics provides a starting point for developing new approaches and interventions. These may potentially include design activities, games and roleplaying, critical making, changes to work practice and organizational structure, or conducting empirical research. Our goal is to explore multiple and alternative forms of values and ethics interventions, rather than coming to a particular ÒbestÓ approach. This workshop aims to map out a space of interventions for values and ethics, propose new approaches and interventions, and craft an agenda for experimenting with and evaluating new interventions.",
       "authors": []
     },
@@ -13093,9 +12659,7 @@
       "title": "Beyond Checklist Approaches to Ethics in Design",
       "trackId": 11107,
       "tags": [],
-      "keywords": [
-        "https://ethicsindesignworkshop.wordpress.com/"
-      ],
+      "keywords": ["https://ethicsindesignworkshop.wordpress.com/"],
       "abstract": "Recent public discussions about technologies and social values have called for greater consideration of ethics during technology development and deployment, leading many organizations to create and promote compliance- or checklist-oriented toolkits and frameworks to address values and ethical issues. However, surfacing discussion and consideration of ethics in broader, more open-ended ways during the design process may help surface unique needs, social corner cases, or new or different understandings of values and ethics. This one-day workshop will convene CSCW researchers and practitioners to propose and consider new interventions and approaches to ethics in design that go beyond formal checklist- and compliance-oriented approaches. CSCWÕs rich set of methods when investigating values and ethics provides a starting point for developing new approaches and interventions. These may potentially include design activities, games and roleplaying, critical making, changes to work practice and organizational structure, or conducting empirical research. Our goal is to explore multiple and alternative forms of values and ethics interventions, rather than coming to a particular ÒbestÓ approach. This workshop aims to map out a space of interventions for values and ethics, propose new approaches and interventions, and craft an agenda for experimenting with and evaluating new interventions.",
       "authors": []
     },
@@ -13117,9 +12681,7 @@
       "title": "MOVE 2020",
       "trackId": 11107,
       "tags": [],
-      "keywords": [
-        "https://sites.google.com/view/move-workshop-2020/home"
-      ],
+      "keywords": ["https://sites.google.com/view/move-workshop-2020/home"],
       "abstract": "The interest in sharing the Data-Information-Knowledge-Wisdom (DIKW) continuum has been amplified by the latest multi-scale social changes including but not limited to pandemics, economic crises, climate change, and racial issues. This workshop aims to inspire research and discussion on measuring sharing of the DIKW continuum, including through computer-mediated methods, represented by its ontologies. The implied suggestion is that there are ways to improve human adaptation by social technologies that enable rapidly finding solutions for complex global situations. We therefore invite research on: Ontologies as a medium that enables comparing and measuring the DIKW continuum. Ontologies and their convergence or divergence with the values that motivate and determine DIKW sharing. Properties and dynamics of ontologies shared via social technologies in their relation to human adaptation.",
       "authors": []
     },
@@ -13129,9 +12691,7 @@
       "title": "Reconsidering Scale and Scaling in CSCW Research",
       "trackId": 11107,
       "tags": [],
-      "keywords": [
-        "https://scaleandscalingcscw2020.wordpress.com"
-      ],
+      "keywords": ["https://scaleandscalingcscw2020.wordpress.com"],
       "abstract": "This one-day workshop invites discussion on the various socio-technical processes and dynamics that characterize scale and scaling in local, community-sited initiatives. Seeking to move beyond a view of scale as mere growth in numbers and a matter of technology- mediated replication, the workshop aims at developing a nuanced vocabulary to talk about various forms of scale and practices of scaling in CSCW research. It will bring together interdisciplinary scholars, activists, practitioners and representatives of the public sector who wish to question and further develop the notion of scale generally associated with processes of upscaling. The workshop provides a forum to discuss: i) concepts, theories and empirical cases that broaden our view of what constitutes scale; and ii) the implications for CSCW research in assessing the long-term impact and sustenance of socio-technical innovations. The workshop will accommodate up to twenty participants and will be run virtually.",
       "authors": []
     },
@@ -13141,9 +12701,7 @@
       "title": "The Future of Social AR",
       "trackId": 11107,
       "tags": [],
-      "keywords": [
-        "https://futuresocialar.com/"
-      ],
+      "keywords": ["https://futuresocialar.com/"],
       "abstract": "As augmented reality (AR) technologies become more pervasive, there is a growing interest in Social AR systems designed to support face to face interactions with collocated others. Prior research on AR often focuses on the technical aspects of the technology. However, at this early juncture, it is crucial to reflect and discuss the ethical, political, societal, and privacy implications of Social AR. This workshop aims to bring together industry practitioners and academic researchers to discuss the opportunities and challenges of social AR: from platforms to content creation, to self-representation. We aim to use a design fiction approach where workshop participants create speculative scenarios that interrogate the values imbued into Social AR. Based on these discussions, we will put together a set of initial recommendations for designers of Social AR technologies.",
       "authors": []
     },

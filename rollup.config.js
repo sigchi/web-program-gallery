@@ -1,14 +1,14 @@
-import { nodeResolve } from '@rollup/plugin-node-resolve';
-import json from '@rollup/plugin-json';
-import run from '@rollup/plugin-run';
-import svelte from 'rollup-plugin-svelte';
-import sveltePreprocess from 'svelte-preprocess';
+import { nodeResolve } from "@rollup/plugin-node-resolve";
+import json from "@rollup/plugin-json";
+import run from "@rollup/plugin-run";
+import svelte from "rollup-plugin-svelte";
+import sveltePreprocess from "svelte-preprocess";
 
 export default {
-  input: 'scripts/prerender.js',
+  input: "scripts/prerender.js",
   output: {
-    format: 'cjs',
-    file: 'scripts/dist/prerender.js',
+    format: "cjs",
+    file: "scripts/dist/prerender.js",
   },
   plugins: [
     nodeResolve(),
@@ -17,10 +17,10 @@ export default {
       preprocess: sveltePreprocess(),
       compilerOptions: {
         dev: false,
-        generate: 'ssr',
+        generate: "ssr",
         hydratable: true,
       },
     }),
     run(),
   ],
-}
+};

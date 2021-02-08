@@ -1,36 +1,43 @@
 <script>
-  import Star from './Star.svelte';
-  import VidThumb from './VidThumb.svelte';
-  import stars from '../stars.js';
+  import Star from "./Star.svelte";
+  import VidThumb from "./VidThumb.svelte";
+  import stars from "../stars.js";
 
-  export let content = {}, sessions = {}, mode = 'list';
+  export let content = {},
+    sessions = {},
+    mode = "list";
 
   const session = sessions[content.session[0]].name;
   const links = Object.entries(content.links)
-        .map(([name, href]) => `<a href="${href}">${name}</a>`)
-        .join(' | ');
+    .map(([name, href]) => `<a href="${href}">${name}</a>`)
+    .join(" | ");
 
   $: starred = $stars.includes(content.id);
 </script>
 
 <article>
-  <Star {starred} on:star={() => { stars.toggle(content.id); }} />
+  <Star
+    {starred}
+    on:star={() => {
+      stars.toggle(content.id);
+    }}
+  />
 
   <section>
     <!--sigchi- Header -->
     <h3>{content.track} #{content.sequence}:</h3>
     <p>{session}</p>
     <h3>{content.title}</h3>
-  
+
     <!--sigchi- Authors -->
-    <p>{content.authors.join(', ')}</p>
-    <p>{content.affiliations.join(' | ')}</p>
+    <p>{content.authors.join(", ")}</p>
+    <p>{content.affiliations.join(" | ")}</p>
 
     <!--sigchi- Other Links -->
     <p>{@html links}</p>
 
     <!--sigchi- Videos/Images -->
-    {#if mode !== 'list' && content.images !== undefined && content.videos !== undefined}
+    {#if mode !== "list" && content.images !== undefined && content.videos !== undefined}
       <div>
         {#each Object.entries(content.videos) as [name, url]}
           <VidThumb {name} {url} />
@@ -45,9 +52,9 @@
   </section>
 
   <!--sigchi- Abstract -->
-  {#if mode === 'detail'}
+  {#if mode === "detail"}
     <aside>
-      <hr/>
+      <hr />
       <h4>Abstract</h4>
       <p>{content.abstract}</p>
     </aside>
@@ -55,7 +62,8 @@
 </article>
 
 <style>
-  article, article div {
+  article,
+  article div {
     display: flex;
     justify-content: center;
   }
@@ -75,7 +83,8 @@
     border: var(--sigchi-article-border);
   }
 
-  article section, article aside {
+  article section,
+  article aside {
     flex: 1;
   }
 

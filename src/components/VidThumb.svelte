@@ -1,8 +1,8 @@
 <script>
   export let url = undefined;
-  export let name = '';
+  export let name = "";
 
-  const ytid = url && url.split('v=')[1];
+  const ytid = url && url.split("v=")[1];
   const thumbImg = ytid && `https://img.youtube.com/vi/${ytid}/mqdefault.jpg`;
 </script>
 

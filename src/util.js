@@ -1,5 +1,5 @@
 export function getPath(obj, path) {
-  return path.split('.').reduce((r, k) => r[k], obj);
+  return path.split(".").reduce((r, k) => r[k], obj);
 }
 
 export function shuffle([...array]) {

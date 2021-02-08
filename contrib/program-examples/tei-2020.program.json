@@ -401,16 +401,8 @@
       "name": "Papers Session 5: Reflection and Rituals",
       "typeId": 11500,
       "roomId": 10334,
-      "chairIds": [
-        25227
-      ],
-      "contentIds": [
-        25260,
-        25257,
-        25262,
-        25252,
-        25251
-      ],
+      "chairIds": [25227],
+      "contentIds": [25260, 25257, 25262, 25252, 25251],
       "timeSlotId": 11338,
       "id": 25294
     },
@@ -418,18 +410,8 @@
       "name": "Papers Session 1: Making it Personal",
       "typeId": 11500,
       "roomId": 10334,
-      "chairIds": [
-        25105
-      ],
-      "contentIds": [
-        25273,
-        25284,
-        25254,
-        25259,
-        25264,
-        25269,
-        25278
-      ],
+      "chairIds": [25105],
+      "contentIds": [25273, 25284, 25254, 25259, 25264, 25269, 25278],
       "timeSlotId": 11320,
       "id": 25285
     },
@@ -438,9 +420,7 @@
       "typeId": 11501,
       "roomId": 10334,
       "chairIds": [],
-      "contentIds": [
-        25532
-      ],
+      "contentIds": [25532],
       "timeSlotId": 11318,
       "id": 25393
     },
@@ -457,17 +437,8 @@
       "name": "Pictorial Session 1: Urban Experiences, Eating and Communication",
       "typeId": 11524,
       "roomId": 10334,
-      "chairIds": [
-        25327
-      ],
-      "contentIds": [
-        25337,
-        25335,
-        25338,
-        25341,
-        25343,
-        25340
-      ],
+      "chairIds": [25327],
+      "contentIds": [25337, 25335, 25338, 25341, 25343, 25340],
       "timeSlotId": 11324,
       "id": 25388
     },
@@ -560,18 +531,8 @@
       "name": "Papers Session 2: Creating and Changing Shapes",
       "typeId": 11500,
       "roomId": 10334,
-      "chairIds": [
-        25169
-      ],
-      "contentIds": [
-        25274,
-        25277,
-        25271,
-        25272,
-        25255,
-        25253,
-        25279
-      ],
+      "chairIds": [25169],
+      "contentIds": [25274, 25277, 25271, 25272, 25255, 25253, 25279],
       "timeSlotId": 11322,
       "id": 25288
     },
@@ -579,17 +540,8 @@
       "name": "Papers Session 3: Move your Body and Play",
       "typeId": 11500,
       "roomId": 10334,
-      "chairIds": [
-        25526
-      ],
-      "contentIds": [
-        25280,
-        25283,
-        25265,
-        25261,
-        25256,
-        25249
-      ],
+      "chairIds": [25526],
+      "contentIds": [25280, 25283, 25265, 25261, 25256, 25249],
       "timeSlotId": 11334,
       "id": 25291
     },
@@ -597,17 +549,8 @@
       "name": "Pictorial Session 2: Awareness and Wearables",
       "typeId": 11524,
       "roomId": 10334,
-      "chairIds": [
-        25527
-      ],
-      "contentIds": [
-        25334,
-        25342,
-        25339,
-        25344,
-        25336,
-        25345
-      ],
+      "chairIds": [25527],
+      "contentIds": [25334, 25342, 25339, 25344, 25336, 25345],
       "timeSlotId": 11328,
       "id": 25389
     },
@@ -616,13 +559,7 @@
       "typeId": 11500,
       "roomId": 10334,
       "chairIds": [],
-      "contentIds": [
-        25417,
-        25420,
-        25421,
-        25418,
-        25419
-      ],
+      "contentIds": [25417, 25420, 25421, 25418, 25419],
       "timeSlotId": 11343,
       "id": 25392
     },
@@ -673,9 +610,7 @@
       "typeId": 11501,
       "roomId": 10334,
       "chairIds": [],
-      "contentIds": [
-        25533
-      ],
+      "contentIds": [25533],
       "timeSlotId": 11340,
       "id": 25535
     },
@@ -683,18 +618,8 @@
       "name": "Papers Session 4: Input/Output",
       "typeId": 11500,
       "roomId": 10334,
-      "chairIds": [
-        25151
-      ],
-      "contentIds": [
-        25248,
-        25266,
-        25258,
-        25263,
-        25276,
-        25268,
-        25282
-      ],
+      "chairIds": [25151],
+      "contentIds": [25248, 25266, 25258, 25263, 25276, 25268, 25282],
       "timeSlotId": 11336,
       "id": 25293
     },
@@ -862,16 +787,11 @@
       "abstract": "Today, the world is promoting for inclusion and diversity more than ever before. Many people have dual-identities that they alternate between and may often blend. In our design research we explore everyday objects and the role of technology to accommodate people’s needs and personalities. Can furniture change its shape to reflect our dual-identities? Can our interior spaces reveal their hidden aesthetics when interacting with us? We designed a set of matching interactive furniture to unfold these narratives. Our Peace Table and Peace Painting change colour with proximity to reflect the dual identity of Western-Muslims. This pictorial describes our design concept and process with the aim of encouraging the HCI community to design for experiential experiences and merge technology into home decor in calm, ubiquitous and non-intrusive ways.",
       "authors": [
         {
-          "institutions": [
-            "Carleton University",
-            "Newcastle University"
-          ],
+          "institutions": ["Carleton University", "Newcastle University"],
           "personId": 25105
         },
         {
-          "institutions": [
-            "Fouadisms Ltd"
-          ],
+          "institutions": ["Fouadisms Ltd"],
           "personId": 25329
         }
       ]
@@ -886,21 +806,15 @@
       "abstract": "Given an extension of the working life and the large number of musculoskeletal disorders associated with occupational activities, wearable assistive technology could help to enable workers to carry out their profession as long as possible and necessary. In this pictorial we describe our design process towards a wearable soft-robotic orthosis and illustrate a ”body-centered” design approach that involves the human body throughout the different stages of the project and takes advantage of its abilities to specifically address the challenges in the development of wearable technology. \r\n",
       "authors": [
         {
-          "institutions": [
-            "University of the Arts Berlin"
-          ],
+          "institutions": ["University of the Arts Berlin"],
           "personId": 25332
         },
         {
-          "institutions": [
-            "Design Research Lab at the University of the Arts"
-          ],
+          "institutions": ["Design Research Lab at the University of the Arts"],
           "personId": 25330
         },
         {
-          "institutions": [
-            "DFKI"
-          ],
+          "institutions": ["DFKI"],
           "personId": 25307
         }
       ]
@@ -915,15 +829,11 @@
       "abstract": "This paper describes the technology, concepts and development of Computer Storm, a live audio-visual piece created for a gestural instrument, the ‘AirSticks’. The AirSticks allow the composition, performance and improvisation of live electronic music and graphics using movements captured by handheld motion controllers. In this piece, the AirSticks are combined with commodity depth sensors, and a custom visualisation system ‘Confluence’ which generates graphics from music and motion in real-time. The hardware used to display the images within the performance space is also described, as well as an overview of the resulting performance, which explores harmony across music, visuals and movement, and investigates our complex relationship with technology.",
       "authors": [
         {
-          "institutions": [
-            "Monash University"
-          ],
+          "institutions": ["Monash University"],
           "personId": 25363
         },
         {
-          "institutions": [
-            "University of Technology Sydney"
-          ],
+          "institutions": ["University of Technology Sydney"],
           "personId": 25360
         }
       ]
@@ -938,9 +848,7 @@
       "abstract": "Magnetic Springs is a musical performance that investigates links between the tangible and intangible through virtual and physical artist-designed instruments that transform human actions into sonic and visual form. It features the Telechord, a polyphonic theremin controlled by whole body movement, and a magnetic spring instrument constructed of contact microphones and two steel slinkies. Both systems are designed to encourage play, improvisation and self-awareness through the body, the ultimate truth-teller. The piece builds on the author’s practice-based research exploring the role of instrument metaphors in structuring improvisational environments and finding correspondences between whole body movement and sound creation. Movement improvisation is a powerful tool not only for developing novel choreographies but also for conceiving and crafting sonic ideas. It fosters physical awareness while refining the movement nuances of the performer. The interfaces used in Magnetic Springs encourage minimal, slow and gradual movement. They tune the performer to the slightest shifts in posture in relation to pitch and reverberance, refining the auditory, vestibular and visual senses simultaneously. The work embraces the potential of conscious embodied engagement in performance  to promote self-reflection and idea generation.",
       "authors": [
         {
-          "institutions": [
-            "Macquarie University"
-          ],
+          "institutions": ["Macquarie University"],
           "personId": 25371
         }
       ]
@@ -955,27 +863,19 @@
       "abstract": "The aim of this art-based research is to explore the duality of embodiment and presence in virtual reality (VR) through a narrative about the South Korean narcoleptic artist, Sungeun Lee. Narcolepsy is a neurological disorder where a person falls asleep unexpectedly. A narcoleptic struggles with a blurred and unsure sense of self, as well as confusion between reality and dreaming. We used VR to simulate his traumatized dream world and symptoms of narcolepsy. However, we also investigated the fundamental duality of embodiment/disembodiment in the virtual space and its parallels in the dream world. A non-linear narrative and generative poetic aesthetics driven by biometric feedback were applied to represent a surreal and uncertain sense of self. Gesture-based navigable interaction was used to connect people with their physical bodies, the virtual environment, and Sungeun’s experiences.",
       "authors": [
         {
-          "institutions": [
-            "Monash University"
-          ],
+          "institutions": ["Monash University"],
           "personId": 25361
         },
         {
-          "institutions": [
-            "Independent"
-          ],
+          "institutions": ["Independent"],
           "personId": 25346
         },
         {
-          "institutions": [
-            "Monash University"
-          ],
+          "institutions": ["Monash University"],
           "personId": 25356
         },
         {
-          "institutions": [
-            "Monash University"
-          ],
+          "institutions": ["Monash University"],
           "personId": 25354
         }
       ]
@@ -990,21 +890,15 @@
       "abstract": "Where does human agency remain in the era of automation and intelligent machineries? Technological affordances create instant ways of accomplishing challenging tasks, where a lot of individual agency is mitigated. In this installation, we present an autonomous musical instrument that invites volunteers to eventually take a subordinate role to machines. Over time, the instrument gradually raises its level of autonomy, eventually overriding through musical patterns impractical to play by users. Juxtaposing machine uprising and an artifact that manifests human creativity, we question the relationship between technology and human on the continuum of symbiosis and adversary, through orders of algorithmic complexity and intensity in the act of music.",
       "authors": [
         {
-          "institutions": [
-            "Georgia Institute of Technology"
-          ],
+          "institutions": ["Georgia Institute of Technology"],
           "personId": 25349
         },
         {
-          "institutions": [
-            "MIT Media Lab"
-          ],
+          "institutions": ["MIT Media Lab"],
           "personId": 25348
         },
         {
-          "institutions": [
-            "MIT Media Lab"
-          ],
+          "institutions": ["MIT Media Lab"],
           "personId": 25369
         }
       ]
@@ -1019,15 +913,11 @@
       "abstract": "Pulsante (translates as Pulsating) is a new-media device representing a large-scale model of a human heart. It captures the essential elements of the organ in order to highlight a clear visualisation of the circulatory system. The aims of this transdisciplinary work are twofold: (1) To allow the audience to connect with themselves and others, fostering conversation and curiosity, and (2) to function as an educational device, showing the rhythms of the heart by following scientific conventions. Aspects such as artistic expression and their situated metaphors, invite audiences to perceive the heart as a collective force. As the installation adapts its behaviour to the pulse of the person interacting with it, we also introduce small elements of situatedness, adapting the piece to the particularities of the place where it is exhibited. Finally, in terms of research questions, we seek to understand: How the audience reacts when they visualise a piece of information that remains normally hidden to their sight? How does the presence of others influence their reception? ",
       "authors": [
         {
-          "institutions": [
-            "Universidad Austral de Chile"
-          ],
+          "institutions": ["Universidad Austral de Chile"],
           "personId": 25353
         },
         {
-          "institutions": [
-            "Universidad Austral de Chile"
-          ],
+          "institutions": ["Universidad Austral de Chile"],
           "personId": 25357
         }
       ]
@@ -1042,9 +932,7 @@
       "abstract": "This work is the part of my ongoing Practice-based PhD that explores ways of making people feel more connected across geographical distance. My research proposes to reconsider the view of mediated communication as disembodied sending-receiving of information that is missing contextual and bodily aspects. Through my experimental practice I aim to reinforce characteristics of our embodied existence and allow dyads (two people) to communicate over distance in a dynamic, co-regulated and ambiguous way without the use of explicit written language or speech. This paper describes the first experimental work - “Undŭla”. It aims to test the hypothesis that: connectedness can arise from a jointly attentive dynamic body movement coordination. The experimental work features two identical custom-made rocking chairs with a sonified movement feedback (ocean waves). The chairs will be placed in separate locations allowing participants to coordinate their movement through a mutual self-paced rhythm over distance with no visual feedback.",
       "authors": [
         {
-          "institutions": [
-            "University of New South Wales"
-          ],
+          "institutions": ["University of New South Wales"],
           "personId": 25352
         }
       ]
@@ -1065,9 +953,7 @@
           "personId": 25347
         },
         {
-          "institutions": [
-            "The University of Sydney"
-          ],
+          "institutions": ["The University of Sydney"],
           "personId": 25239
         }
       ]
@@ -1082,9 +968,7 @@
       "abstract": "The Tangible Landscapes range of interactive audiovisual and sculptural pieces offer audiences opportunities to explore abstract landscapes, recreating an embodied experience of the materials, through tangible interaction with found objects. The objects can contain sensors (tilt, orientation, movement, proximity, pressure, etc) which allow the audience to manipulate the video material through the sensors influencing the algorithms in the system. New meanings and new narratives can emerge from the audience interactions, explorations and interpretations, combining the individual and social, as well as the intimate and the spatial. Interactive art in general, and these pieces in particular, encourage and support the audience to create their own unique experiences, allowing for an individual sense of agency. The resulting patterns and images that emerge from the interaction, though these deliberate opportunities, a participative process of co-creating. \r\nThis paper presents a range of these Tangible Landscape pieces, their relationship with earlier pieces and research, and placed in a context of artistic expression engaging with nature such as Landscape Art.\r\n",
       "authors": [
         {
-          "institutions": [
-            "University of Technology Sydney"
-          ],
+          "institutions": ["University of Technology Sydney"],
           "personId": 25367
         }
       ]
@@ -1099,27 +983,19 @@
       "abstract": "\\begin{abstract}\r\nThe project investigates how interactions with complex (biologically inspired swarming) behaviors of multiple robots are understood by human participants within a performative and dramaturgical system. Nonanthropomorphic robots in the form of roller skates are used in innovative ways by creating social formations from their movements, for example a leader and followers in a conga line. Synchronized audio signals and speech-like sonic structures are used in innovative ways by influencing and engaging the participant's interactions with the robots. Localization data of the robots in space is mapped to control the surround sound and lighting within the space. This is used to enhance audience immersion and engagement within the interactive performance work.\r\n\r\n\r\n\\end{abstract}\r\n",
       "authors": [
         {
-          "institutions": [
-            "UTS"
-          ],
+          "institutions": ["UTS"],
           "personId": 25355
         },
         {
-          "institutions": [
-            "University of Technology Sydney"
-          ],
+          "institutions": ["University of Technology Sydney"],
           "personId": 25365
         },
         {
-          "institutions": [
-            "University of NSW"
-          ],
+          "institutions": ["University of NSW"],
           "personId": 25109
         },
         {
-          "institutions": [
-            "University of New South Wales"
-          ],
+          "institutions": ["University of New South Wales"],
           "personId": 25368
         }
       ]
@@ -1134,15 +1010,11 @@
       "abstract": "Mirror Ritual is an interactive installation that challenges the existing paradigms in our understanding of human emotion and machine perception. In contrast to prescriptive interfaces, the work's real-time affective interface engages the audience in the iterative conceptualisation of their emotional state through the use of affectively-charged machine generated poetry. The audience are encouraged to make sense of the mirror's poetry by framing it with respect to their recent life experiences, effectively `putting into words' their felt emotion. This process of affect labelling and contextualisation works to not only regulate emotion, but helps to construct the rich personal narratives that constitute human identity.",
       "authors": [
         {
-          "institutions": [
-            "Monash University"
-          ],
+          "institutions": ["Monash University"],
           "personId": 25356
         },
         {
-          "institutions": [
-            "Monash University"
-          ],
+          "institutions": ["Monash University"],
           "personId": 25354
         }
       ]
@@ -1157,9 +1029,7 @@
       "abstract": "Aura:maton is a networked, olfactory wearable worn by one dancer in an immersive performance that allows audience members to explore ephemeral scent worlds [Fig. 2]. The performance evokes the memory of the smell of fresh rain on dry earth, known as petrichor. A dancer wears an IoT-connected, olfactory-emitting wearable as they navigate a room-scale environment, projecting dynamic olfactory display. Biofeedback through electroencephalography (EEG) sensing enables the dancer to develop direct communication with each of the five scent vials on a custom-made leather harness scent 'minilab'. The minilab is coded to playback the electrical activity of the brain and choreograph an autonomous symphony of scent-induced trails, as the dancer's scented memories drift through the audience.",
       "authors": [
         {
-          "institutions": [
-            "RMIT University"
-          ],
+          "institutions": ["RMIT University"],
           "personId": 25364
         }
       ]
@@ -1174,27 +1044,19 @@
       "abstract": "This artwork exploits recent research into augmented reality systems, such as the HoloLens, for building creative interaction in augmented reality. The work is being conducted in the context of interactive art experiences. The first version of the audience experience of the artwork, “H Space”, was informally tested in the SIGGRAPH 2018 Art Gallery context. Experiences with a later, improved, version was evaluated at Tsinghua University. The latest distributed version will be shown in Sydney. The paper describes the concept, the background in both the art and the technological domain and points to some of the key computer human interaction art research issues that the work highlights.\r\n",
       "authors": [
         {
-          "institutions": [
-            "De Montfort University"
-          ],
+          "institutions": ["De Montfort University"],
           "personId": 25359
         },
         {
-          "institutions": [
-            "Griffith University"
-          ],
+          "institutions": ["Griffith University"],
           "personId": 25372
         },
         {
-          "institutions": [
-            "Guangdong University of Technology"
-          ],
+          "institutions": ["Guangdong University of Technology"],
           "personId": 25358
         },
         {
-          "institutions": [
-            "Microsoft Research"
-          ],
+          "institutions": ["Microsoft Research"],
           "personId": 25362
         }
       ]
@@ -1209,16 +1071,11 @@
       "abstract": "Rayuela is an interactive light installation created with the purpose of using art to draw attention to a serious issue plaguing our society: namely plastic usage and waste, and how its overuse and under recycling end up polluting the oceans and compromising the food chain by disintegrating into microplastics. To create an experience that could be playful enough to attract and engage people, while still subtly conveying a serious message, we chose the game of hopscotch as a backdrop for a playful experience, revealing at each step the journey a plastic bottle goes through during its lifecycle. Accordingly named the work Rayuela, which is the Spanish word for hopscotch. We built Rayuela as a modular system consisting of 11 light boxes, each telling a different fact about the plastic bottle's journey. Each time people jumped on a box, it turned the next one on, thus progressively revealing the story. As the work was designed for exhibition in a very large public festival lasting about a month, design considerations ranged form aesthetic and interactive aspects to robustness and reliability. In this paper, we describe the conceptual rationale for Rayuela, its design and building process, and the methods for automated data gathering we implemented. We then present the results of the field study, and discuss preliminary findings, as well as implications for future design.",
       "authors": [
         {
-          "institutions": [
-            "The Creative Studios",
-            "The University of Sydney "
-          ],
+          "institutions": ["The Creative Studios", "The University of Sydney "],
           "personId": 25366
         },
         {
-          "institutions": [
-            "The University of Sydney"
-          ],
+          "institutions": ["The University of Sydney"],
           "personId": 25239
         }
       ]
@@ -1233,9 +1090,7 @@
       "abstract": "Mettāmatics is an interactive sound sculpture that uses heart-rate-variability biofeedback to support participants to observe and experiment with very slow variations in heart rate patterning that can be voluntarily elicited through feelings of compassion, benevolence, gratitude and equanimity, coupled with relaxed, effortless breathing. \r\n\r\nIn this paper I introduce arts-based health promotion as a context for designing and presenting body-focused  interactive art, and consider the challenges for supporting participants to psycho-physiologically enter 'into' – a work designed to explore this unfamiliar and highly nuanced example of body-mind connection. \r\n\r\nI describe the methods used to analyse the pulse sensor data, how the features extracted from this data were used to control the various elements of the interactive soundscape, and outline approaches I have developed for supporting participants to 'find their bearings' within the work, through the incorporation of pre-recorded verbal cues, and questions designed to support participants to more clearly perceive their agency within the work, and their nervous system more generally.",
       "authors": [
         {
-          "institutions": [
-            "University of New South Wales (UNSW)"
-          ],
+          "institutions": ["University of New South Wales (UNSW)"],
           "personId": 25370
         }
       ]
@@ -1250,27 +1105,19 @@
       "abstract": "Sounds of Infinity is an interactive, low-resolution lighting display that portrays a magnified variation of the infinity mirror. Developed for an outdoor light and music festival, the installation provides a retro-futuristic experience for audiences and explores how playful interactions might impact the behaviour of people in public spaces. Using multiple layers of LED lights, the concept enhances the infinity mirror illusion with a variety of audio-to-visual effects to create a tunnel of interactive light visuals. Due to its intuitive design with sound input, Sounds of Infinity also allows for open exploration of the body to produce sound through voice and movements. It illustrates the timeless quality of light and sound to promote social harmony, connecting and engaging people in collaborative, fun and expressive play.",
       "authors": [
         {
-          "institutions": [
-            "The University of Sydney"
-          ],
+          "institutions": ["The University of Sydney"],
           "personId": 25350
         },
         {
-          "institutions": [
-            "University of Sydney"
-          ],
+          "institutions": ["University of Sydney"],
           "personId": 25351
         },
         {
-          "institutions": [
-            "The University of Sydney"
-          ],
+          "institutions": ["The University of Sydney"],
           "personId": 25239
         },
         {
-          "institutions": [
-            "University of Sydney"
-          ],
+          "institutions": ["University of Sydney"],
           "personId": 25212
         }
       ]
@@ -1285,9 +1132,7 @@
       "abstract": "Rich and elaborate communication will play an essential part in the success of social robotics. The role of non-verbal sound as a communication channel has received relatively little attention in human-robot interaction research so far. Audio Cells is a prototyping environment for spatial sonic interaction design. It is part of my ongoing work on the sonification of artificial bodies. Through a combination of modular loudspeakers and sensors, it allows the exploration of a range of spatial interactive audio effects. By bringing methods from the fields of sound design and spatial audio into the context of human-robot interaction, my research aims to enrich and refine the ways robotic agents and responsive structures communicate with humans.",
       "authors": [
         {
-          "institutions": [
-            "University of New South Wales"
-          ],
+          "institutions": ["University of New South Wales"],
           "personId": 25412
         }
       ]
@@ -1302,21 +1147,15 @@
       "abstract": "Diseases come irrespective of income, but treatment\r\nand devices don’t. Imagine a medical device needed by\r\nthousands of people but afforded by a few. To bring a\r\nbalance to this situation ‘Pulsy’ comes into play.\r\n‘Pulsy’ is a low-cost and portable pulse oximeter that is\r\nused for measuring one’s heart rate and oxygen\r\nsaturation in blood.\r\nA healthy heart is at the heart of an active lifestyle.\r\nMaintaining oxygen saturation over 90% in all activities\r\nis the goal. A person who uses this device can monitor\r\ntheir ability to tolerate activities, manage supplemental\r\noxygen use, manage asthma and monitor their heart\r\nrate and oxygen saturation during sports or high-\r\naltitude activities.\r\nOximeters are in great demand because conditions like\r\npregnancy, anaemia, pneumonia, pulmonary disorders,\r\nasthma, and lung cancer demand frequent monitoring\r\nof heart rate and oxygen saturation in blood. Oximeters\r\navailable in the market are extremely expensive, and\r\npeople who are unable to purchase them are left with\r\nthe sole option of making frequent visits to the hospital\r\nto get a check-up. This becomes a huge drain on time\r\nand money.\r\nThe objective of ‘Pulsy’ is to simplify the hardware and\r\nprovide the same result and same accuracy for a\r\nsubstantially reduced cost. The benefits are ample and\r\nbeyond the medical fraternity. It helps expand one’s\r\nlevel of activity and lead a more meaningful life.",
       "authors": [
         {
-          "institutions": [
-            "IIT Guwahati"
-          ],
+          "institutions": ["IIT Guwahati"],
           "personId": 25411
         },
         {
-          "institutions": [
-            "Indian Institute of Technology, Guwahati"
-          ],
+          "institutions": ["Indian Institute of Technology, Guwahati"],
           "personId": 25415
         },
         {
-          "institutions": [
-            "IIT Guwahati"
-          ],
+          "institutions": ["IIT Guwahati"],
           "personId": 25413
         }
       ]
@@ -1331,9 +1170,7 @@
       "abstract": "One of the superpowers that the kids posses is the power of imagination. Imagination can be said to be a tool that aids in cognitive development and intellectual thinking. Imagination comes to the foreground when kids play with their toys .  Its often seen that kids talk to their toys .This is a sign of avid imagination manifesting in their plays.\r\nTiglo aims to let parents to inhabit the toys of the child through expression mirroring. Through expression mirroring onto toys ,parents can be part of their child’s play in a whole new way. Assuming characters and superimposing them with the parents expression and child’s imagination, can help the parents better understand the mental state of the child and they can help out the kid if the kid shows signs of stress. ",
       "authors": [
         {
-          "institutions": [
-            "National Institute of Design"
-          ],
+          "institutions": ["National Institute of Design"],
           "personId": 25414
         }
       ]
@@ -1348,9 +1185,7 @@
       "abstract": "Qualitative data such as photo libraries and image archives on smartphones or cloud storage face the challenge of becoming overwhelming and inaccessible to its users, due to their large volume and increasing growth rate of data. Digital tools such as searchable labels or tags can help organise such databases, for example like the use of the hashtag on the social media platform Instagram, which enables the organisation of images by applying personalised tags to it. Images that are shared online retain personal data, which poses, in some cases, ethical challenges. Both the volume of image data and how we can design experiences to view or visualise its content as well as the benefits and risks that such application poses in terms of our personal data are explored in the Participatory Media Installation Selfie Flaneur. ",
       "authors": [
         {
-          "institutions": [
-            "School of creative industry "
-          ],
+          "institutions": ["School of creative industry "],
           "personId": 25416
         }
       ]
@@ -1365,15 +1200,11 @@
       "abstract": "Studies have shown that a majority of workers experience stress in workplace. We envision a product that could help workers relieve stress by making use of 'Mixed Reality' to help them change their 'immediate vicinity' to relieve stress. The design is grounded in our insight from research that people use varying activities to fight stress which helps them in switching 'context' and doing something 'cognitively less demanding'. This is achieved through a wearable headset that would help wearer change the 'reality in their vicinity' at workplace whenever stress levels are high.",
       "authors": [
         {
-          "institutions": [
-            "Indiana University"
-          ],
+          "institutions": ["Indiana University"],
           "personId": 25409
         },
         {
-          "institutions": [
-            "Indiana University"
-          ],
+          "institutions": ["Indiana University"],
           "personId": 25410
         }
       ]
@@ -1388,9 +1219,7 @@
       "abstract": "  This paper examines creating a temporary virtual relic through the creation of an interactive soundscape in the context of a religious pilgrimage known as the  Stations of The Cross.  The paper examines the history of the rite and its transformation from a physical pilgrimage to a virtual one. It examines the phenomenon of iconic relics, which in some case have a reckoned value equivalent to that of the physical objects they represent. Also, it examines both the conceptual and legal implications of embodying sound into tangible objects, resulting in their treatment as protected relics. Finally, it describes the creation of an artwork, whereby religious pilgrims manipulate interactive sonic balls that communicate with other networked sonic devices in an attempt to correlate metaphors of human behaviours---such as play, humiliation, and mobs---into a sonic relic of the historical narrative of Christ taunted by Roman soldiers.",
       "authors": [
         {
-          "institutions": [
-            "University of NSW"
-          ],
+          "institutions": ["University of NSW"],
           "personId": 25109
         }
       ]
@@ -1405,21 +1234,15 @@
       "abstract": "We present ForceStamps, fiducial markers for supporting rapid prototyping of physical control interfaces on pressure-sensitive touch surfaces. We investigate marker design options for supporting various physical controls, with focusing on creating dedicated footprints and maintaining the structural stability. ForceStamps can be persistently tracked on surfaces along with the force information and other attributes. Designers without knowledge of electronics can rapidly prototype physical controls by attaching mechanisms to ForceStamps, while manipulating the haptic feedback with buffer materials. The created control widgets can be spatially configured on the touch surface to make an interface layout. We showcase a variety of example controls created with ForceStamps. In addition, we report on our analysis of a two-day musical instrument design workshop to explore the affordances of ForceStamps for making novel instruments with diverse interaction designs.",
       "authors": [
         {
-          "institutions": [
-            "The University of Tokyo"
-          ],
+          "institutions": ["The University of Tokyo"],
           "personId": 25142
         },
         {
-          "institutions": [
-            "The University of Tokyo"
-          ],
+          "institutions": ["The University of Tokyo"],
           "personId": 25186
         },
         {
-          "institutions": [
-            "The University of Tokyo"
-          ],
+          "institutions": ["The University of Tokyo"],
           "personId": 25155
         }
       ]
@@ -1434,15 +1257,11 @@
       "abstract": "We present a wrist-worn mobile heart rate regulator – ambienBeat – which provides closed-loop biofeedback via tactile stimulus based on users’ heartbeat rate (HR). We applied the principle of physiological synchronization via touch to achieve our goal of effortless regulation of HR, which is tightly coupled with mental stress levels. ambienBeat provides various patterns of tactile stimuli, which mimics the feeling of a heartbeat pulse, to guide user’s HR to resonate with its rhythmic, tactile patterns. The strength and rhythmic patterns of tactile stimulation are controlled to a level below\r\nthe cognitive threshold of an individual’s tactile sensitivity on their wrist so as to minimize task disturbance. Here we present an acoustically noise-less soft voice-coil actuator to render the ambient tactile stimulus and present the system and implementation process. We evaluated our system by comparing it to ambient auditory and visual guidance. Results from the user study shows that the tactile stimulation was effective in guiding user’s HR to resonate with ambienBeat to either calm or boost the heart rate using minimal cognitive load.",
       "authors": [
         {
-          "institutions": [
-            "MIT"
-          ],
+          "institutions": ["MIT"],
           "personId": 25230
         },
         {
-          "institutions": [
-            "MIT"
-          ],
+          "institutions": ["MIT"],
           "personId": 25104
         }
       ]
@@ -1457,39 +1276,27 @@
       "abstract": "Large-scale shape-changing interfaces have great potential, but creating such systems requires substantial time, cost, space, and efforts, which hinders the research community to explore interactions beyond the scale of human hands. We introduce modular inflatable actuators as building blocks for prototyping room-scale shape-changing interfaces.  Each actuator can change its height from 15cm to 150cm, actuated and controlled by air pressure. Each unit is low-cost (8 USD), lightweight (10 kg), compact (15 cm), and robust, making it well-suited for prototyping room-scale shape transformations. Moreover, our modular and reconfigurable design allows researchers and designers to quickly construct different geometries and to explore various applications. This paper contributes to the design and implementation of highly extendable inflatable actuators, and demonstrates a range of scenarios that can leverage this modular building block.\r\n",
       "authors": [
         {
-          "institutions": [
-            "University of Colorado Boulder"
-          ],
+          "institutions": ["University of Colorado Boulder"],
           "personId": 25232
         },
         {
-          "institutions": [
-            "Keio University"
-          ],
+          "institutions": ["Keio University"],
           "personId": 25224
         },
         {
-          "institutions": [
-            "University of Colorado Boulder"
-          ],
+          "institutions": ["University of Colorado Boulder"],
           "personId": 25228
         },
         {
-          "institutions": [
-            "The University of Tokyo"
-          ],
+          "institutions": ["The University of Tokyo"],
           "personId": 25237
         },
         {
-          "institutions": [
-            "University of Colorado Boulder"
-          ],
+          "institutions": ["University of Colorado Boulder"],
           "personId": 25175
         },
         {
-          "institutions": [
-            "University of Colorado, Boulder"
-          ],
+          "institutions": ["University of Colorado, Boulder"],
           "personId": 25145
         }
       ]
@@ -1504,15 +1311,11 @@
       "abstract": "Regular physical exercise is an essential factor for preventing chronic diseases. Activities to support physical education in schools have been increasingly used in recent years as a target to get young people interested in sports. However, for visually impaired students it is difficult to participate in traditional team sports which are widely played in physical education. To overcome this issue, we developed a design toolkit consisting of building blocks that enable visually impaired students to create and play their own movement-based games. To investigate different types of building blocks and their potential to create accessible movement-based games, we conducted two game design workshops with visually impaired students. The results show that our building blocks can successfully be used by visually impaired students to become creators of movement-based games that are both accessible and engaging. By making our design-process transparent, we provide insights how to implement such a co-creation process. ",
       "authors": [
         {
-          "institutions": [
-            "AIT Austrian Institute of Technology GmbH"
-          ],
+          "institutions": ["AIT Austrian Institute of Technology GmbH"],
           "personId": 25193
         },
         {
-          "institutions": [
-            "AIT Austrian Institute of Technology"
-          ],
+          "institutions": ["AIT Austrian Institute of Technology"],
           "personId": 25190
         },
         {
@@ -1523,15 +1326,11 @@
           "personId": 25117
         },
         {
-          "institutions": [
-            "AIT Austrian Institute of Technology"
-          ],
+          "institutions": ["AIT Austrian Institute of Technology"],
           "personId": 25153
         },
         {
-          "institutions": [
-            "University of Salzburg & AIT"
-          ],
+          "institutions": ["University of Salzburg & AIT"],
           "personId": 25235
         }
       ]
@@ -1546,34 +1345,23 @@
       "abstract": "ExpandFab is a fabrication method for creating expanding objects using foam materials. The printed objects change their shape and volume, which is advantageous for reducing the printing time and transportation costs.\r\n\r\nFor the fabrication of expanding objects, we investigated a basic principle of the expansion rate and developed materials by mixing a foam powder and elastic adhesive. \r\n\r\nFurthermore, we developed a fabrication method using the foam materials. A user can design expanded objects using our design software and sets the expansion areas on the surface. The software simulates and exports the 3d model into a three-dimensional (3D) printer. The 3D printer prints the expandable object by curing with ultraviolet light. Finally, the user heats the printed objects, and the objects expand to maximum approximately 2.7 times of their original size.\r\n\r\nExpandFab allows users to prototype products that expand and morph into various shapes, such as objects changing from one shape to various shapes, and functional prototype with electronic components. In this paper, we describe the basic principle of this technique, implementation of the software and hardware, application examples, limitations and discussions, and future works.",
       "authors": [
         {
-          "institutions": [
-            "Shonan-Fujisawa"
-          ],
+          "institutions": ["Shonan-Fujisawa"],
           "personId": 25134
         },
         {
-          "institutions": [
-            "The University of Tokyo"
-          ],
+          "institutions": ["The University of Tokyo"],
           "personId": 25157
         },
         {
-          "institutions": [
-            "the University of Tokyo",
-            "Keio University"
-          ],
+          "institutions": ["the University of Tokyo", "Keio University"],
           "personId": 25158
         },
         {
-          "institutions": [
-            "The university of Tokyo"
-          ],
+          "institutions": ["The university of Tokyo"],
           "personId": 25165
         },
         {
-          "institutions": [
-            "The University of Tokyo"
-          ],
+          "institutions": ["The University of Tokyo"],
           "personId": 25237
         }
       ]
@@ -1588,27 +1376,19 @@
       "abstract": "Smart garment and wearable e-textile prototypes are difficult to co-design because of the variety of expertise needed (garment design, sewing skills, hardware prototyping, and software programming). To help with this, we developed a toolkit for prototyping wearable e-textiles, named Wearable Bits, which enables co-design with non-expert users without demanding sewing, hardware or software skills. We developed a low-fidelity and medium-fidelity experience prototype of the toolkit and ran a series of workshops where non-expert users designed their own e-textile wearables using Wearable Bits as their making toolkit. In this paper, we discuss the ideas they developed, their construction techniques, the roles individuals took on while building, and suggestions for future toolkits. ",
       "authors": [
         {
-          "institutions": [
-            "Carleton University"
-          ],
+          "institutions": ["Carleton University"],
           "personId": 25110
         },
         {
-          "institutions": [
-            "Carleton University"
-          ],
+          "institutions": ["Carleton University"],
           "personId": 25105
         },
         {
-          "institutions": [
-            "Carleton University"
-          ],
+          "institutions": ["Carleton University"],
           "personId": 25097
         },
         {
-          "institutions": [
-            "Carleton University"
-          ],
+          "institutions": ["Carleton University"],
           "personId": 25184
         }
       ]
@@ -1623,21 +1403,15 @@
       "abstract": "Currently, (invisible) smart speech assistants, such as Siri, Alexa, and Cortana, are used by a constantly growing number of people. Moreover, Augmented Reality (AR) glasses are predicted to become widespread consumer devices in the future. Hence, smart assistants can easily become common applications of AR glasses, which allows for giving the assistant a visual representation as an embodied agent. While previous research on embodied agents found a user preference for a humanoid appearance, research on the uncanny valley suggests that simply designed humanoids can be favored over hyper-realistic humanoid characters. In a user study, we compared agents of simple versus more realistic appearance (seen through AR glasses) versus an invisible state-of-the-art speech assistants (see Figure 1). Our results indicate that a more realistic visualization is preferred as it provides additional communication cues, such as eye contact and gaze, which seem to be key features when talking to a smart assistant. But if the situation requires visual attention, e.g., when being mobile or in a multitask situation, an invisible agent can be more appropriate as they do not distract the visual focus, which can be essential during AR experiences.",
       "authors": [
         {
-          "institutions": [
-            "HAW Hamburg"
-          ],
+          "institutions": ["HAW Hamburg"],
           "personId": 25195
         },
         {
-          "institutions": [
-            "HAW Hamburg"
-          ],
+          "institutions": ["HAW Hamburg"],
           "personId": 25191
         },
         {
-          "institutions": [
-            "HAW Hamburg"
-          ],
+          "institutions": ["HAW Hamburg"],
           "personId": 25227
         }
       ]
@@ -1652,21 +1426,15 @@
       "abstract": "We present SoftMod, a novel modular electronics kit consisting of soft and flexible modules that snap together. Unlike existing modular kits, SoftMod tracks the topology of interconnected modules and supports basic plug-and-play behavior as well as advanced user-specified behavior. As such, the shape of a SoftMod assembly does not depend on the desired behavior and various 2D and 3Delectronic systems can be realized. While the plug-and-play nature of our modules stimulates play, the advanced features for specifying behavior and for making a variety of soft and flexible shapes, offer a high-ceiling when experimenting with novel types of interfaces,such as wearables, and interactive skin and textiles.",
       "authors": [
         {
-          "institutions": [
-            "Expertise Centre for Digital Media"
-          ],
+          "institutions": ["Expertise Centre for Digital Media"],
           "personId": 25208
         },
         {
-          "institutions": [
-            "Expertise Centre for Digital Media"
-          ],
+          "institutions": ["Expertise Centre for Digital Media"],
           "personId": 25241
         },
         {
-          "institutions": [
-            "Hasselt University"
-          ],
+          "institutions": ["Hasselt University"],
           "personId": 25214
         }
       ]
@@ -1695,9 +1463,7 @@
           "personId": 25120
         },
         {
-          "institutions": [
-            "Eindhoven University of Technology"
-          ],
+          "institutions": ["Eindhoven University of Technology"],
           "personId": 25129
         }
       ]
@@ -1712,16 +1478,11 @@
       "abstract": "Today, the world is promoting for inclusion and diversity more than ever before. Many people have dual-identities that they alternate between and may often blend. In our design research we explore everyday objects and the role of technology to accommodate people’s needs and personalities. Can furniture change its shape to reflect our dual-identities? Can our interior spaces reveal their hidden aesthetics when interacting with us? We designed a set of matching interactive furniture to unfold these narratives. Our Peace Table and Peace Painting change colour with proximity to reflect the dual identity of Western-Muslims. This pictorial describes our design concept and process with the aim of encouraging the HCI community to design for experiential experiences and merge technology into home decor in calm, ubiquitous and non-intrusive ways.",
       "authors": [
         {
-          "institutions": [
-            "Carleton University",
-            "Newcastle University"
-          ],
+          "institutions": ["Carleton University", "Newcastle University"],
           "personId": 25105
         },
         {
-          "institutions": [
-            "Fouadisms Ltd"
-          ],
+          "institutions": ["Fouadisms Ltd"],
           "personId": 25329
         }
       ]
@@ -1736,9 +1497,7 @@
       "abstract": "Mediated touch gestures are essential for delivering information in social networking. This study presents a method to create mediated touch gestures with vibrotactile stimuli for smart phones and explores the effectiveness of applying mediated touch gestures with vibrotactile stimuli when sending text and stickers in instant messaging applications. We developed a preliminary prototype to record vibration signals of touch gestures. The envelopes of the recorded signals are approximated by piecewise linear functions and then translated to MIDI parameters for generating vibrotactile stimuli. We applied mediated touch gestures in instant messaging applications as haptic icons. A user study showed that gesture traits and the contact time affected the sensation of haptic icons. The enhancement effect of touch gestures was influenced by the contact time.",
       "authors": [
         {
-          "institutions": [
-            "Eindhoven University of Technology"
-          ],
+          "institutions": ["Eindhoven University of Technology"],
           "personId": 25470
         },
         {
@@ -1749,15 +1508,11 @@
           "personId": 25443
         },
         {
-          "institutions": [
-            "Eindhoven University of Technology"
-          ],
+          "institutions": ["Eindhoven University of Technology"],
           "personId": 25484
         },
         {
-          "institutions": [
-            "Eindhoven University of Technology"
-          ],
+          "institutions": ["Eindhoven University of Technology"],
           "personId": 25468
         }
       ]
@@ -1772,33 +1527,23 @@
       "abstract": "We have partnered with local trapeze and circus arts instructors to combine various commercially available, wearable electronic components in the design and construction of a high tech, responsive costume for circus performers. Implementing microcontroller-based electronics in performance costumes is a novel approach that offers a new platform for enhancing a traditional circus performance with the rapidly expanding field of consumer microcontrollers and wearable electronics. We discuss the inspiration, implementation, and design challenges that led to our specific decisions in development, and what direction we hope to take the development in the future.",
       "authors": [
         {
-          "institutions": [
-            "University of St. Thomas"
-          ],
+          "institutions": ["University of St. Thomas"],
           "personId": 25434
         },
         {
-          "institutions": [
-            "University of St. Thomas"
-          ],
+          "institutions": ["University of St. Thomas"],
           "personId": 25474
         },
         {
-          "institutions": [
-            "University of St. Thomas"
-          ],
+          "institutions": ["University of St. Thomas"],
           "personId": 25463
         },
         {
-          "institutions": [
-            "University of St. Thomas"
-          ],
+          "institutions": ["University of St. Thomas"],
           "personId": 25485
         },
         {
-          "institutions": [
-            "University of St. Thomas"
-          ],
+          "institutions": ["University of St. Thomas"],
           "personId": 25491
         }
       ]
@@ -1813,21 +1558,15 @@
       "abstract": "Strength training improves overall health, well-being, physical appearance, and sports performance.There are four major factors that affect training efficacy in a training session: exercise type, number of repetitions, movement velocity, and workload. Prior research has used wearable sensors to detect exercise type, number of repetitions, and movement velocity while training. However, detecting workload still requires instrumentation of exercise equipment such as exercise machines or free weights. This paper presents MuscleSense, an approach that detects training weight through wearable. In particular, MuscleSense uses various regressors to predicting weight using signals from wearable sEMG sensors mounted on user's arm or forearm. We evaluated the effects of sensor placement through collected training data of 20 participants at 1kg interval. The results from our user study show that MuscleSense achieves Root Mean Square Error (RMSE) of 0.68kg in sensing workload through sensors data from both forearm and arm using Support Vector Regressor of linear kernel.",
       "authors": [
         {
-          "institutions": [
-            "National Taiwan University"
-          ],
+          "institutions": ["National Taiwan University"],
           "personId": 25244
         },
         {
-          "institutions": [
-            "National Taiwan University"
-          ],
+          "institutions": ["National Taiwan University"],
           "personId": 25226
         },
         {
-          "institutions": [
-            "National Taiwan University"
-          ],
+          "institutions": ["National Taiwan University"],
           "personId": 25125
         }
       ]
@@ -1842,21 +1581,15 @@
       "abstract": "Wearable devices of today help people track and monitor their biometric data such as heart rate. While the tracked data can help inform people of their health, many find that it adds unnecessary anxieties in the way the feedback is provided. In the case of college students, they spend most of their time in a stressful environment, leading them to an increase in the risk of heart diseases. To help with this issue, we present Heart Waves, an experimental ambient feedback system that tracks heart rate and uses water sound to provide feedback in a stressful work environment. Heart Waves uses the sound of falling water to create a relaxing atmosphere to help ease any stress they are going through. As the user’s heart rate goes up, the flow of water increases, and as their heart rate goes down, the flow rate of water decreases. The purpose of this project is to automatize the processing of heart rate data so that the user does not have to analyze the data and create an ambient feedback system that adjusts to their heart rate.",
       "authors": [
         {
-          "institutions": [
-            "OCAD University"
-          ],
+          "institutions": ["OCAD University"],
           "personId": 25486
         },
         {
-          "institutions": [
-            "Carleton University"
-          ],
+          "institutions": ["Carleton University"],
           "personId": 25110
         },
         {
-          "institutions": [
-            "OCAD University"
-          ],
+          "institutions": ["OCAD University"],
           "personId": 25327
         }
       ]
@@ -1871,51 +1604,35 @@
       "abstract": "There is an increasing trend in HCI to combine eating and technology. We highlight the potential of interactive technology to support an experiential perspective on eating, in particular, how interactive technology can support experiencing eating as play. To understanding this, we reflect on four playful interactive eating systems we designed and two other works to articulate five strategies: make eating challenging, break cultural norms, design across eating stages, reduce eating autonomy, and playfully extend the social aspect. For each, we also include practical implementation options to provide designers with initial guidance on how they can begin to support experiencing eating as play. Ultimately, with our work, we aim to facilitate a future where eating is more playful.",
       "authors": [
         {
-          "institutions": [
-            "RMIT University"
-          ],
+          "institutions": ["RMIT University"],
           "personId": 25221
         },
         {
-          "institutions": [
-            "RMIT University"
-          ],
+          "institutions": ["RMIT University"],
           "personId": 25102
         },
         {
-          "institutions": [
-            "RMIT University"
-          ],
+          "institutions": ["RMIT University"],
           "personId": 25234
         },
         {
-          "institutions": [
-            "RMIT University"
-          ],
+          "institutions": ["RMIT University"],
           "personId": 25151
         },
         {
-          "institutions": [
-            "RMIT"
-          ],
+          "institutions": ["RMIT"],
           "personId": 25118
         },
         {
-          "institutions": [
-            "RMIT University"
-          ],
+          "institutions": ["RMIT University"],
           "personId": 25185
         },
         {
-          "institutions": [
-            "RMIT University"
-          ],
+          "institutions": ["RMIT University"],
           "personId": 25098
         },
         {
-          "institutions": [
-            "RMIT University"
-          ],
+          "institutions": ["RMIT University"],
           "personId": 25197
         }
       ]
@@ -1930,45 +1647,31 @@
       "abstract": "Digital fabrication is changing the way we design and manufacture the objects around us. Digital fabrication machines enable mass-customisation. However, customising the machines themselves requires a high amount of expertise, which prevents even advanced users from taking part in the creation of bespoke fabrication tools. We present Fabricatable Machines, an open-source toolkit for designing custom fabrication machines. We designed a linear motion module, The Fabricatable Axis, that provides robust automated linear motion. The Fabricatable Axis can be resized, adjusted, and fabricated from different materials. Users can build machines by combining multiple axes. We optimised the design of the axis to be manufactured using a CNC mill, with few externally sourced parts. We observed users creating machines including portable milling machines, 3D printers, and pipe inspection robots using the Fabricatable Machines Toolkit. ",
       "authors": [
         {
-          "institutions": [
-            "Western Norway University of Applied Sciences"
-          ],
+          "institutions": ["Western Norway University of Applied Sciences"],
           "personId": 25238
         },
         {
-          "institutions": [
-            "Fellesverkstedet"
-          ],
+          "institutions": ["Fellesverkstedet"],
           "personId": 25128
         },
         {
-          "institutions": [
-            "Norlink Consulting"
-          ],
+          "institutions": ["Norlink Consulting"],
           "personId": 25111
         },
         {
-          "institutions": [
-            "Bitraf"
-          ],
+          "institutions": ["Bitraf"],
           "personId": 25163
         },
         {
-          "institutions": [
-            "Nordvik Manifestation"
-          ],
+          "institutions": ["Nordvik Manifestation"],
           "personId": 25127
         },
         {
-          "institutions": [
-            "Western Norway University of Applied Sciences"
-          ],
+          "institutions": ["Western Norway University of Applied Sciences"],
           "personId": 25139
         },
         {
-          "institutions": [
-            "University of Washington"
-          ],
+          "institutions": ["University of Washington"],
           "personId": 25207
         }
       ]
@@ -1983,9 +1686,7 @@
       "abstract": "Previous work in HCI about personal informatics and behavior change suggests that representing data in intuitive metaphors and meaningful stories on glace-able displays should be considered to complement typical data visualization for daily user reflection and understanding. Informed by insights from social psychology, providing information regarding one’s behavior (i.e., feedback) should (1) link behavioral data to positively or negatively valued outcomes; (2) show changes in the outcomes over time; and (3) include measures for pursuing different outcomes. Grounded in metaphor and blending theories from embodied cognition, we suggest metaphorically mapping less intuitive behavior-outcome links with more direct cause-effect relations from seemingly unrelated yet familiar domains. A behavior and a comparable scenario are cognitively compressed into an “animated parable”. This paper describes the theoretical framework and design guidelines, and reports the development of a blended concept, “incingarette” (cigarette and incinerator), and its prototype. The work-in-progress informs updates on design recommendations.",
       "authors": [
         {
-          "institutions": [
-            "The Hong Kong Polytechnic University"
-          ],
+          "institutions": ["The Hong Kong Polytechnic University"],
           "personId": 25454
         }
       ]
@@ -2000,15 +1701,11 @@
       "abstract": "Science-Fiction (Sci-Fi) movies have long been a frontier in showcasing futuristic computer interfaces and their associated interactions. Unconstrained by technological limitations, they are free to depict the most imaginative systems, including augmenting objects attributes that are not yet possible in reality. We present a case study on Sci-Fi movies where tangible objects are part of these systems, and examine how they illustrate Tangible User Interfaces (TUIs) concepts. We provide three examples of tangible systems and one that deviates considerably (holographic system), and analyze them using a well-established interaction model (MCRpd). We found that TUIs in movies exhibit various levels of the model’s characteristics and demonstrate an inclusive and diverse context through combining interaction modalities and catering to audience needs. We argue that these aspects provide valuable lessons and implications in designing future TUIs and hope to broaden the design space by initiating discussions on the fascinating worlds in Sci-Fi movies.",
       "authors": [
         {
-          "institutions": [
-            "Simon Fraser University"
-          ],
+          "institutions": ["Simon Fraser University"],
           "personId": 25187
         },
         {
-          "institutions": [
-            "SminonSimon Fraser University"
-          ],
+          "institutions": ["SminonSimon Fraser University"],
           "personId": 25124
         }
       ]
@@ -2023,40 +1720,27 @@
       "abstract": "Museums aim at offering personalized visits to encourage visitors to visit more than once. Few approaches consider the specific skills of museum professionals when designing tools for this purpose. We conducted a three-step iterative and user-centered design process with 13 museum professionals from six museums. This analysis led us to a main finding: the most complicated task for museum professionals is to explore their design space, composed of all possible visitor profiles for which to create visits. We propose a visualization for this multidimensional design space and six potential interactions on this representation. In an exploration space, we classify them on two axes: the selection approach and the type of interface (GUI versus TUI). We analyze their benefits and limits and, based on a pilot study, we propose insights and questions for future design.",
       "authors": [
         {
-          "institutions": [
-            "Univ. Bordeaux",
-            "Berger-Levrault"
-          ],
+          "institutions": ["Univ. Bordeaux", "Berger-Levrault"],
           "personId": 25471
         },
         {
-          "institutions": [
-            "ESTIA INSTITUTE OF TECHNOLOGY"
-          ],
+          "institutions": ["ESTIA INSTITUTE OF TECHNOLOGY"],
           "personId": 25453
         },
         {
-          "institutions": [
-            "University Toulouse"
-          ],
+          "institutions": ["University Toulouse"],
           "personId": 25495
         },
         {
-          "institutions": [
-            "Berger-Levrault"
-          ],
+          "institutions": ["Berger-Levrault"],
           "personId": 25477
         },
         {
-          "institutions": [
-            "Berger-Levrault"
-          ],
+          "institutions": ["Berger-Levrault"],
           "personId": 25492
         },
         {
-          "institutions": [
-            "University Toulouse"
-          ],
+          "institutions": ["University Toulouse"],
           "personId": 25449
         }
       ]
@@ -2071,9 +1755,7 @@
       "abstract": "  This paper examines creating a temporary virtual relic through the creation of an interactive soundscape in the context of a religious pilgrimage known as the  Stations of The Cross.  The paper examines the history of the rite and its transformation from a physical pilgrimage to a virtual one. It examines the phenomenon of iconic relics, which in some case have a reckoned value equivalent to that of the physical objects they represent. Also, it examines both the conceptual and legal implications of embodying sound into tangible objects, resulting in their treatment as protected relics. Finally, it describes the creation of an artwork, whereby religious pilgrims manipulate interactive sonic balls that communicate with other networked sonic devices in an attempt to correlate metaphors of human behaviours---such as play, humiliation, and mobs---into a sonic relic of the historical narrative of Christ taunted by Roman soldiers.",
       "authors": [
         {
-          "institutions": [
-            "University of NSW"
-          ],
+          "institutions": ["University of NSW"],
           "personId": 25109
         }
       ]
@@ -2088,64 +1770,43 @@
       "abstract": "Museums compete with the entertainment industry to attract a large audience. One solution to make them more attractive is to personalize the visits according to visitors' preferences. Following a user centered design approach with visitors and museum professionals, we designed and implemented Build Your Own Hercules. This tangible prototype helps groups of visitors or individuals choose a visit based on their characteristics and desires. A pilot study in the museum provided first insights about the ease of use, satisfaction and interest within visitor groups.",
       "authors": [
         {
-          "institutions": [
-            "Univ. Bordeaux",
-            "Berger-Levrault"
-          ],
+          "institutions": ["Univ. Bordeaux", "Berger-Levrault"],
           "personId": 25471
         },
         {
-          "institutions": [
-            "University Toulouse"
-          ],
+          "institutions": ["University Toulouse"],
           "personId": 25495
         },
         {
-          "institutions": [
-            "University Toulouse"
-          ],
+          "institutions": ["University Toulouse"],
           "personId": 25488
         },
         {
-          "institutions": [
-            "University Toulouse"
-          ],
+          "institutions": ["University Toulouse"],
           "personId": 25437
         },
         {
-          "institutions": [
-            "University Toulouse"
-          ],
+          "institutions": ["University Toulouse"],
           "personId": 25458
         },
         {
-          "institutions": [
-            "University Toulouse"
-          ],
+          "institutions": ["University Toulouse"],
           "personId": 25472
         },
         {
-          "institutions": [
-            "Berger-Levrault"
-          ],
+          "institutions": ["Berger-Levrault"],
           "personId": 25477
         },
         {
-          "institutions": [
-            "Berger-Levrault"
-          ],
+          "institutions": ["Berger-Levrault"],
           "personId": 25498
         },
         {
-          "institutions": [
-            "ESTIA INSTITUTE OF TECHNOLOGY"
-          ],
+          "institutions": ["ESTIA INSTITUTE OF TECHNOLOGY"],
           "personId": 25453
         },
         {
-          "institutions": [
-            "University Toulouse"
-          ],
+          "institutions": ["University Toulouse"],
           "personId": 25449
         }
       ]
@@ -2160,33 +1821,23 @@
       "abstract": "Inspired by somatic methodologies and neurophysiology, Haplós is a low-cost, wearable technology that applies vibrotactile patterns to the skin, can be incorporated in existing clothing and implements, and can be programmed and activated remotely. We review existing vibrotactile technologies and known uses of vibrotactile stimuli; describe the hardware, textile, and software components of Haplós; describe results from a quasi-experimental workshop to evaluate Haplós; and discuss future research and development directions.",
       "authors": [
         {
-          "institutions": [
-            "University of the Philippines Open University"
-          ],
+          "institutions": ["University of the Philippines Open University"],
           "personId": 25444
         },
         {
-          "institutions": [
-            "University of Plymouth"
-          ],
+          "institutions": ["University of Plymouth"],
           "personId": 25500
         },
         {
-          "institutions": [
-            "University of Plymouth"
-          ],
+          "institutions": ["University of Plymouth"],
           "personId": 25448
         },
         {
-          "institutions": [
-            "University of Plymouth"
-          ],
+          "institutions": ["University of Plymouth"],
           "personId": 25465
         },
         {
-          "institutions": [
-            "Wotelsat UK"
-          ],
+          "institutions": ["Wotelsat UK"],
           "personId": 25473
         }
       ]
@@ -2201,34 +1852,23 @@
       "abstract": "ExpandFab is a fabrication method for creating expanding objects using foam materials. The printed objects change their shape and volume, which is advantageous for reducing the printing time and transportation costs.\r\n\r\nFor the fabrication of expanding objects, we investigated a basic principle of the expansion rate and developed materials by mixing a foam powder and elastic adhesive. \r\n\r\nFurthermore, we developed a fabrication method using the foam materials. A user can design expanded objects using our design software and sets the expansion areas on the surface. The software simulates and exports the 3d model into a three-dimensional (3D) printer. The 3D printer prints the expandable object by curing with ultraviolet light. Finally, the user heats the printed objects, and the objects expand to maximum approximately 2.7 times of their original size.\r\n\r\nExpandFab allows users to prototype products that expand and morph into various shapes, such as objects changing from one shape to various shapes, and functional prototype with electronic components. In this paper, we describe the basic principle of this technique, implementation of the software and hardware, application examples, limitations and discussions, and future works.",
       "authors": [
         {
-          "institutions": [
-            "Shonan-Fujisawa"
-          ],
+          "institutions": ["Shonan-Fujisawa"],
           "personId": 25134
         },
         {
-          "institutions": [
-            "The University of Tokyo"
-          ],
+          "institutions": ["The University of Tokyo"],
           "personId": 25157
         },
         {
-          "institutions": [
-            "the University of Tokyo",
-            "Keio University"
-          ],
+          "institutions": ["the University of Tokyo", "Keio University"],
           "personId": 25158
         },
         {
-          "institutions": [
-            "The university of Tokyo"
-          ],
+          "institutions": ["The university of Tokyo"],
           "personId": 25165
         },
         {
-          "institutions": [
-            "The University of Tokyo"
-          ],
+          "institutions": ["The University of Tokyo"],
           "personId": 25237
         }
       ]
@@ -2243,76 +1883,51 @@
       "abstract": "The global population is ageing, leading to shifts in healthcare needs. Home healthcare monitoring systems currently focus on physical health, but there is an increasing recognition that psychological wellbeing also needs support. This raises the question of how to design devices that older adults can interact with to log their feelings. We designed three tangible prototypes, based on existing paper-based scales of affect. We report findings from a lab study in which participants used the prototypes to log the emotion from standardised emotional vignettes. We found that the prototypes allowed participants to accurately record identified emotions in a reasonable time. Our participants expressed a perceived need to record emotions, either to share with family/carers or for self-reflection. We conclude that our work demonstrates the potential for in-home tangible devices for recording the emotions of older adults to support wellbeing.\r\n",
       "authors": [
         {
-          "institutions": [
-            "The Open University"
-          ],
+          "institutions": ["The Open University"],
           "personId": 25220
         },
         {
-          "institutions": [
-            "The Open University"
-          ],
+          "institutions": ["The Open University"],
           "personId": 25121
         },
         {
-          "institutions": [
-            "The Open University"
-          ],
+          "institutions": ["The Open University"],
           "personId": 25217
         },
         {
-          "institutions": [
-            "The Open University"
-          ],
+          "institutions": ["The Open University"],
           "personId": 25201
         },
         {
-          "institutions": [
-            "The Open University"
-          ],
+          "institutions": ["The Open University"],
           "personId": 25152
         },
         {
-          "institutions": [
-            "The Open University"
-          ],
+          "institutions": ["The Open University"],
           "personId": 25150
         },
         {
-          "institutions": [
-            "The Open University"
-          ],
+          "institutions": ["The Open University"],
           "personId": 25100
         },
         {
-          "institutions": [
-            "University of Exeter"
-          ],
+          "institutions": ["University of Exeter"],
           "personId": 25135
         },
         {
-          "institutions": [
-            "University of Exeter"
-          ],
+          "institutions": ["University of Exeter"],
           "personId": 25101
         },
         {
-          "institutions": [
-            "University of Exeter"
-          ],
+          "institutions": ["University of Exeter"],
           "personId": 25141
         },
         {
-          "institutions": [
-            "Age UK"
-          ],
+          "institutions": ["Age UK"],
           "personId": 25188
         },
         {
-          "institutions": [
-            "The Open University",
-            "University of Limerick"
-          ],
+          "institutions": ["The Open University", "University of Limerick"],
           "personId": 25177
         }
       ]
@@ -2327,15 +1942,11 @@
       "abstract": "In this paper, we propose a method to predict impulsive input on a gamepad. We use a force-sensitive resistor to observe pressure on the gamepad button, and prediction is achieved by simple filtering processes. To evaluate our method, we conducted a user study in which users were encouraged to make impulsive inputs. The results showed that the system predicted an ON event of the button 30.82 ms in advance on average and an OFF event 29.30 ms in advance. Prediction accuracy was 97.87% for predicting ON events and 81.74% for predicting OFF events.",
       "authors": [
         {
-          "institutions": [
-            "Keio University"
-          ],
+          "institutions": ["Keio University"],
           "personId": 25482
         },
         {
-          "institutions": [
-            "Keio University"
-          ],
+          "institutions": ["Keio University"],
           "personId": 25442
         }
       ]
@@ -2350,27 +1961,19 @@
       "abstract": "Children with cerebral palsy (CP) need to go through intensive rehabilitation exercises to develop and enhance their fine motor control in daily living. However, most of them can hardly persist the regular repetitive exercise session using traditional tools. To provide a playful and attractive rehabilitation environment, toys are introduced to motivate children for exercises. This study aims to develop diverse toy modules and combine with basic blocks from LEGO to support various hand and arm functional training.  The joyful color, cartoon animals, visual and audio feedbacks are proposed to increase the modules’ attractiveness. Their interchangeable handles and knobs can support different levels of exercises, which improve the toy modules’ accessibility for children with CP. Preliminary user testing in the hospital suggests that toys are warmly welcomed, easy to manipulate and play. ",
       "authors": [
         {
-          "institutions": [
-            "Xi'an Jiao Tong Liverpoor University"
-          ],
+          "institutions": ["Xi'an Jiao Tong Liverpoor University"],
           "personId": 25447
         },
         {
-          "institutions": [
-            "Xi'an Jiaotong Liverpool University"
-          ],
+          "institutions": ["Xi'an Jiaotong Liverpool University"],
           "personId": 25435
         },
         {
-          "institutions": [
-            "Xi'an Jiaotong-Liverpool University"
-          ],
+          "institutions": ["Xi'an Jiaotong-Liverpool University"],
           "personId": 25466
         },
         {
-          "institutions": [
-            "Xi'an Jiaotong-Liverpool University"
-          ],
+          "institutions": ["Xi'an Jiaotong-Liverpool University"],
           "personId": 25483
         }
       ]
@@ -2385,39 +1988,27 @@
       "abstract": "Large-scale shape-changing interfaces have great potential, but creating such systems requires substantial time, cost, space, and efforts, which hinders the research community to explore interactions beyond the scale of human hands. We introduce modular inflatable actuators as building blocks for prototyping room-scale shape-changing interfaces.  Each actuator can change its height from 15cm to 150cm, actuated and controlled by air pressure. Each unit is low-cost (8 USD), lightweight (10 kg), compact (15 cm), and robust, making it well-suited for prototyping room-scale shape transformations. Moreover, our modular and reconfigurable design allows researchers and designers to quickly construct different geometries and to explore various applications. This paper contributes to the design and implementation of highly extendable inflatable actuators, and demonstrates a range of scenarios that can leverage this modular building block.\r\n",
       "authors": [
         {
-          "institutions": [
-            "University of Colorado Boulder"
-          ],
+          "institutions": ["University of Colorado Boulder"],
           "personId": 25232
         },
         {
-          "institutions": [
-            "Keio University"
-          ],
+          "institutions": ["Keio University"],
           "personId": 25224
         },
         {
-          "institutions": [
-            "University of Colorado Boulder"
-          ],
+          "institutions": ["University of Colorado Boulder"],
           "personId": 25228
         },
         {
-          "institutions": [
-            "The University of Tokyo"
-          ],
+          "institutions": ["The University of Tokyo"],
           "personId": 25237
         },
         {
-          "institutions": [
-            "University of Colorado Boulder"
-          ],
+          "institutions": ["University of Colorado Boulder"],
           "personId": 25175
         },
         {
-          "institutions": [
-            "University of Colorado, Boulder"
-          ],
+          "institutions": ["University of Colorado, Boulder"],
           "personId": 25145
         }
       ]
@@ -2432,33 +2023,23 @@
       "abstract": "We propose a novel fabrication method for 3D objects based on the principle of spooling. By wrapping off-the-shelf materials such as thread, ribbon, tape or wire onto a core structure, new objects can be created and existing objects can be augmented with desired aesthetic and functional qualities. Our system, WraPr, enables gesture-based modelling and controlled thread deposition. We outline and explore the design space for this approach. Various examples are fabricated to demonstrate the possibility to attain a range of physical and functional properties. The simplicity of the proposed method opens the grounds for a light-weight fabrication approach for the generation of new structures and the customization of existing objects using soft materials.",
       "authors": [
         {
-          "institutions": [
-            "MIT"
-          ],
+          "institutions": ["MIT"],
           "personId": 25170
         },
         {
-          "institutions": [
-            "Massachusetts Institute of Technology"
-          ],
+          "institutions": ["Massachusetts Institute of Technology"],
           "personId": 25439
         },
         {
-          "institutions": [
-            "Tokyo Institute of Technology"
-          ],
+          "institutions": ["Tokyo Institute of Technology"],
           "personId": 25210
         },
         {
-          "institutions": [
-            "MIT Media Lab"
-          ],
+          "institutions": ["MIT Media Lab"],
           "personId": 25130
         },
         {
-          "institutions": [
-            "MIT"
-          ],
+          "institutions": ["MIT"],
           "personId": 25104
         }
       ]
@@ -2473,27 +2054,19 @@
       "abstract": "We present the iterative design and final implementation of a realtime full-body control system of the sound score by performers in an immersive contemporary dance performance. Digital musical instruments for dance require different considerations than for music, particularly in contemporary, non-proscenium and participatory audience contexts. Arising from dramaturgical research around social movement and civic participation in the digital age, this case study presents a fusion of design choices that consider artistic themes, performer interaction and audience experience. Three generations of sound and technical design are presented, with intermittent performances, challenges and learnings at each stage. We believe that the collaborative evolution of compositional choices, computer vision techniques, sound mapping, performer interaction and staging reveals important insights into developing interaction systems for kinesthetic empathy. Rather than placing the focus on human-computer interaction, our final production employed technology as a bridge to encourage human-human interaction around themes of occupation, resistance and resilience.",
       "authors": [
         {
-          "institutions": [
-            "University of Illinois at Urbana-Champaign"
-          ],
+          "institutions": ["University of Illinois at Urbana-Champaign"],
           "personId": 25189
         },
         {
-          "institutions": [
-            "Rush University Medical Center"
-          ],
+          "institutions": ["Rush University Medical Center"],
           "personId": 25229
         },
         {
-          "institutions": [
-            "Northbrook Public Library"
-          ],
+          "institutions": ["Northbrook Public Library"],
           "personId": 25202
         },
         {
-          "institutions": [
-            "School of the Art Institute of Chicago"
-          ],
+          "institutions": ["School of the Art Institute of Chicago"],
           "personId": 25162
         }
       ]
@@ -2508,33 +2081,23 @@
       "abstract": "Rituals are ubiquitous but not commonplace, help people to make sense of their life, and cultivate personal or social meaning. Although secularization and digitalization impact the occurrence of formal rituals, the need for marking life’s transitions remains unchanged. New rituals emerge, such as marking relationship status by hanging love locks on bridges. Tangible technologies hold great potential for augmenting, changing, or enhancing ritual practices which often involve enactments and symbolic props. In this paper, we analyze individual stories of hanging love locks and derive six pointers for designing technology-mediated relationship transition rituals. We applied the pointers in the design of El Corazón, a tangible artifact for relationship transition rituals. The results of an evaluation with 20 sweethearts show that relationship rituals can be designed deliberately, that tangibles can shape ritual experiences and that technology-mediated rituals can provide people with new means of coping with relationship uncertainty.",
       "authors": [
         {
-          "institutions": [
-            "University of Würzburg"
-          ],
+          "institutions": ["University of Würzburg"],
           "personId": 25247
         },
         {
-          "institutions": [
-            "University of Siegen"
-          ],
+          "institutions": ["University of Siegen"],
           "personId": 25115
         },
         {
-          "institutions": [
-            "University of Siegen"
-          ],
+          "institutions": ["University of Siegen"],
           "personId": 25112
         },
         {
-          "institutions": [
-            "University of Würzburg"
-          ],
+          "institutions": ["University of Würzburg"],
           "personId": 25178
         },
         {
-          "institutions": [
-            "University of Würzburg"
-          ],
+          "institutions": ["University of Würzburg"],
           "personId": 25122
         }
       ]
@@ -2549,15 +2112,11 @@
       "abstract": "A haptic feedback mechanism is explored for personalized data interaction. Electrical muscle stimulation under the level of full contraction, in this paper described as electrical muscle signalling (EMS), is used for on-body and live data interactions as simplified cognitive processes for running purposes, such as data-assisted coaching, personalized feedback and injury prevention. In this research, we defined haptic electrical muscle signalling as feedback mechanism and the results concluded that (i.) muscle signalling under the level of contraction can be noticed in the form of pre-cramps, similar to a vibrating/contracting type of feedback on the skin, (ii.) feedback is able to trigger cognitive processes while running (iii.) and it does not negatively impact running performance or comfort. This is on-going research and future work is already in progress.",
       "authors": [
         {
-          "institutions": [
-            "Industrial Design"
-          ],
+          "institutions": ["Industrial Design"],
           "personId": 25436
         },
         {
-          "institutions": [
-            "Eindhoven University of Technology"
-          ],
+          "institutions": ["Eindhoven University of Technology"],
           "personId": 25446
         }
       ]
@@ -2572,15 +2131,11 @@
       "abstract": "The users in their 20s are curious about the feedback after sharing the music that they like, as much as the act of sharing itself. Moreover, they wish to share their musical taste with various people not only with their acquaintance, in everyday spaces and when on the move. \r\nIn this paper, we present an interactive music sharing service called Toning, that makes users express their musical taste and share music with people in the same space through the most common wearable device, bluetooth earbuds. Our design process started with user survey and interview, aiming to understand their opinion about proper way of expressing music preference, and define design guidelines. Based on this, early concept design was conducted.\r\n",
       "authors": [
         {
-          "institutions": [
-            "Hanyang Univ."
-          ],
+          "institutions": ["Hanyang Univ."],
           "personId": 25496
         },
         {
-          "institutions": [
-            "Hanyang Univ."
-          ],
+          "institutions": ["Hanyang Univ."],
           "personId": 25460
         }
       ]
@@ -2595,21 +2150,15 @@
       "abstract": "We present ForceStamps, fiducial markers for supporting rapid prototyping of physical control interfaces on pressure-sensitive touch surfaces. We investigate marker design options for supporting various physical controls, with focusing on creating dedicated footprints and maintaining the structural stability. ForceStamps can be persistently tracked on surfaces along with the force information and other attributes. Designers without knowledge of electronics can rapidly prototype physical controls by attaching mechanisms to ForceStamps, while manipulating the haptic feedback with buffer materials. The created control widgets can be spatially configured on the touch surface to make an interface layout. We showcase a variety of example controls created with ForceStamps. In addition, we report on our analysis of a two-day musical instrument design workshop to explore the affordances of ForceStamps for making novel instruments with diverse interaction designs.",
       "authors": [
         {
-          "institutions": [
-            "The University of Tokyo"
-          ],
+          "institutions": ["The University of Tokyo"],
           "personId": 25142
         },
         {
-          "institutions": [
-            "The University of Tokyo"
-          ],
+          "institutions": ["The University of Tokyo"],
           "personId": 25186
         },
         {
-          "institutions": [
-            "The University of Tokyo"
-          ],
+          "institutions": ["The University of Tokyo"],
           "personId": 25155
         }
       ]
@@ -2624,21 +2173,15 @@
       "abstract": "Smile is one of the representative emotional expressions which is observed frequently in daily life and essential for various non-verbal communications. People make spontaneous smiles and intentional ones. It is important to guess properly whether a person is making a smile spontaneously or intentionally to understand the meaning of smiles. In this study, we propose a smile classification system with smart eyewear that equips photo-reflective sensors and examines whether we can distinguish two types of smiles; spontaneous smiles caused by funny videos and posed smiles evoked by instructions. We extract geometric features: reflection intensity distribution of sensors and temporal features in a time axis. By applying for Support Vector Machine, we observed 94.6% as the mean accuracy among 12 participants when we used both geometric and temporal features with user-dependent training. The result suggested that we can distinguish between spontaneous and posed smile by the sensors embedded with the smart eyewear",
       "authors": [
         {
-          "institutions": [
-            "Keio university"
-          ],
+          "institutions": ["Keio university"],
           "personId": 25136
         },
         {
-          "institutions": [
-            "Keio University"
-          ],
+          "institutions": ["Keio University"],
           "personId": 25137
         },
         {
-          "institutions": [
-            "Keio University"
-          ],
+          "institutions": ["Keio University"],
           "personId": 25222
         }
       ]
@@ -2653,33 +2196,23 @@
       "abstract": "Many toys and kits have been developed to help cultivate computational thinking in young children in the past decade. However, a majority of these kits ask children to move a robot/character around a limited space, constraining what could otherwise be generative and creative learning experiences into pre-defined activities and challenges with uniform outcomes. How can we expand what children can program and how they can create code? In this work, we present CodeAttach, a learning kit designed to engage young children in computational thinking through physical play activities. CodeAttach consists of three parts: (1) an interactive hardware device, (2) a mobile application to program the device, and (3) supporting materials for different play activities. With CodeAttach, children can attach the device to the supporting materials or other everyday objects to create their own props for physical play. The device offers different inputs and outputs and supports children to change the rules of existing physical activities or create new activities by programming this device. We outline the principles guiding the design of CodeAttach, its initial development process, and insights from early playtest with young kids and expert researchers.",
       "authors": [
         {
-          "institutions": [
-            "University of Colorado Boulder"
-          ],
+          "institutions": ["University of Colorado Boulder"],
           "personId": 25457
         },
         {
-          "institutions": [
-            "University of Colorado, Boulder"
-          ],
+          "institutions": ["University of Colorado, Boulder"],
           "personId": 25475
         },
         {
-          "institutions": [
-            "University of Colorado Boulder"
-          ],
+          "institutions": ["University of Colorado Boulder"],
           "personId": 25499
         },
         {
-          "institutions": [
-            "University of Colorado Boulder"
-          ],
+          "institutions": ["University of Colorado Boulder"],
           "personId": 25451
         },
         {
-          "institutions": [
-            "University of Colorado Boulder"
-          ],
+          "institutions": ["University of Colorado Boulder"],
           "personId": 25478
         }
       ]
@@ -2694,63 +2227,43 @@
       "abstract": "Bodily play systems are becoming increasingly prevalent, with research aiming to understand the associated player experience. We argue that a more nuanced lexicon describing “bodily play experience” can be beneficial to drive the field forward. We provide game designers with two German words to communicate two different aspects of experience: “Erfahrung”, referring to experience where one is actively engaged in and gains knowledge from; and “Erlebnis”, referring to a tacit experience often translated as “lived experience”. We use these words to articulate a suite of design strategies for bodily play experiences by referring to past design work. We conclude by discussing these two aspects of experience in conjunction with two previously established perspectives on the human body. We believe this more nuanced lexicon can provide a clearer understanding for designers about bodily play allowing them to guide players in gaining the many benefits from such experiences.",
       "authors": [
         {
-          "institutions": [
-            "RMIT University"
-          ],
+          "institutions": ["RMIT University"],
           "personId": 25221
         },
         {
-          "institutions": [
-            "RMIT University"
-          ],
+          "institutions": ["RMIT University"],
           "personId": 25098
         },
         {
-          "institutions": [
-            "RMIT University"
-          ],
+          "institutions": ["RMIT University"],
           "personId": 25151
         },
         {
-          "institutions": [
-            "RMIT University"
-          ],
+          "institutions": ["RMIT University"],
           "personId": 25204
         },
         {
-          "institutions": [
-            "RMIT University"
-          ],
+          "institutions": ["RMIT University"],
           "personId": 25133
         },
         {
-          "institutions": [
-            "RMIT University"
-          ],
+          "institutions": ["RMIT University"],
           "personId": 25164
         },
         {
-          "institutions": [
-            "RMIT University"
-          ],
+          "institutions": ["RMIT University"],
           "personId": 25225
         },
         {
-          "institutions": [
-            "RMIT University"
-          ],
+          "institutions": ["RMIT University"],
           "personId": 25211
         },
         {
-          "institutions": [
-            "RMIT University"
-          ],
+          "institutions": ["RMIT University"],
           "personId": 25197
         },
         {
-          "institutions": [
-            "RMIT"
-          ],
+          "institutions": ["RMIT"],
           "personId": 25118
         }
       ]
@@ -2765,21 +2278,15 @@
       "abstract": "Tangible embedded technology kits are increasingly being used in schools, often as a means of providing students a platform for problem solving and computational thinking. When they are incorporated in creative tasks such as open-ended design projects, embedded technologies take on the role of a design material – a medium for exploration, iteration and creation. This paper presents some early results of a video analysis of school children’s collaborative interactions with tangible, embedded technologies in an open-ended design task. We identify some of the difficulties students encounter and some of the practices they develop with these kits as they work to progress their designs. Our findings detail how children deal with the opacity of the system and how they use it as a springboard for imagination. Our study provides an opportunity to reflect on how technology kits currently resist becoming a design material.",
       "authors": [
         {
-          "institutions": [
-            "University of Queensland"
-          ],
+          "institutions": ["University of Queensland"],
           "personId": 25438
         },
         {
-          "institutions": [
-            "University of Queensland"
-          ],
+          "institutions": ["University of Queensland"],
           "personId": 25502
         },
         {
-          "institutions": [
-            "University of Queensland"
-          ],
+          "institutions": ["University of Queensland"],
           "personId": 25497
         }
       ]
@@ -2794,15 +2301,11 @@
       "abstract": "This work in progress explores tangible interaction in the context of scraping tools commonly used in physical Therapy. Physical therapy is a health profession which uses mechanical force or motion to improve a person's mobility and physical motion.  We began with an open-ended research through design process that resulted in a scraping tool that gives the \\pt\\ feedback on applied force using embedded pressure sensors and an ambient light display.  At the conference, we will display a prototype interactive scraping tool and several other design artifacts.  We invite participants to use the tool on a human calf simulant made from ballistics gel.  We hope our work-in-progress will encourage new work exploring tangible interaction and physical therapy.  ",
       "authors": [
         {
-          "institutions": [
-            "Brigham Young U."
-          ],
+          "institutions": ["Brigham Young U."],
           "personId": 25452
         },
         {
-          "institutions": [
-            "Brigham Young U."
-          ],
+          "institutions": ["Brigham Young U."],
           "personId": 25456
         },
         {
@@ -2829,15 +2332,11 @@
       "abstract": "Tangible User Interfaces (TUIs) can bridge real-world physical objects with the digital world, which is beneficial for children with ASD. However, at present, most TUIs have been developed for children in affluent countries. Hence, this paper presents the evaluation of a TUI designed to support children with ASD in a low-resource country. The main objective of this study is to explore the initial usability of the proposed prototype among children with ASD and identify potential improvements to enhance the usability of the intervention. The preliminary evaluations were conducted with 20 Sri Lankan children with ASD and their special education teachers. This study identified four lessons for designing TUI such as including audio prompts to enhance tangible interactions, designing the structure of the tangibles to avoid fingers touching the iPad, add appropriate helper cues in graphical interchange format, and avoid having multiple tangibles with similar properties. Findings of this study lead to several design guidelines for developing affordable TUIs for children with ASD.",
       "authors": [
         {
-          "institutions": [
-            "Swinburne University of Technology"
-          ],
+          "institutions": ["Swinburne University of Technology"],
           "personId": 25231
         },
         {
-          "institutions": [
-            "Swinburne University of Technology"
-          ],
+          "institutions": ["Swinburne University of Technology"],
           "personId": 25215
         }
       ]
@@ -2852,21 +2351,15 @@
       "abstract": "Interactive public interfaces are opportunities for designers to affect how people relate to one another. We believe that traditional ritual can inspire a novel approach to the design of digital experience in public space. Ritual has been shown to support social cohesion and we argue that it can be used as a design strategy to encourage the cultivation of qualities like compassion in public space. We created our own interactive artwork, Wish Happiness that was inspired by methods of compassion cultivation from Tibetan Mahayana Buddhism. Through a concept-driven design research approach, we outline the set of design strategies we employed to translate key principles of Buddhist ritual and practice into the secular setting of a festival. We observed that compassion-like qualities, a positive state of mind and a sense of social harmony, were produced through interaction with the system, providing encouragement for future research into ritual interaction for compassion cultivation.",
       "authors": [
         {
-          "institutions": [
-            "University of Sydney"
-          ],
+          "institutions": ["University of Sydney"],
           "personId": 25205
         },
         {
-          "institutions": [
-            "University of Sydney"
-          ],
+          "institutions": ["University of Sydney"],
           "personId": 25212
         },
         {
-          "institutions": [
-            "The University of Sydney"
-          ],
+          "institutions": ["The University of Sydney"],
           "personId": 25239
         }
       ]
@@ -2881,21 +2374,15 @@
       "abstract": "Somatic approaches to human computer interaction aim to gain sensitivity to the variable qualities in human movement. Recent research into kinaesthetic awareness via the use of interactive auditory feedback has been inspired by this sensitivity. Contrasting research into interactive auditory display for goal-oriented, cyclic and continuous movements have revealed key moments or phases as targets for the design of auditory feedback.  This paper presents an initial approach to the design of pressure mediated walking to sound synthesis as the Prefix/suffix extraction model that captures salient features in walking transforming the harmonic character of sound synthesis to reflect its variant and expressive qualities. This model has been implemented in prototype software and has shown to be successful in slowing walking movement and raising awareness in expression of walking through the auditory response it generates. This work in progress as a contribution to somatic and movement based interaction, where cycles or patterns in movement require contrast or magnification through the harmonic character of sound synthesis\r\n\r\n",
       "authors": [
         {
-          "institutions": [
-            "RMIT University"
-          ],
+          "institutions": ["RMIT University"],
           "personId": 25450
         },
         {
-          "institutions": [
-            "University of Sydney"
-          ],
+          "institutions": ["University of Sydney"],
           "personId": 25212
         },
         {
-          "institutions": [
-            "RMIT University"
-          ],
+          "institutions": ["RMIT University"],
           "personId": 25501
         }
       ]
@@ -2922,9 +2409,7 @@
           "personId": 25464
         },
         {
-          "institutions": [
-            "KAIST"
-          ],
+          "institutions": ["KAIST"],
           "personId": 25461
         }
       ]
@@ -2939,21 +2424,15 @@
       "abstract": "We present SoftMod, a novel modular electronics kit consisting of soft and flexible modules that snap together. Unlike existing modular kits, SoftMod tracks the topology of interconnected modules and supports basic plug-and-play behavior as well as advanced user-specified behavior. As such, the shape of a SoftMod assembly does not depend on the desired behavior and various 2D and 3Delectronic systems can be realized. While the plug-and-play nature of our modules stimulates play, the advanced features for specifying behavior and for making a variety of soft and flexible shapes, offer a high-ceiling when experimenting with novel types of interfaces,such as wearables, and interactive skin and textiles.",
       "authors": [
         {
-          "institutions": [
-            "Expertise Centre for Digital Media"
-          ],
+          "institutions": ["Expertise Centre for Digital Media"],
           "personId": 25208
         },
         {
-          "institutions": [
-            "Expertise Centre for Digital Media"
-          ],
+          "institutions": ["Expertise Centre for Digital Media"],
           "personId": 25241
         },
         {
-          "institutions": [
-            "Hasselt University"
-          ],
+          "institutions": ["Hasselt University"],
           "personId": 25214
         }
       ]
@@ -2968,39 +2447,27 @@
       "abstract": "Despite various safety regulations and procedures, work accidents remain a significant problem in the global process industry and the Swedish steel industry. To address personal safety and safety culture, wearable alert systems were prototyped and tested with steelworkers in iterative workshops. A resulting design concept, in the form of an interactive textile patch worn on the protective gear, suggests a simple way of transmitting personal alerts using light. A crucial design factor identified is to enable the communication between workers and peers as well as communicating with control room staff. The visual design can positively influence the acceptance of the patch, but its impact on the safety culture cannot yet be assessed. The present study contributes by approaching workplace safety and culture with a new design concept of IoT and e-textile technologies based on the interaction modalities of light, sound, and vibration.",
       "authors": [
         {
-          "institutions": [
-            "KTH Royal Institute of Technology"
-          ],
+          "institutions": ["KTH Royal Institute of Technology"],
           "personId": 25159
         },
         {
-          "institutions": [
-            "Innovation"
-          ],
+          "institutions": ["Innovation"],
           "personId": 25233
         },
         {
-          "institutions": [
-            "Boris Design Studio"
-          ],
+          "institutions": ["Boris Design Studio"],
           "personId": 25167
         },
         {
-          "institutions": [
-            "Sics västerås"
-          ],
+          "institutions": ["Sics västerås"],
           "personId": 25126
         },
         {
-          "institutions": [
-            "RISE Research Institutes of Sweden"
-          ],
+          "institutions": ["RISE Research Institutes of Sweden"],
           "personId": 25168
         },
         {
-          "institutions": [
-            "KTH Royal Institute of Technology"
-          ],
+          "institutions": ["KTH Royal Institute of Technology"],
           "personId": 25196
         }
       ]
@@ -3015,9 +2482,7 @@
       "abstract": "Students with visual impairment and blindness learn 3D shapes using physical models, which pose portability issues and high associated costs. Although tactile and kinesthetic feedback systems have been proposed for non-visual exploration of 3D virtual objects, such systems tend to suffer from similar shortcomings. In this research, we propose TMOVE, a low-cost handheld tactile feedback actuator to provide tactile, vibrotactile, and combined feedback for the exploration of virtual space. We conducted a preliminary study with 10 blindfolded sighted participants to compare the perceived 3D experience and the effectiveness of using the feedback modalities in the exploration of two coplanar virtual line segments. We found that all the feedback modalities are equally effective in the exploration of virtual space, and multimodal feedback offers an enhanced 3D perception of virtual objects. We believe the findings presented in this paper will be helpful for designers and researchers in developing low-cost tactile feedback systems.",
       "authors": [
         {
-          "institutions": [
-            "Indian Institute of Technology (IIT) Guwahati"
-          ],
+          "institutions": ["Indian Institute of Technology (IIT) Guwahati"],
           "personId": 25494
         },
         {
@@ -3028,9 +2493,7 @@
           "personId": 25440
         },
         {
-          "institutions": [
-            "Indian Institute of Technology (IIT) Guwahati"
-          ],
+          "institutions": ["Indian Institute of Technology (IIT) Guwahati"],
           "personId": 25469
         }
       ]
@@ -3045,27 +2508,19 @@
       "abstract": "Digital images appearing on displays in everyday activities (e.g., photos on a smartphone) are automatically and instantly rendered without manual intervention such that we can seamlessly appreciate them. In contrast, shape displays require manual designs of outputs upon actuation of input images to render 3D shapes. In this work, we aim to achieve automatic and on-the-spot actuation of digital images so that we can seamlessly see 3D physical images. To this end, we developed BulkScreen, an image projection system that can automatically render 3D shapes of input images on a vertical pin-array screen. Our approach is based on a deep-neural-network saliency estimation coupled with our post-processing algorithm. We believe this spontaneous actuation mechanism facilitates applications with shape displays such as real-time picture browsing and display advertisement, building on the benefit of representing physical shapes; tangibility.",
       "authors": [
         {
-          "institutions": [
-            "The University of Tokyo"
-          ],
+          "institutions": ["The University of Tokyo"],
           "personId": 25481
         },
         {
-          "institutions": [
-            "The university of Tokyo"
-          ],
+          "institutions": ["The university of Tokyo"],
           "personId": 25441
         },
         {
-          "institutions": [
-            "The University of Tokyo"
-          ],
+          "institutions": ["The University of Tokyo"],
           "personId": 25476
         },
         {
-          "institutions": [
-            "The University of Tokyo"
-          ],
+          "institutions": ["The University of Tokyo"],
           "personId": 25479
         }
       ]
@@ -3080,51 +2535,35 @@
       "abstract": "There is an increasing trend in utilizing interactive technology for bodily integrations, such as additional limbs and ingestibles. Prior work on bodily integrated systems mostly examined them from a productivity perspective. In this article, we suggest examining this trend also from an experiential, playful perspective, as we believe that these systems offer novel opportunities to engage the human body through play. Hence, we propose that there is an opportunity to design “bodily integrated play”. By relating to our own and other’s work, we present an initial set of design strategies for bodily integrated play, aiming to inform designers on how they can engage with such systems to facilitate playful experiences, so that ultimately, people will profit from bodily play’s many physical and mental wellbeing benefits even in a future where machine and human converge.",
       "authors": [
         {
-          "institutions": [
-            "RMIT University"
-          ],
+          "institutions": ["RMIT University"],
           "personId": 25221
         },
         {
-          "institutions": [
-            "RMIT University"
-          ],
+          "institutions": ["RMIT University"],
           "personId": 25197
         },
         {
-          "institutions": [
-            "RMIT University"
-          ],
+          "institutions": ["RMIT University"],
           "personId": 25102
         },
         {
-          "institutions": [
-            "RMIT"
-          ],
+          "institutions": ["RMIT"],
           "personId": 25118
         },
         {
-          "institutions": [
-            "RMIT University"
-          ],
+          "institutions": ["RMIT University"],
           "personId": 25185
         },
         {
-          "institutions": [
-            "RMIT University"
-          ],
+          "institutions": ["RMIT University"],
           "personId": 25098
         },
         {
-          "institutions": [
-            "RMIT University"
-          ],
+          "institutions": ["RMIT University"],
           "personId": 25204
         },
         {
-          "institutions": [
-            "Exertion Games Lab RMIT"
-          ],
+          "institutions": ["Exertion Games Lab RMIT"],
           "personId": 25164
         }
       ]
@@ -3139,15 +2578,11 @@
       "abstract": "Self-Interfaces are interfaces that intuitively communicate relevant unconscious physiological signals through biofeedback to give the user insight into their behavior and assist them in creating behavior change. The human heartbeat is a good example of an intuitive and relevant haptic biofeedback; does not distract and is only felt when the heart beats fast. In this work, we discuss the design and development of a wearable haptic Self-Interface for Electrodermal Activity (EDA). EDA is a covert physiological signal correlated with high and low arousal affective states. We will evaluate the effectiveness of the EDA Self-Interface based on its intuitiveness, its ability to generate useful insight, whether this insight leads to behavior change, and whether the user can develop an intuitive awareness of their EDA over time when the device is removed. We hope the findings from this study will help us establish guidelines for development of other Self-Interfaces in the future.",
       "authors": [
         {
-          "institutions": [
-            "MIT"
-          ],
+          "institutions": ["MIT"],
           "personId": 25445
         },
         {
-          "institutions": [
-            "MIT"
-          ],
+          "institutions": ["MIT"],
           "personId": 25462
         }
       ]
@@ -3162,27 +2597,19 @@
       "abstract": "In this paper, we present AromaCue, an initial design for a scent-based toolkit to cope with stressful situations using scent conditioning. The AromaCue toolkit consists of two parts: a breath training device using multiple stimuli and a wearable scent-emitting device (with a stress ball as an activator). Scent can trigger emotional memories. In the initial design, we utilized the properties of various scents as retrieval cues for consciousness breathing. In a comparative experiment using or design, eight participants showed a significant heart rate decrease several minutes after a stressor(Stroop test) when a scent cue was present, but not without it. One week of user study revealed significant improvement on Depression Anxiety and Stress Scale (DASS-21) scores. AromaCue can help users to cope with stress.\r\n",
       "authors": [
         {
-          "institutions": [
-            "Keio University Graduate School of Media Design"
-          ],
+          "institutions": ["Keio University Graduate School of Media Design"],
           "personId": 25107
         },
         {
-          "institutions": [
-            "Keio University Graduate School of Media Design"
-          ],
+          "institutions": ["Keio University Graduate School of Media Design"],
           "personId": 25169
         },
         {
-          "institutions": [
-            "Keio University Graduate School of Media Design"
-          ],
+          "institutions": ["Keio University Graduate School of Media Design"],
           "personId": 25114
         },
         {
-          "institutions": [
-            "Keio University Graduate School of Media Design"
-          ],
+          "institutions": ["Keio University Graduate School of Media Design"],
           "personId": 25176
         }
       ]
@@ -3197,57 +2624,39 @@
       "abstract": "We present Self-powered Paper INterfaces (SPIN) combining folding paper creases with triboelectric nanogenerator (TENG). Embedding TENG into paper creases, we developed a design editor and set of fabrication techniques to create paper-based interfaces that power sensors and actuators. Our SPIN design editor enables users to design their own crease pattern by changing parameters, embed power generating modules into the design, estimate total power generation, and export the files. Then following the fabrication instructions, users can cut and crease materials, and assemble them to build their own interfaces. We employ repetitive push-and-pull based embodied interactions with the mechanism of paper creases and demonstrate four application examples that show new expressive possibilities applying different scales of embodied interactions.",
       "authors": [
         {
-          "institutions": [
-            "Georgia Tech"
-          ],
+          "institutions": ["Georgia Tech"],
           "personId": 25156
         },
         {
-          "institutions": [
-            "Georgia Institute of Technology"
-          ],
+          "institutions": ["Georgia Institute of Technology"],
           "personId": 25216
         },
         {
-          "institutions": [
-            "Georgia Institute of Technology"
-          ],
+          "institutions": ["Georgia Institute of Technology"],
           "personId": 25246
         },
         {
-          "institutions": [
-            "Georgia Institute of Technology"
-          ],
+          "institutions": ["Georgia Institute of Technology"],
           "personId": 25209
         },
         {
-          "institutions": [
-            "Georgia Institute of Technology"
-          ],
+          "institutions": ["Georgia Institute of Technology"],
           "personId": 25146
         },
         {
-          "institutions": [
-            "Human Computer Interaction Institute"
-          ],
+          "institutions": ["Human Computer Interaction Institute"],
           "personId": 25181
         },
         {
-          "institutions": [
-            "Georgia Institute of Technology"
-          ],
+          "institutions": ["Georgia Institute of Technology"],
           "personId": 25106
         },
         {
-          "institutions": [
-            "Georgia Institute of Technology"
-          ],
+          "institutions": ["Georgia Institute of Technology"],
           "personId": 25203
         },
         {
-          "institutions": [
-            "Georgia Institute of Technology"
-          ],
+          "institutions": ["Georgia Institute of Technology"],
           "personId": 25103
         }
       ]
@@ -3262,15 +2671,11 @@
       "abstract": "We present a novel DIY fabrication workflow for prototypinghighly flexible circuit boards using a laser cutter. As our cir-cuits consist of Kapton and copper, they are highly conduc-tive and thus support high-frequency signals, such as I2C.Key to our approach is a laser machine that supports botha CO2 laser as well as a fiber laser to precisely process re-spectively Kapton and copper. We also show how the lasercutter can cure soldering paste to realize VIAs and soldercomponents. In contrast, previous approaches for proto-typing flexible PCBs through laser cutting only consideredCO2 lasers which can not process metals. Therefore theseapproaches mainly used ink-based conductors that have asignificantly higher electrical resistance than copper.",
       "authors": [
         {
-          "institutions": [
-            "Expertise Center for Digital Media"
-          ],
+          "institutions": ["Expertise Center for Digital Media"],
           "personId": 25493
         },
         {
-          "institutions": [
-            "Expertise Centre for Digital Media"
-          ],
+          "institutions": ["Expertise Centre for Digital Media"],
           "personId": 25241
         },
         {
@@ -3297,33 +2702,23 @@
       "abstract": "In this research, we present a cushion interface for operating smart home applications. We developed a gesture recognition system using convolutional neural networks and embedded the acceleration sensor arrays in the cushion cover. To evaluate the system, we conducted experiments and measured recognition accuracy.",
       "authors": [
         {
-          "institutions": [
-            "Keio Univercity"
-          ],
+          "institutions": ["Keio Univercity"],
           "personId": 25467
         },
         {
-          "institutions": [
-            "Keio Univercity"
-          ],
+          "institutions": ["Keio Univercity"],
           "personId": 25490
         },
         {
-          "institutions": [
-            "Keio University"
-          ],
+          "institutions": ["Keio University"],
           "personId": 25487
         },
         {
-          "institutions": [
-            "Hokkaido University"
-          ],
+          "institutions": ["Hokkaido University"],
           "personId": 25455
         },
         {
-          "institutions": [
-            "Keio University"
-          ],
+          "institutions": ["Keio University"],
           "personId": 25442
         }
       ]
@@ -3338,27 +2733,19 @@
       "abstract": "Mid-air arm movements are important for various activities. However, common resources for their self-directed practice require practitioners to divide their focus between an external source (e.g., a video screen) and moving. Past research found benefits for egocentric guidance visualizations compared to common resources. However, there is limited evidence about how such visualizations should look and behave. EGuide supports the investigation of different egocentric visualizations for the guidance of mid-air arm movements. We compared two visual appearances for egocentric guidance visualizations that differ in their shape (look), and three guidance techniques that differ by how they guide a user (behavior). For visualizations with a continuously moving guidance technique, our results suggest a higher movement accuracy for a realistic than an abstract shape. For user experience and preference, our results suggest that visualizations with an abstract shape and a guidance technique that visualizes important postures should not pause at important postures.",
       "authors": [
         {
-          "institutions": [
-            "University of Konstanz"
-          ],
+          "institutions": ["University of Konstanz"],
           "personId": 25240
         },
         {
-          "institutions": [
-            "University of Konstanz"
-          ],
+          "institutions": ["University of Konstanz"],
           "personId": 25198
         },
         {
-          "institutions": [
-            "University of Konstanz"
-          ],
+          "institutions": ["University of Konstanz"],
           "personId": 25123
         },
         {
-          "institutions": [
-            "University of Konstanz"
-          ],
+          "institutions": ["University of Konstanz"],
           "personId": 25154
         }
       ]
@@ -3387,9 +2774,7 @@
           "personId": 25120
         },
         {
-          "institutions": [
-            "Eindhoven University of Technology"
-          ],
+          "institutions": ["Eindhoven University of Technology"],
           "personId": 25129
         }
       ]
@@ -3404,39 +2789,27 @@
       "abstract": "Urushi (Japanese lacquer) is a natural resin paint with electrical insulating capability. We focused on Japanese patterns on an urushi-ware that is a product coated urushi. To make urushi-wares interactive without losing elegance and beauty, we transformed Japanese patterns into near-field communication (NFC) antenna patterns. We developed three types of prototype antennas and confirmed their functionality. In addition, we developed an IC key tag and an interactive lunch box as example applications of interactive urushi-wares.",
       "authors": [
         {
-          "institutions": [
-            "University of Tsukuba"
-          ],
+          "institutions": ["University of Tsukuba"],
           "personId": 25144
         },
         {
-          "institutions": [
-            "University of Tsukuba"
-          ],
+          "institutions": ["University of Tsukuba"],
           "personId": 25242
         },
         {
-          "institutions": [
-            "University of Tsukuba"
-          ],
+          "institutions": ["University of Tsukuba"],
           "personId": 25236
         },
         {
-          "institutions": [
-            "University of Tsukuba"
-          ],
+          "institutions": ["University of Tsukuba"],
           "personId": 25243
         },
         {
-          "institutions": [
-            "University of Tsukuba"
-          ],
+          "institutions": ["University of Tsukuba"],
           "personId": 25160
         },
         {
-          "institutions": [
-            "University of Tsukuba"
-          ],
+          "institutions": ["University of Tsukuba"],
           "personId": 25182
         }
       ]
@@ -3451,15 +2824,11 @@
       "abstract": "Previous work in 3D printing of hand orthotic devices has shown that patients prefer a 3D-printed design over traditional orthotic splints. Despite the possibility to incorporate self-expression when designing for 3D printing, further customization post-printing is not possible. This creates a design iteration process that may require multiple 3D-printed customized orthosis to obtain the final product. Shape memory polymers (SMPs) are unique materials for design due to their “origami” nature; that is, their ability to bend when heated. This paper looks at how to harness this ability to create what we propose as Orthorigami: orthotics made using folding techniques. Specifically, the paper explores how to design an aesthetically pleasing, lightweight, simple, easily adjustable, personally customizable Orthorigami device. This paper presents three design cases using Orthorigami. These cases are used as a means to explore the design process of Orthorigami and see if the process provides an improvement on design iteration over its 3D-printed counterparts. The outcome of case studies is used to propose a process that the end-user may use to create a tailored Orthorigami device in a DIY setting.",
       "authors": [
         {
-          "institutions": [
-            "Texas A&M University"
-          ],
+          "institutions": ["Texas A&M University"],
           "personId": 25173
         },
         {
-          "institutions": [
-            "Texas A&M University"
-          ],
+          "institutions": ["Texas A&M University"],
           "personId": 25132
         }
       ]
@@ -3474,27 +2843,19 @@
       "abstract": "This paper introduces TRANS-DOCK, a docking system for pin-based shape displays that enhances their interaction capabilities for both the output and input. By simply interchanging the transducer module, composed of passive mechanical structures, to be docked on a shape display, users can selectively switch between different configurations including display sizes, resolutions, and even motion modalities to allow pins moving in a linear motion to rotate, bend and inflate. We introduce a design space consisting of several mechanical elements and enabled interaction capabilities. We then explain the implementation of the docking system and transducer design components. Our implementation includes providing the limitations and characteristics of each motion transmission method as design guidelines. A number of transducer examples are then shown to demonstrate the range of interactivity and application space achieved with the approach of TRANS-DOCK. Potential use cases to take advantage of the interchangeability of our approach are discussed. Through this paper we intend to expand expressibility, adaptability and customizability of a single shape display for dynamic physical interaction. By converting arrays of linear motion to several types of dynamic motion in an adaptable and flexible manner, we advance shape displays to enable versatile embodied interactions.\r\n",
       "authors": [
         {
-          "institutions": [
-            "MIT Media Lab"
-          ],
+          "institutions": ["MIT Media Lab"],
           "personId": 25130
         },
         {
-          "institutions": [
-            "MIT Media Lab"
-          ],
+          "institutions": ["MIT Media Lab"],
           "personId": 25219
         },
         {
-          "institutions": [
-            "Massachusetts Institute of Technology"
-          ],
+          "institutions": ["Massachusetts Institute of Technology"],
           "personId": 25218
         },
         {
-          "institutions": [
-            "MIT"
-          ],
+          "institutions": ["MIT"],
           "personId": 25104
         }
       ]
@@ -3509,9 +2870,7 @@
       "abstract": "Wearable technology is a broad discourse that has evolved over decades, growing into an industry today that represents billions of dollars in product revenue, but stagnating as products become driven by technological developments rather than human needs. However, numerous isolated developments of a new class of wearables are emerging, being both aware of their environment and function, and able to physically adapt to user needs. Examined through this paper collectively, this new class of wearables are described as awareables, representing a shift in technology towards more life-like products. The context of this shift is broadly analyzed alongside similar shifts within the fields of architecture (responsive architecture), additive manufacturing (4D printing) and robotics (evolutionary robotics). The intent of this paper is to encourage new discourse and practical work, calling for researchers and product designers to think beyond gizmos, and instead consider more natural interactions between people and products inspired by nature.",
       "authors": [
         {
-          "institutions": [
-            "Deakin University"
-          ],
+          "institutions": ["Deakin University"],
           "personId": 25172
         }
       ]
@@ -3526,15 +2885,11 @@
       "abstract": "Materials play an influential role in determining the way people interact with and experience objects. This impact is particularly important to TUI designers, as the artefacts they design often afford grasping and physical manipulation. As the ACM Conference on Tangible, Embedded and Embodied Interaction moves through its second decade, we sought to survey past proceedings to present a picture of the material choices for TUI design. In this paper we present an exhaustive survey of these proceedings and discuss insights revealed on TUI material trends. Our findings include highlighting the most popular materials choices, as well as the high percentage of materials that have only been used once throughout the years. Furthermore, we make recommendations on the future use of, and reporting on materials choice for TUI design and point toward future work that is needed to fully map the material landscape of TUIs.",
       "authors": [
         {
-          "institutions": [
-            "Cork Institute of Technology"
-          ],
+          "institutions": ["Cork Institute of Technology"],
           "personId": 25179
         },
         {
-          "institutions": [
-            "Cork Institute of Technology"
-          ],
+          "institutions": ["Cork Institute of Technology"],
           "personId": 25223
         }
       ]
@@ -3549,21 +2904,15 @@
       "abstract": "We present NURBSforms: a modular shape-changing interface for prototyping curved surfaces. Each NURBSform module represents an edge of variable curvature that, when joined together with other modules, enables designers to construct surfaces where curvature can be adjusted interactively. NURBSform modules vary their curvature using active and passive shape memory materials: an embedded shape memory alloy (SMA) wire increases the curvature when heated, while an elastic material recovers the flat shape when the SMA wire cools down. A hall effect sensor on each module allows users to vary the curvature by adjusting the distance of their hand. In addition, NURBSforms provides functions across multiple modules, such as `save', `reset', and `load', to facilitate design exploration. Since each module is self-contained and individually controllable, NURBSform modules scale well and can be connected into large networks of curves representing various geometries. By giving examples of different NURBSforms assemblies, we demonstrate how the modularity of NURBSforms, together with its integrated computational support, enables designers to quickly explore different versions of a shape in a single integrated design process.",
       "authors": [
         {
-          "institutions": [
-            "MIT CSAIL"
-          ],
+          "institutions": ["MIT CSAIL"],
           "personId": 25166
         },
         {
-          "institutions": [
-            "MIT CSAIL"
-          ],
+          "institutions": ["MIT CSAIL"],
           "personId": 25180
         },
         {
-          "institutions": [
-            "MIT CSAIL"
-          ],
+          "institutions": ["MIT CSAIL"],
           "personId": 25116
         }
       ]
@@ -3592,21 +2941,15 @@
       "abstract": "Currently, (invisible) smart speech assistants, such as Siri, Alexa, and Cortana, are used by a constantly growing number of people. Moreover, Augmented Reality (AR) glasses are predicted to become widespread consumer devices in the future. Hence, smart assistants can easily become common applications of AR glasses, which allows for giving the assistant a visual representation as an embodied agent. While previous research on embodied agents found a user preference for a humanoid appearance, research on the uncanny valley suggests that simply designed humanoids can be favored over hyper-realistic humanoid characters. In a user study, we compared agents of simple versus more realistic appearance (seen through AR glasses) versus an invisible state-of-the-art speech assistants (see Figure 1). Our results indicate that a more realistic visualization is preferred as it provides additional communication cues, such as eye contact and gaze, which seem to be key features when talking to a smart assistant. But if the situation requires visual attention, e.g., when being mobile or in a multitask situation, an invisible agent can be more appropriate as they do not distract the visual focus, which can be essential during AR experiences.",
       "authors": [
         {
-          "institutions": [
-            "HAW Hamburg"
-          ],
+          "institutions": ["HAW Hamburg"],
           "personId": 25195
         },
         {
-          "institutions": [
-            "HAW Hamburg"
-          ],
+          "institutions": ["HAW Hamburg"],
           "personId": 25191
         },
         {
-          "institutions": [
-            "HAW Hamburg"
-          ],
+          "institutions": ["HAW Hamburg"],
           "personId": 25227
         }
       ]
@@ -3628,63 +2971,43 @@
           "personId": 25210
         },
         {
-          "institutions": [
-            "University of Applied Sciences Upper Austria"
-          ],
+          "institutions": ["University of Applied Sciences Upper Austria"],
           "personId": 25171
         },
         {
-          "institutions": [
-            "MIT"
-          ],
+          "institutions": ["MIT"],
           "personId": 25170
         },
         {
-          "institutions": [
-            "University of Applied Sciences Upper Austria"
-          ],
+          "institutions": ["University of Applied Sciences Upper Austria"],
           "personId": 25213
         },
         {
-          "institutions": [
-            "University of Applied Sciences Upper Austria"
-          ],
+          "institutions": ["University of Applied Sciences Upper Austria"],
           "personId": 25183
         },
         {
-          "institutions": [
-            "University of Applied Sciences Upper Austria"
-          ],
+          "institutions": ["University of Applied Sciences Upper Austria"],
           "personId": 25131
         },
         {
-          "institutions": [
-            "University of Applied Sciences Upper Austria"
-          ],
+          "institutions": ["University of Applied Sciences Upper Austria"],
           "personId": 25108
         },
         {
-          "institutions": [
-            "University of Applied Sciences Upper Austria"
-          ],
+          "institutions": ["University of Applied Sciences Upper Austria"],
           "personId": 25192
         },
         {
-          "institutions": [
-            "Stanford University"
-          ],
+          "institutions": ["Stanford University"],
           "personId": 25149
         },
         {
-          "institutions": [
-            "Tokyo Institute of Technology"
-          ],
+          "institutions": ["Tokyo Institute of Technology"],
           "personId": 25194
         },
         {
-          "institutions": [
-            "University of Applied Sciences Upper Austria"
-          ],
+          "institutions": ["University of Applied Sciences Upper Austria"],
           "personId": 25119
         }
       ]
@@ -3713,15 +3036,11 @@
       "abstract": "Technological products have become central to the ways in which many people communicate with others, conduct business and spend their leisure time. Despite their prevalence and significance in people’s lives, these devices are often perceived to be highly replaceable. From a sustainability perspective, there is value in creating technological products with meaning directly associated with their materiality to reduce the rate of product consumption. We set out to explore the potential for design to promote the formation of product attachment by creating technological devices with meaningful materiality, closely integrating the physical form with the significance of its digital contents. We used the life stories and ongoing input of our intended user as inspiration for the creation of Melo, a bespoke music player. The evaluation and critical reflection of our design process and resulting artefact are used to propose a design strategy for promoting product attachment within the growing sector of technological devices.",
       "authors": [
         {
-          "institutions": [
-            "University of Technology Sydney"
-          ],
+          "institutions": ["University of Technology Sydney"],
           "personId": 25174
         },
         {
-          "institutions": [
-            "Swinburne University of Technology"
-          ],
+          "institutions": ["Swinburne University of Technology"],
           "personId": 25245
         },
         {
@@ -3743,27 +3062,19 @@
       "abstract": "Smart garment and wearable e-textile prototypes are difficult to co-design because of the variety of expertise needed (garment design, sewing skills, hardware prototyping, and software programming). To help with this, we developed a toolkit for prototyping wearable e-textiles, named Wearable Bits, which enables co-design with non-expert users without demanding sewing, hardware or software skills. We developed a low-fidelity and medium-fidelity experience prototype of the toolkit and ran a series of workshops where non-expert users designed their own e-textile wearables using Wearable Bits as their making toolkit. In this paper, we discuss the ideas they developed, their construction techniques, the roles individuals took on while building, and suggestions for future toolkits. ",
       "authors": [
         {
-          "institutions": [
-            "Carleton University"
-          ],
+          "institutions": ["Carleton University"],
           "personId": 25110
         },
         {
-          "institutions": [
-            "Carleton University"
-          ],
+          "institutions": ["Carleton University"],
           "personId": 25105
         },
         {
-          "institutions": [
-            "Carleton University"
-          ],
+          "institutions": ["Carleton University"],
           "personId": 25097
         },
         {
-          "institutions": [
-            "Carleton University"
-          ],
+          "institutions": ["Carleton University"],
           "personId": 25184
         }
       ]
@@ -3778,15 +3089,11 @@
       "abstract": "Regular physical exercise is an essential factor for preventing chronic diseases. Activities to support physical education in schools have been increasingly used in recent years as a target to get young people interested in sports. However, for visually impaired students it is difficult to participate in traditional team sports which are widely played in physical education. To overcome this issue, we developed a design toolkit consisting of building blocks that enable visually impaired students to create and play their own movement-based games. To investigate different types of building blocks and their potential to create accessible movement-based games, we conducted two game design workshops with visually impaired students. The results show that our building blocks can successfully be used by visually impaired students to become creators of movement-based games that are both accessible and engaging. By making our design-process transparent, we provide insights how to implement such a co-creation process. ",
       "authors": [
         {
-          "institutions": [
-            "AIT Austrian Institute of Technology GmbH"
-          ],
+          "institutions": ["AIT Austrian Institute of Technology GmbH"],
           "personId": 25193
         },
         {
-          "institutions": [
-            "AIT Austrian Institute of Technology"
-          ],
+          "institutions": ["AIT Austrian Institute of Technology"],
           "personId": 25190
         },
         {
@@ -3797,15 +3104,11 @@
           "personId": 25117
         },
         {
-          "institutions": [
-            "AIT Austrian Institute of Technology"
-          ],
+          "institutions": ["AIT Austrian Institute of Technology"],
           "personId": 25153
         },
         {
-          "institutions": [
-            "University of Salzburg & AIT"
-          ],
+          "institutions": ["University of Salzburg & AIT"],
           "personId": 25235
         }
       ]
@@ -3820,10 +3123,7 @@
       "abstract": "Programming can benefit children on learning science, math, and creative thinking, and has become a part of the primary school curriculum. However, programming tools for visually impaired children are still scarce. We developed an affordable and accessible tangible music platform for visually impaired children that aims to teach the basics of programming through music creation. By ordering the tangible blocks in an algorithmic structure, the children can create a melody. The physical and conceptual design of the system was developed with the help of visually impaired developers. We conducted a user study with fourteen visually impaired middle school children to observe their interactions with the prototype. In this paper, we present our design, provide several TUI design considerations for students with low to zero sight, and discuss the results of our user study and future directions. ",
       "authors": [
         {
-          "institutions": [
-            "Koç University",
-            "Twin Science and Robotics Lab"
-          ],
+          "institutions": ["Koç University", "Twin Science and Robotics Lab"],
           "personId": 25143
         }
       ]
@@ -3838,21 +3138,15 @@
       "abstract": "Tangibles can model abstract structures. One educational subject where this can be utilized is instruction on data visualization interpretation. Data physicalizations, tangible representations of data, offer graspable handles for the users to manipulate data visualizations directly so that they can better understand what information they hold. However, investigations on the applicability of interactive data physicalizations in educational settings are still sparse. In this paper, we explore how students reason with an interactive tangible scatterplot through a collaborative data interpretation tool, \\textit{CoDa}. We report the design, development, and the user experiences in an exploratory study where 11 students, in groups of 2 to 4, completed a data analysis task with CoDa. The qualitative results show insights in the process of data interpretation, how interaction with the tangibles influenced these data interpretations, how the system aided collaboration and, overall user experience. We believe the results and implications offer a step towards nurturing future educational applications on interactive data physicalizations.",
       "authors": [
         {
-          "institutions": [
-            "Eindhoven University of Technology"
-          ],
+          "institutions": ["Eindhoven University of Technology"],
           "personId": 25200
         },
         {
-          "institutions": [
-            "Eindhoven University of Technology"
-          ],
+          "institutions": ["Eindhoven University of Technology"],
           "personId": 25148
         },
         {
-          "institutions": [
-            "Eindhoven University of Technology"
-          ],
+          "institutions": ["Eindhoven University of Technology"],
           "personId": 25161
         }
       ]
@@ -3867,39 +3161,27 @@
       "abstract": "In this paper, we present a case study that explores how children could learn to interact with programmable matter. Flying drone swarms enable physical visualizations of complex data and simulation of physical objects and processes, e.g., planetary movements. The swarms can be digitally controlled as an ensemble as a form of (sparse) “programmable matter.” We worked with the toy company LEGO®, to design and evaluate a “build and fly” experience with 240 children in a public exhibition. The children decorated a bendable handheld controller with LEGO® bricks and then used this controller to animate the flight of a 10-drone swarm. Results indicate that children enjoyed the constructive play and performance aspects of the system. Four main patterns of player behavior emerged, which we discuss in relation to possible improvements to the system. We provide implications for design of programmable matter systems for supporting child play experiences.",
       "authors": [
         {
-          "institutions": [
-            "Queen's University"
-          ],
+          "institutions": ["Queen's University"],
           "personId": 25199
         },
         {
-          "institutions": [
-            "Queen's University"
-          ],
+          "institutions": ["Queen's University"],
           "personId": 25206
         },
         {
-          "institutions": [
-            "Aalborg University"
-          ],
+          "institutions": ["Aalborg University"],
           "personId": 25099
         },
         {
-          "institutions": [
-            "Aalborg University"
-          ],
+          "institutions": ["Aalborg University"],
           "personId": 25113
         },
         {
-          "institutions": [
-            "Aalborg University"
-          ],
+          "institutions": ["Aalborg University"],
           "personId": 25140
         },
         {
-          "institutions": [
-            "Queen's University"
-          ],
+          "institutions": ["Queen's University"],
           "personId": 25138
         }
       ]
@@ -3914,15 +3196,11 @@
       "abstract": "We present a wrist-worn mobile heart rate regulator – ambienBeat – which provides closed-loop biofeedback via tactile stimulus based on users’ heartbeat rate (HR). We applied the principle of physiological synchronization via touch to achieve our goal of effortless regulation of HR, which is tightly coupled with mental stress levels. ambienBeat provides various patterns of tactile stimuli, which mimics the feeling of a heartbeat pulse, to guide user’s HR to resonate with its rhythmic, tactile patterns. The strength and rhythmic patterns of tactile stimulation are controlled to a level below\r\nthe cognitive threshold of an individual’s tactile sensitivity on their wrist so as to minimize task disturbance. Here we present an acoustically noise-less soft voice-coil actuator to render the ambient tactile stimulus and present the system and implementation process. We evaluated our system by comparing it to ambient auditory and visual guidance. Results from the user study shows that the tactile stimulation was effective in guiding user’s HR to resonate with ambienBeat to either calm or boost the heart rate using minimal cognitive load.",
       "authors": [
         {
-          "institutions": [
-            "MIT"
-          ],
+          "institutions": ["MIT"],
           "personId": 25230
         },
         {
-          "institutions": [
-            "MIT"
-          ],
+          "institutions": ["MIT"],
           "personId": 25104
         }
       ]
@@ -3937,21 +3215,15 @@
       "abstract": "In this pictorial we present a prototype of a novel personalized garment that provides rich haptic feedback for posture awareness in the context of repetitive strain injury (RSI). Unlike prior work concerned with posture correction, our aim was to design a garment that would allow the user to gain an awareness of his posture with a help of sensorial experiences. Collaboratively engaging the user as a co-designer in movement enactment, movement analysis and embodied co-design sessions enabled us to design a garment that offers posture awareness through playful and somaesthetic experience. We offer a reflective analysis of how our co-design approach enabled us to design for personalization, somaesthetics and playfulness in posture awareness.",
       "authors": [
         {
-          "institutions": [
-            "Eindhoven University of Technology"
-          ],
+          "institutions": ["Eindhoven University of Technology"],
           "personId": 25320
         },
         {
-          "institutions": [
-            "Eindhoven University of Technology"
-          ],
+          "institutions": ["Eindhoven University of Technology"],
           "personId": 25303
         },
         {
-          "institutions": [
-            "Eindhoven University of Technology"
-          ],
+          "institutions": ["Eindhoven University of Technology"],
           "personId": 25317
         }
       ]
@@ -3966,27 +3238,19 @@
       "abstract": "Traces of use in public environments have the potential to indicate how people make meaning of places. They show the behaviour patterns of the masses as well as common, shared memories of a community. In order to use such traces as a design tool to make environments appear more interactive or social, we need to understand the perception of traces of use in public places. Therefore we collected a total of 182 pictures of traces of use in urban environments. A focus group discussed and classified a preselected set of pictures. In an online picture viewing survey, 18 different pictures were reviewed for pattern identification (N= 32-52). Overlaps were visualized in heatmaps. We contribute an analysis of which public traces of use are easy to recognize with great agreement and which are not.",
       "authors": [
         {
-          "institutions": [
-            "LMU Munich"
-          ],
+          "institutions": ["LMU Munich"],
           "personId": 25322
         },
         {
-          "institutions": [
-            "LMU Munich"
-          ],
+          "institutions": ["LMU Munich"],
           "personId": 25314
         },
         {
-          "institutions": [
-            "LMU Munich"
-          ],
+          "institutions": ["LMU Munich"],
           "personId": 25304
         },
         {
-          "institutions": [
-            "LMU Munich"
-          ],
+          "institutions": ["LMU Munich"],
           "personId": 25328
         }
       ]
@@ -4001,21 +3265,15 @@
       "abstract": "This paper introduces initial attempts to bridge the worlds of digital fabrication and do-it-yourself wearable electronics. It introduces a selection of microcontrollers that are anticipated to work well in a wearable context and provides an overview of five prototypes that utilize them: Folding Felt Photon, Photon Sleepers, Circuit Playground Aurora Hat, Feather Belt, and Feather Shoes. The designs of these prototypes use laser cutting and/or 3D printing to produce microcontroller enclosures that can be worn on the body. The intent is to share initial designs for digitally fabricated encasements that allow researchers, designers, and artists to better integrate small computational systems into clothing or other wearables.",
       "authors": [
         {
-          "institutions": [
-            "OCAD University"
-          ],
+          "institutions": ["OCAD University"],
           "personId": 25327
         },
         {
-          "institutions": [
-            "OCAD University"
-          ],
+          "institutions": ["OCAD University"],
           "personId": 25305
         },
         {
-          "institutions": [
-            "OCAD University"
-          ],
+          "institutions": ["OCAD University"],
           "personId": 25325
         },
         {
@@ -4037,15 +3295,11 @@
       "abstract": "The rapid growth of peri-urbanisation has contributed to an increase in road traffic near wildlife, contributing to collisions, injuries and potential deaths of wildlife as well as commuters. This is a significant problem for both animal welfare as well as human roadside safety and limited work has been done to tackle this problem using technology. ROOD is an innovative roadkill alert system, which aims to mitigate the wild animal-vehicle collision by alerting drivers of high-risk areas well in advance. This pictorial describes the design and the making of ROOD. We illustrate the challenges encountered in our design process and how they informed our design decisions. Ultimately, our aim is to contribute to safe co-habitation of wildlife.",
       "authors": [
         {
-          "institutions": [
-            "RMIT University"
-          ],
+          "institutions": ["RMIT University"],
           "personId": 25311
         },
         {
-          "institutions": [
-            "RMIT University"
-          ],
+          "institutions": ["RMIT University"],
           "personId": 25151
         }
       ]
@@ -4060,21 +3314,15 @@
       "abstract": "In this pictorial, we unfold and reflect on the design process behind the creation of a research product - SWAN. SWAN is an augmented spoon that encourages people to pay more attention to their food and urges them to eat mindfully. With SWAN, our aim is to address the increasing tensions between the lucrative appeal of screen-based media and ideologies of mindful eating. We present a descriptive account on how we brought SWAN into being. In attending to key design decisions across our design process, we unveil ideas and challenges in creating a domestic research product to support everyday mindful eating.\r\n",
       "authors": [
         {
-          "institutions": [
-            "RMIT University"
-          ],
+          "institutions": ["RMIT University"],
           "personId": 25151
         },
         {
-          "institutions": [
-            "RMIT University"
-          ],
+          "institutions": ["RMIT University"],
           "personId": 25311
         },
         {
-          "institutions": [
-            "RMIT University"
-          ],
+          "institutions": ["RMIT University"],
           "personId": 25326
         }
       ]
@@ -4089,27 +3337,19 @@
       "abstract": "Technology probes have been used in co-creative embodied design processes to spur creativity and generate design ideas. We present a range of Training Technology Probes (TTPs), designed to facilitate collocated physical and social training. We deployed them in the context of a physical training course for children with motor challenges, where they were tested and iterated onsite through our participants’ (instructors’ and children’s) creative uses. We report on intended/expected uses as well as improvised ones resulting from creative appropriations that were found useful in our physical activity. We discuss key core properties of the TTPs that supported productive creative appropriation. This work adds to others on technology probes by emphasizing their generative value in goal-oriented somatic explorations and practices, like our training course.",
       "authors": [
         {
-          "institutions": [
-            "Uppsala University"
-          ],
+          "institutions": ["Uppsala University"],
           "personId": 25315
         },
         {
-          "institutions": [
-            "Uppsala University"
-          ],
+          "institutions": ["Uppsala University"],
           "personId": 25318
         },
         {
-          "institutions": [
-            "Uppsala University"
-          ],
+          "institutions": ["Uppsala University"],
           "personId": 25316
         },
         {
-          "institutions": [
-            "Dept of Informatics and Media"
-          ],
+          "institutions": ["Dept of Informatics and Media"],
           "personId": 25313
         }
       ]
@@ -4124,33 +3364,23 @@
       "abstract": "When cooking we negotiate between instructions in recipes and personal preferences to make in-the-moment creative decisions. This process represents moments of creativity that utilises and reveals our embodied knowledge. This paper focuses on the capture of expressions of embodied knowledge by digitally-networked utensils for recipe authoring. We present a design process investigating the design of digital interfaces and tools to capture and communicate embodied knowledge as a proposition for tools for open innovation in food. We reflect upon this process to discuss lessons about the very individual nature of embodied knowledge and its expression, and the context of capturing it.",
       "authors": [
         {
-          "institutions": [
-            "Royal College of Art"
-          ],
+          "institutions": ["Royal College of Art"],
           "personId": 25308
         },
         {
-          "institutions": [
-            "Royal College of Art"
-          ],
+          "institutions": ["Royal College of Art"],
           "personId": 25301
         },
         {
-          "institutions": [
-            "Independent"
-          ],
+          "institutions": ["Independent"],
           "personId": 25331
         },
         {
-          "institutions": [
-            "Independent"
-          ],
+          "institutions": ["Independent"],
           "personId": 25312
         },
         {
-          "institutions": [
-            "The University of Nottingham"
-          ],
+          "institutions": ["The University of Nottingham"],
           "personId": 25321
         }
       ]
@@ -4165,15 +3395,11 @@
       "abstract": "In this pictorial, we describe the design and making of GustaCine, an engaging crossmodal cinematic experience that allows the viewer to experience and savor cinematic moments through the gustatory pleasures of the different flavored popcorn. Our aim behind creating GustaCine is to explore possibilities in designing food experiences that ‘move’ in parallel with the moving picture. We articulate our making process enumerating the challenges in creating a gustatory experience and undertaken strategies to resolve them. Ultimately, we aim to inspire and guide future research on gustatory cinematic experiences.",
       "authors": [
         {
-          "institutions": [
-            "RMIT University"
-          ],
+          "institutions": ["RMIT University"],
           "personId": 25151
         },
         {
-          "institutions": [
-            "RMIT University"
-          ],
+          "institutions": ["RMIT University"],
           "personId": 25311
         }
       ]
@@ -4188,15 +3414,11 @@
       "abstract": "Chronic pain patients need to communicate to their GP or other health care professionals what their pain feels like. Traditionally this is attempted with pain scales (numbers, standardised words, images of facial expressions), but they can be difficult to employ, as chronic pain is experienced individually, and they can be hard to relate to for professionals without personal experience. However, when pain becomes chronic and one constantly is suffering, it can be hard to explain to the people around one how it feels and affects one. In this pictorial we present the project ‘Tangible Pain’ to discuss how it may be possible to build a tangible pain scale. The work is based on design explorations with six chronic pain patients. Preliminary outcomes show that pain in tangible materials aids the general communication of pain.",
       "authors": [
         {
-          "institutions": [
-            "University of Southern Denmark"
-          ],
+          "institutions": ["University of Southern Denmark"],
           "personId": 25333
         },
         {
-          "institutions": [
-            "University of Southern Denmark"
-          ],
+          "institutions": ["University of Southern Denmark"],
           "personId": 25302
         }
       ]
@@ -4211,33 +3433,23 @@
       "abstract": "Simple and low bandwidth communication on computers is found to promote intimacy between couples. In this work, we further explore this minimal communication in the form of wearables. This pictorial presents an in-the-wild concept study of low bandwidth ambient wearable displays as a communication channel between couples. The goal is to understand the contexts in which the technology might be used and could fulfil. Our findings show that simple communications through a wearable device could provide an additional channel for communication. The forms of wearable also offer the feeling of always connected. We highlight the importance and influence of form factors, contexts, and activities towards user experience. We discuss the opportunities this study opens for the future design of the wearable ambient display.",
       "authors": [
         {
-          "institutions": [
-            "University of Lapland"
-          ],
+          "institutions": ["University of Lapland"],
           "personId": 25306
         },
         {
-          "institutions": [
-            "University of Lapland"
-          ],
+          "institutions": ["University of Lapland"],
           "personId": 25319
         },
         {
-          "institutions": [
-            "University of Lapland"
-          ],
+          "institutions": ["University of Lapland"],
           "personId": 25323
         },
         {
-          "institutions": [
-            "University of Lapland"
-          ],
+          "institutions": ["University of Lapland"],
           "personId": 25309
         },
         {
-          "institutions": [
-            "University of Lapland"
-          ],
+          "institutions": ["University of Lapland"],
           "personId": 25310
         }
       ]

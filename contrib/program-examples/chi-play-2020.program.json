@@ -689,12 +689,7 @@
       "typeId": 11661,
       "roomId": 10414,
       "chairIds": [],
-      "contentIds": [
-        40631,
-        40612,
-        40603,
-        40636
-      ],
+      "contentIds": [40631, 40612, 40603, 40636],
       "timeSlotId": 11571
     },
     {
@@ -703,12 +698,7 @@
       "typeId": 11678,
       "roomId": 10414,
       "chairIds": [],
-      "contentIds": [
-        42751,
-        42759,
-        42757,
-        42760
-      ],
+      "contentIds": [42751, 42759, 42757, 42760],
       "timeSlotId": 11496
     },
     {
@@ -717,12 +707,7 @@
       "typeId": 11661,
       "roomId": 10414,
       "chairIds": [],
-      "contentIds": [
-        40602,
-        40619,
-        40610,
-        40637
-      ],
+      "contentIds": [40602, 40619, 40610, 40637],
       "timeSlotId": 11491
     },
     {
@@ -731,12 +716,7 @@
       "typeId": 11661,
       "roomId": 10414,
       "chairIds": [],
-      "contentIds": [
-        40624,
-        40644,
-        40613,
-        40625
-      ],
+      "contentIds": [40624, 40644, 40613, 40625],
       "timeSlotId": 11495
     },
     {
@@ -745,11 +725,7 @@
       "typeId": 11661,
       "roomId": 10414,
       "chairIds": [],
-      "contentIds": [
-        40642,
-        40601,
-        40606
-      ],
+      "contentIds": [40642, 40601, 40606],
       "timeSlotId": 11607
     },
     {
@@ -758,12 +734,7 @@
       "typeId": 11680,
       "roomId": 10414,
       "chairIds": [],
-      "contentIds": [
-        42764,
-        42753,
-        42774,
-        42763
-      ],
+      "contentIds": [42764, 42753, 42774, 42763],
       "timeSlotId": 11584
     },
     {
@@ -772,16 +743,7 @@
       "typeId": 11679,
       "roomId": 10414,
       "chairIds": [],
-      "contentIds": [
-        42747,
-        42750,
-        42781,
-        42746,
-        42745,
-        42767,
-        42780,
-        42748
-      ],
+      "contentIds": [42747, 42750, 42781, 42746, 42745, 42767, 42780, 42748],
       "timeSlotId": 11602
     },
     {
@@ -790,12 +752,7 @@
       "typeId": 11680,
       "roomId": 10414,
       "chairIds": [],
-      "contentIds": [
-        42765,
-        42762,
-        42756,
-        42752
-      ],
+      "contentIds": [42765, 42762, 42756, 42752],
       "timeSlotId": 11572
     },
     {
@@ -804,12 +761,7 @@
       "typeId": 11680,
       "roomId": 10414,
       "chairIds": [],
-      "contentIds": [
-        42771,
-        42778,
-        42755,
-        42777
-      ],
+      "contentIds": [42771, 42778, 42755, 42777],
       "timeSlotId": 11596
     },
     {
@@ -818,12 +770,7 @@
       "typeId": 11661,
       "roomId": 10414,
       "chairIds": [],
-      "contentIds": [
-        40609,
-        40621,
-        40638,
-        40646
-      ],
+      "contentIds": [40609, 40621, 40638, 40646],
       "timeSlotId": 11595
     },
     {
@@ -832,13 +779,7 @@
       "typeId": 11680,
       "roomId": 10414,
       "chairIds": [],
-      "contentIds": [
-        42779,
-        42773,
-        42770,
-        42776,
-        42772
-      ],
+      "contentIds": [42779, 42773, 42770, 42776, 42772],
       "timeSlotId": 11502
     },
     {
@@ -847,12 +788,7 @@
       "typeId": 11661,
       "roomId": 10414,
       "chairIds": [],
-      "contentIds": [
-        40617,
-        40630,
-        40627,
-        40616
-      ],
+      "contentIds": [40617, 40630, 40627, 40616],
       "timeSlotId": 11565
     },
     {
@@ -861,12 +797,7 @@
       "typeId": 11678,
       "roomId": 10414,
       "chairIds": [],
-      "contentIds": [
-        42754,
-        42775,
-        42761,
-        42758
-      ],
+      "contentIds": [42754, 42775, 42761, 42758],
       "timeSlotId": 11566
     },
     {
@@ -896,13 +827,7 @@
       "typeId": 11661,
       "roomId": 10414,
       "chairIds": [],
-      "contentIds": [
-        40600,
-        40620,
-        40608,
-        40623,
-        40632
-      ],
+      "contentIds": [40600, 40620, 40608, 40623, 40632],
       "timeSlotId": 11601
     },
     {
@@ -911,16 +836,7 @@
       "typeId": 11676,
       "roomId": 10414,
       "chairIds": [],
-      "contentIds": [
-        42603,
-        42597,
-        42630,
-        42582,
-        42596,
-        42589,
-        42615,
-        42598
-      ],
+      "contentIds": [42603, 42597, 42630, 42582, 42596, 42589, 42615, 42598],
       "timeSlotId": 11608
     },
     {
@@ -994,12 +910,7 @@
       "typeId": 11661,
       "roomId": 10414,
       "chairIds": [],
-      "contentIds": [
-        40633,
-        40643,
-        40641,
-        40640
-      ],
+      "contentIds": [40633, 40643, 40641, 40640],
       "timeSlotId": 11589
     },
     {
@@ -1008,12 +919,7 @@
       "typeId": 11661,
       "roomId": 10414,
       "chairIds": [],
-      "contentIds": [
-        40604,
-        40635,
-        40622,
-        40647
-      ],
+      "contentIds": [40604, 40635, 40622, 40647],
       "timeSlotId": 11501
     },
     {
@@ -1022,12 +928,7 @@
       "typeId": 11661,
       "roomId": 10414,
       "chairIds": [],
-      "contentIds": [
-        40607,
-        40611,
-        40634,
-        40605
-      ],
+      "contentIds": [40607, 40611, 40634, 40605],
       "timeSlotId": 11577
     },
     {
@@ -1036,12 +937,7 @@
       "typeId": 11661,
       "roomId": 10414,
       "chairIds": [],
-      "contentIds": [
-        40615,
-        40645,
-        40618,
-        40629
-      ],
+      "contentIds": [40615, 40645, 40618, 40629],
       "timeSlotId": 11583
     },
     {
@@ -1050,12 +946,7 @@
       "typeId": 11661,
       "roomId": 10414,
       "chairIds": [],
-      "contentIds": [
-        40639,
-        40626,
-        40628,
-        40614
-      ],
+      "contentIds": [40639, 40626, 40628, 40614],
       "timeSlotId": 11616
     }
   ],
@@ -1100,9 +991,7 @@
       "typeId": 11657,
       "roomId": 10414,
       "chairIds": [],
-      "contentIds": [
-        42766
-      ],
+      "contentIds": [42766],
       "startDate": 1604545800000,
       "endDate": 1604548200000,
       "presenterIds": []
@@ -1183,9 +1072,7 @@
       "typeId": 11657,
       "roomId": 10414,
       "chairIds": [],
-      "contentIds": [
-        42749
-      ],
+      "contentIds": [42749],
       "startDate": 1604437800000,
       "endDate": 1604440200000,
       "presenterIds": []
@@ -1196,9 +1083,7 @@
       "typeId": 11657,
       "roomId": 10414,
       "chairIds": [],
-      "contentIds": [
-        42768
-      ],
+      "contentIds": [42768],
       "startDate": 1604459400000,
       "endDate": 1604461800000,
       "presenterIds": []
@@ -1243,9 +1128,7 @@
       "typeId": 11657,
       "roomId": 10414,
       "chairIds": [],
-      "contentIds": [
-        42769
-      ],
+      "contentIds": [42769],
       "startDate": 1604373000000,
       "endDate": 1604375400000,
       "presenterIds": []

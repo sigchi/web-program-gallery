@@ -348,15 +348,8 @@
       "name": "Haptics",
       "typeId": 11696,
       "roomId": 10413,
-      "chairIds": [
-        43533
-      ],
-      "contentIds": [
-        43517,
-        43508,
-        43514,
-        43515
-      ],
+      "chairIds": [43533],
+      "contentIds": [43517, 43508, 43514, 43515],
       "timeSlotId": 11638
     },
     {
@@ -364,15 +357,8 @@
       "name": "Displays & Perception",
       "typeId": 11696,
       "roomId": 10413,
-      "chairIds": [
-        43541
-      ],
-      "contentIds": [
-        43507,
-        43530,
-        43526,
-        43501
-      ],
+      "chairIds": [43541],
+      "contentIds": [43507, 43530, 43526, 43501],
       "timeSlotId": 11646
     },
     {
@@ -404,15 +390,8 @@
       "name": "Applications II",
       "typeId": 11696,
       "roomId": 10413,
-      "chairIds": [
-        43410
-      ],
-      "contentIds": [
-        43506,
-        43503,
-        43504,
-        43519
-      ],
+      "chairIds": [43410],
+      "contentIds": [43506, 43503, 43504, 43519],
       "timeSlotId": 11650
     },
     {
@@ -420,15 +399,8 @@
       "name": "Avatars",
       "typeId": 11696,
       "roomId": 10413,
-      "chairIds": [
-        43540
-      ],
-      "contentIds": [
-        43512,
-        43523,
-        43511,
-        43502
-      ],
+      "chairIds": [43540],
+      "contentIds": [43512, 43523, 43511, 43502],
       "timeSlotId": 11644
     },
     {
@@ -436,9 +408,7 @@
       "name": "Closing Keynote - Mary Whitton",
       "typeId": 11697,
       "roomId": 10413,
-      "chairIds": [
-        43532
-      ],
+      "chairIds": [43532],
       "contentIds": [],
       "timeSlotId": 11649
     },
@@ -447,15 +417,8 @@
       "name": "Applications I",
       "typeId": 11696,
       "roomId": 10413,
-      "chairIds": [
-        43534
-      ],
-      "contentIds": [
-        43518,
-        43522,
-        43505,
-        43527
-      ],
+      "chairIds": [43534],
+      "contentIds": [43518, 43522, 43505, 43527],
       "timeSlotId": 11641
     },
     {
@@ -463,15 +426,8 @@
       "name": "Interaction Techniques I",
       "typeId": 11696,
       "roomId": 10413,
-      "chairIds": [
-        43535
-      ],
-      "contentIds": [
-        43513,
-        43497,
-        43509,
-        43525
-      ],
+      "chairIds": [43535],
+      "contentIds": [43513, 43497, 43509, 43525],
       "timeSlotId": 11642
     },
     {
@@ -479,15 +435,8 @@
       "name": "Interaction Techniques II",
       "typeId": 11696,
       "roomId": 10413,
-      "chairIds": [
-        43383
-      ],
-      "contentIds": [
-        43529,
-        43498,
-        43521,
-        43524
-      ],
+      "chairIds": [43383],
+      "contentIds": [43529, 43498, 43521, 43524],
       "timeSlotId": 11652
     },
     {
@@ -495,15 +444,8 @@
       "name": "3D Reconstruction & Video",
       "typeId": 11696,
       "roomId": 10413,
-      "chairIds": [
-        43538
-      ],
-      "contentIds": [
-        43499,
-        43516,
-        43528,
-        43520
-      ],
+      "chairIds": [43538],
+      "contentIds": [43499, 43516, 43528, 43520],
       "timeSlotId": 11655
     },
     {
@@ -511,14 +453,8 @@
       "name": "Collaboration",
       "typeId": 11696,
       "roomId": 10413,
-      "chairIds": [
-        43539
-      ],
-      "contentIds": [
-        43496,
-        43510,
-        43500
-      ],
+      "chairIds": [43539],
+      "contentIds": [43496, 43510, 43500],
       "timeSlotId": 11657
     },
     {
@@ -526,9 +462,7 @@
       "name": "Opening Keynote - Doug Bowman",
       "typeId": 11697,
       "roomId": 10413,
-      "chairIds": [
-        43532
-      ],
+      "chairIds": [43532],
       "contentIds": [],
       "timeSlotId": 11636
     }

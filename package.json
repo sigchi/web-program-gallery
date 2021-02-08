@@ -7,9 +7,18 @@
   "author": "John Sullivan <jsullivan@csumb.edu>",
   "license": "MIT",
   "private": false,
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*": "prettier -w"
+  },
   "scripts": {
     "start": "snowpack dev",
-    "build": "snowpack build && rollup -c"
+    "build": "snowpack build && rollup -c",
+    "pretty": "prettier -w ."
   },
   "dependencies": {
     "fuse.js": "^6.4.6",
@@ -21,6 +30,10 @@
     "@rollup/plugin-run": "^2.0.2",
     "@snowpack/plugin-build-script": "^2.1.0",
     "@snowpack/plugin-svelte": "^3.5.2",
+    "husky": "^4.3.8",
+    "lint-staged": "^10.5.4",
+    "prettier": "^2.2.1",
+    "prettier-plugin-svelte": "^2.1.2",
     "rollup": "^2.38.0",
     "rollup-plugin-svelte": "^7.1.0",
     "snowpack": "^3.0.11",

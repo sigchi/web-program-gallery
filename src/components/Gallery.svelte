@@ -1,8 +1,8 @@
 <script>
-  import Article from './Article.svelte';
-  import Typeahead from './Typeahead.svelte';
-  import { shuffle } from '../util.js';
-  import stars from '../stars.js';
+  import Article from "./Article.svelte";
+  import Typeahead from "./Typeahead.svelte";
+  import { shuffle } from "../util.js";
+  import stars from "../stars.js";
 
   export let program = {
     sessions: {},
@@ -11,8 +11,8 @@
     tracks: [],
   };
 
-  const filters = ['title', 'session', 'abstract', 'author'];
-  const modes = ['list', 'compact', 'detail'];
+  const filters = ["title", "session", "abstract", "author"];
+  const modes = ["list", "compact", "detail"];
   const sessionEntries = Object.entries(program.sessions);
 
   let starredOnly = false;
@@ -28,69 +28,74 @@
     const now = Date.now();
 
     orderedContents = [...program.contents].sort((p1, p2) => {
-      const [t1, t2] = [p1, p2].map(e => {
-        const end = Math.min(...e.session.map(id => {
-          return program.sessions[id] ? program.sessions[id].end : Infinity;
-        }));
+      const [t1, t2] = [p1, p2].map((e) => {
+        const end = Math.min(
+          ...e.session.map((id) => {
+            return program.sessions[id] ? program.sessions[id].end : Infinity;
+          })
+        );
 
-        if(typeof(end) === 'number') {
+        if (typeof end === "number") {
           return now > end ? Infinity : end;
         } else {
           return Infinity;
         }
       });
 
-      return (t1 - t2) || (p1.id - p2.id);
+      return t1 - t2 || p1.id - p2.id;
     });
   }
 
   function getSearchOptions(filter, contents, authors, sessions) {
-    switch(filter) {
-      case 'title':
+    switch (filter) {
+      case "title":
         return {
           candidates: contents,
-          key: 'title',
+          key: "title",
           results(selected) {
             return selected;
           },
         };
-      case 'abstract':
+      case "abstract":
         return {
           candidates: contents,
-          key: 'abstract',
+          key: "abstract",
           results(selected) {
             return selected;
           },
         };
-      case 'session':
+      case "session":
         return {
           candidates: sessions,
-          key: '1.name',
+          key: "1.name",
           results(selected) {
             const ids = selected.map((s) => Number(s[0]));
             return contents.filter((c) => ids.includes(c.session[0]));
-          }
+          },
         };
-      case 'author':
+      case "author":
         return {
           candidates: authors,
           results(selected) {
-            return contents.filter((c) => c.authors.some(a => selected.includes(a)));
-          }
+            return contents.filter((c) =>
+              c.authors.some((a) => selected.includes(a))
+            );
+          },
         };
     }
   }
 
   $: trackContents = starredOnly
-  ? orderedContents.filter(
-    (c) => $stars.includes(c.id) && selectedTracks.includes(c.track)
-  )
-  : orderedContents.filter(
-    (c) => selectedTracks.includes(c.track)
-  );
+    ? orderedContents.filter(
+        (c) => $stars.includes(c.id) && selectedTracks.includes(c.track)
+      )
+    : orderedContents.filter((c) => selectedTracks.includes(c.track));
 
   $: searchOpts = getSearchOptions(
-    contentFilter, trackContents, program.authors, sessionEntries
+    contentFilter,
+    trackContents,
+    program.authors,
+    sessionEntries
   );
 
   $: selectedContents = shownCandidates || trackContents;
@@ -99,13 +104,13 @@
 <div class="controls">
   <div>
     <label>
-      <input type=checkbox bind:checked={starredOnly} />
+      <input type="checkbox" bind:checked={starredOnly} />
       Starred
     </label>
 
     {#each program.tracks as track}
       <label>
-        <input type=checkbox bind:group={selectedTracks} value={track} />
+        <input type="checkbox" bind:group={selectedTracks} value={track} />
         {track}
       </label>
     {/each}
@@ -116,19 +121,23 @@
 
     {#each filters as flt}
       <label>
-        <input type=radio bind:group={contentFilter} value={flt} />
+        <input type="radio" bind:group={contentFilter} value={flt} />
         {flt}
       </label>
     {/each}
   </div>
 
   <div>
-    <button on:click={() => { orderedContents = shuffle(orderedContents); }}>shuffle</button>
+    <button
+      on:click={() => {
+        orderedContents = shuffle(orderedContents);
+      }}>shuffle</button
+    >
     <button on:click={sortNow}>ending soon</button>
 
     {#each modes as md}
       <label>
-        <input type=radio bind:group={displayMode} value={md} />
+        <input type="radio" bind:group={displayMode} value={md} />
         {md}
       </label>
     {/each}
@@ -137,11 +146,8 @@
 
 <div class="sigchi-gallery-root">
   {#each selectedContents as content (content.id)}
-    <Article
-      {content}
-      mode={displayMode}
-      sessions={program.sessions} />
-    {/each}
+    <Article {content} mode={displayMode} sessions={program.sessions} />
+  {/each}
 </div>
 
 <style>
