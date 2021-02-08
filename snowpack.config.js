@@ -8,6 +8,7 @@ module.exports = {
     "contrib/program-examples": { url: "/data" },
   },
   buildOptions: {
+    baseUrl: "/web-program-gallery/",
     sourcemap: true,
   },
   plugins: [
