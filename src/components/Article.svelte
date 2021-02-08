@@ -34,7 +34,7 @@
     {#if mode !== "list" && content.images !== undefined && content.videos !== undefined}
       <div>
         {#each Object.entries(content.videos) as [name, url]}
-          <VidThumb {name} {url} />
+          <VidThumb {name} {url} on:watch />
         {/each}
         {#if Object.keys(content.videos).length === 0}
           {#each Object.entries(content.images) as [name, url]}
@@ -100,7 +100,7 @@
     height: var(--sigchi-abstract-height);
   }
 
-  :global(article img) {
+  img {
     max-width: var(--sigchi-article-thumbnail-width);
   }
 </style>

@@ -1,6 +1,7 @@
 <script>
   import Article from "./Article.svelte";
   import Typeahead from "./Typeahead.svelte";
+  import VidModal from "./VidModal.svelte";
   import { shuffle } from "../util.js";
   import stars from "../stars.js";
 
@@ -23,6 +24,8 @@
   let shownCandidates = undefined;
   let orderedContents = shuffle(program.contents);
   let selectedContents = [];
+
+  let watchId = undefined;
 
   function sortNow() {
     const now = Date.now();
@@ -152,9 +155,21 @@
       sessions={program.sessions}
       starred={$stars.includes(content.id)}
       on:star={() => stars.toggle(content.id)}
+      on:watch={(e) => {
+        watchId = e.detail.ytid;
+      }}
     />
   {/each}
 </div>
+
+{#if watchId}
+  <VidModal
+    {watchId}
+    on:click={() => {
+      watchId = undefined;
+    }}
+  />
+{/if}
 
 <style>
   .controls {
