@@ -13,7 +13,7 @@
     }
   },
   "lint-staged": {
-    "*": "prettier -w"
+    "*.!(lock)": "prettier -w"
   },
   "scripts": {
     "start": "snowpack dev",
