@@ -146,7 +146,13 @@
 
 <div class="sigchi-gallery-root">
   {#each selectedContents as content (content.id)}
-    <Article {content} mode={displayMode} sessions={program.sessions} />
+    <Article
+      {content}
+      mode={displayMode}
+      sessions={program.sessions}
+      starred={$stars.includes(content.id)}
+      on:star={() => stars.toggle(content.id)}
+    />
   {/each}
 </div>
 

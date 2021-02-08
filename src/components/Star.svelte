@@ -1,9 +1,17 @@
 <script>
+  import { createEventDispatcher } from "svelte";
+
   export let starred = false;
+
+  const dispatch = createEventDispatcher();
+
+  function star() {
+    dispatch("star", {});
+  }
 </script>
 
 <label class="star-item">
-  <input type="checkbox" bind:checked={starred} on:change />
+  <input type="checkbox" bind:checked={starred} on:change={star} />
   <svg
     class="star-img"
     xmlns="http://www.w3.org/2000/svg"

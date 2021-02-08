@@ -5,23 +5,17 @@
 
   export let content = {},
     sessions = {},
-    mode = "list";
+    mode = "list",
+    starred = false;
 
   const session = sessions[content.session[0]].name;
   const links = Object.entries(content.links)
     .map(([name, href]) => `<a href="${href}">${name}</a>`)
     .join(" | ");
-
-  $: starred = $stars.includes(content.id);
 </script>
 
 <article>
-  <Star
-    {starred}
-    on:change={() => {
-      stars.toggle(content.id);
-    }}
-  />
+  <Star {starred} on:star />
 
   <section>
     <!-- Header -->
