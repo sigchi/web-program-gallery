@@ -76,28 +76,25 @@
     border: var(--sigchi-article-border);
   }
 
-  article section,
-  article aside {
+  section,
+  aside {
     flex: 1;
   }
 
-  article aside {
+  aside {
+    border-top: var(--sigchi-article-border);
+    height: var(--sigchi-abstract-height);
     overflow: scroll;
   }
 
-  article section h3,
-  article section p {
+  section h3,
+  section p {
     text-align: center;
   }
 
-  article section h3:first-of-type {
+  section h3:first-of-type {
     text-transform: uppercase;
     text-align: left;
-  }
-
-  article aside {
-    border-top: var(--sigchi-article-border);
-    height: var(--sigchi-abstract-height);
   }
 
   img {
