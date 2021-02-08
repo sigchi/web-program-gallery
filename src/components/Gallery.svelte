@@ -129,11 +129,11 @@
   </label>
 {/each}
 
-<section class="gallery ctn wrap">
-  {#each selectedContents as content (content.id)}
-    <Article
-      {content}
-      mode={displayMode}
-      sessions={program.sessions} />
-  {/each}
-</section>
+<div class="sigchi-gallery-root">
+{#each selectedContents as content (content.id)}
+  <Article
+    {content}
+    mode={displayMode}
+    sessions={program.sessions} />
+{/each}
+</div>

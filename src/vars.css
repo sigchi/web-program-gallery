@@ -1,0 +1,21 @@
+:root {
+  --sigchi-gallery-col-width: 30%;
+  --sigchi-gallery-gutter: 15px;
+
+  --sigchi-article-border: 2px solid #555555;
+  --sigchi-article-padding: 10px;
+  --sigchi-article-thumbnail-width: 40%;
+  --sigchi-abstract-height: 15%;
+
+  --sigchi-star-size: 35px;
+  --sigchi-star-margin: 10px;
+  --sigchi-star-active: gold;
+  --sigchi-star-inactive: gray;
+  --sigchi-star-inactive-opacity: 0.5;
+}
+
+.sigchi-gallery-root {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

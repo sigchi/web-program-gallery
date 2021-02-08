@@ -7,5 +7,5 @@
 </script>
 
 {#if thumbImg !== undefined}
-  <img class="thumb-img col" alt={name} src={thumbImg} />
+  <img alt={name} src={thumbImg} />
 {/if}
