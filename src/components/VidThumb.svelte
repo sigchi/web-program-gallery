@@ -44,6 +44,10 @@
     margin: 0;
   }
 
+  figure img {
+    width: 100%;
+  }
+
   figure * {
     margin: 0;
   }
@@ -68,6 +72,7 @@
 
   figcaption h1 {
     color: white;
+    font-size: 25px;
     background-color: #00000088;
     text-align: center;
     width: 45%;
