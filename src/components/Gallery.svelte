@@ -134,12 +134,14 @@
 
   <fieldset>
     <legend>View</legend>
-    <button
+    <input
+      type="button"
+      value="shuffle"
       on:click={() => {
         orderedContents = shuffle(orderedContents);
-      }}>shuffle</button
-    >
-    <button on:click={sortNow}>ending soon</button>
+      }}
+    />
+    <input type="button" value="ending soon" on:click={sortNow} />
 
     {#each modes as md}
       <label>
@@ -173,3 +175,14 @@
     }}
   />
 {/if}
+
+<style>
+  form {
+    display: flex;
+    flex-direction: row;
+  }
+
+  fieldset {
+    flex: 1;
+  }
+</style>
