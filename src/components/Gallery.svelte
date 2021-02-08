@@ -96,44 +96,66 @@
   $: selectedContents = shownCandidates || trackContents;
 </script>
 
-<label>
-  Search: <Typeahead bind:selected={shownCandidates} {...searchOpts} />
-</label>
+<div class="controls">
+  <div>
+    <label>
+      <input type=checkbox bind:checked={starredOnly} />
+      Starred
+    </label>
 
-{#each filters as flt}
-  <label>
-    <input type=radio bind:group={contentFilter} value={flt} />
-    {flt}
-  </label>
-{/each}
+    {#each program.tracks as track}
+      <label>
+        <input type=checkbox bind:group={selectedTracks} value={track} />
+        {track}
+      </label>
+    {/each}
+  </div>
 
-<button on:click={() => { orderedContents = shuffle(orderedContents); }}>shuffle</button>
-<button on:click={sortNow}>ending soon</button>
+  <div>
+    <label>
+      Search: <Typeahead bind:selected={shownCandidates} {...searchOpts} />
+    </label>
 
-{#each modes as md}
-  <label>
-    <input type=radio bind:group={displayMode} value={md} />
-    {md}
-  </label>
-{/each}
+    {#each filters as flt}
+      <label>
+        <input type=radio bind:group={contentFilter} value={flt} />
+        {flt}
+      </label>
+    {/each}
+  </div>
 
-<label>
-  <input type=checkbox bind:checked={starredOnly} />
-  Starred
-</label>
+  <div>
+    <button on:click={() => { orderedContents = shuffle(orderedContents); }}>shuffle</button>
+    <button on:click={sortNow}>ending soon</button>
 
-{#each program.tracks as track}
-  <label>
-    <input type=checkbox bind:group={selectedTracks} value={track} />
-    {track}
-  </label>
-{/each}
+    {#each modes as md}
+      <label>
+        <input type=radio bind:group={displayMode} value={md} />
+        {md}
+      </label>
+    {/each}
+  </div>
+</div>
 
 <div class="sigchi-gallery-root">
-{#each selectedContents as content (content.id)}
-  <Article
-    {content}
-    mode={displayMode}
-    sessions={program.sessions} />
-{/each}
+  {#each selectedContents as content (content.id)}
+    <Article
+      {content}
+      mode={displayMode}
+      sessions={program.sessions} />
+    {/each}
 </div>
+
+<style>
+  .controls {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .controls div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: var(--sigchi-gallery-control-margin);
+  }
+</style>

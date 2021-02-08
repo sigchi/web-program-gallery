@@ -66,7 +66,7 @@
   }
 
   article {
-    flex: 0 1 auto;
+    flex: 1 0 auto;
     flex-direction: column;
     position: relative;
     width: var(--sigchi-gallery-col-width);
