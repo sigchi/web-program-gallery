@@ -104,8 +104,9 @@
   $: selectedContents = shownCandidates || trackContents;
 </script>
 
-<div class="controls">
-  <div>
+<form>
+  <fieldset>
+    <legend>Categories</legend>
     <label>
       <input type="checkbox" bind:checked={starredOnly} />
       Starred
@@ -117,9 +118,10 @@
         {track}
       </label>
     {/each}
-  </div>
+  </fieldset>
 
-  <div>
+  <fieldset>
+    <legend>Filtering</legend>
     <Typeahead bind:selected={shownCandidates} {...searchOpts} />
 
     {#each filters as flt}
@@ -128,9 +130,10 @@
         {flt}
       </label>
     {/each}
-  </div>
+  </fieldset>
 
-  <div>
+  <fieldset>
+    <legend>View</legend>
     <button
       on:click={() => {
         orderedContents = shuffle(orderedContents);
@@ -144,8 +147,8 @@
         {md}
       </label>
     {/each}
-  </div>
-</div>
+  </fieldset>
+</form>
 
 <div class="sigchi-gallery-root">
   {#each selectedContents as content (content.id)}
@@ -170,17 +173,3 @@
     }}
   />
 {/if}
-
-<style>
-  .controls {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .controls div {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: var(--sigchi-gallery-control-margin);
-  }
-</style>

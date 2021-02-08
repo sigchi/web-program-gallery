@@ -29,14 +29,17 @@
   }
 </script>
 
-<label>
-  <input type="text" {placeholder} bind:value={query} list="typeahead" />
+<input
+  type="text"
+  aria-label={placeholder}
   {placeholder}
-  <datalist id="typeahead">
-    {#if shown !== undefined}
-      {#each shown as it}
-        <option value={key ? getPath(it, key) : it} />
-      {/each}
-    {/if}
-  </datalist>
-</label>
+  bind:value={query}
+  list="typeahead"
+/>
+<datalist id="typeahead">
+  {#if shown !== undefined}
+    {#each shown as it}
+      <option value={key ? getPath(it, key) : it} />
+    {/each}
+  {/if}
+</datalist>
