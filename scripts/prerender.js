@@ -11,7 +11,7 @@ fs.readFile(page, "utf8")
       .replace("<!-- svelte.head -->", head)
       .replace(
         "<!-- css.bundled -->",
-        '<link ref="stylesheet" href="/bundle.css" />'
+        '<link rel="stylesheet" href="/bundle.css" />'
       )
       .replace("<!-- svelte.html -->", html);
 

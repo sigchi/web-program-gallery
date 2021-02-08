@@ -30,6 +30,7 @@
     "@rollup/plugin-run": "^2.0.2",
     "@snowpack/plugin-build-script": "^2.1.0",
     "@snowpack/plugin-svelte": "^3.5.2",
+    "@snowpack/plugin-webpack": "^2.3.0",
     "husky": "^4.3.8",
     "lint-staged": "^10.5.4",
     "prettier": "^2.2.1",

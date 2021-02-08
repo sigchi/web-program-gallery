@@ -28,5 +28,13 @@ module.exports = {
         },
       },
     ],
+    [
+      "@snowpack/plugin-webpack",
+      {
+        htmlMinifierOptions: {
+          removeComments: false,
+        },
+      },
+    ],
   ],
 };
