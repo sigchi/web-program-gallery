@@ -13,7 +13,7 @@ export default {
   plugins: [
     nodeResolve(),
     json(),
-    css({ output: "bundle.css" }),
+    css(),
     svelte({
       compilerOptions: {
         dev: false,
