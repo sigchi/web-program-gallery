@@ -25,7 +25,14 @@
     <figure>
       <img alt={name} src={thumbImg} />
       <figcaption>
-        <h1>⏵</h1>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          x="0px"
+          y="0px"
+          viewBox="-600 0 1800 600"
+        >
+          <polygon fill="#ffffff" points="0,0 0,600 600,300 " />
+        </svg>
         <span>{name}</span>
       </figcaption>
     </figure>
@@ -65,17 +72,15 @@
     height: 100%;
   }
 
-  figcaption * {
-    color: black;
-    background-color: #ebebebbb;
+  figcaption svg {
+    width: 35%;
+    background-color: #00000088;
+    border-radius: 15px;
+    padding: 15px;
   }
 
-  figcaption h1 {
-    color: white;
-    font-size: 25px;
-    background-color: #00000088;
-    text-align: center;
-    width: 45%;
-    border-radius: 15px;
+  figcaption span {
+    color: black;
+    background-color: #ebebebbb;
   }
 </style>
