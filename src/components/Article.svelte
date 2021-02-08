@@ -54,7 +54,6 @@
   <!-- Abstract -->
   {#if mode === "detail"}
     <aside>
-      <hr />
       <h4>Abstract</h4>
       <p>{content.abstract}</p>
     </aside>
@@ -102,11 +101,8 @@
     text-align: left;
   }
 
-  article hr {
-    border-top: var(--sigchi-article-border);
-  }
-
   article aside {
+    border-top: var(--sigchi-article-border);
     height: var(--sigchi-abstract-height);
   }
 
