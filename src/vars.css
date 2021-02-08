@@ -12,9 +12,8 @@
 
   --sigchi-star-size: 35px;
   --sigchi-star-margin: 10px;
-  --sigchi-star-active: gold;
-  --sigchi-star-inactive: gray;
-  --sigchi-star-inactive-opacity: 0.5;
+  --sigchi-star-active: #ffd700ff;
+  --sigchi-star-inactive: #a9a9a988;
 }
 
 .sigchi-gallery-root {

@@ -36,17 +36,15 @@
     height: var(--sigchi-star-size);
   }
 
-  .star {
-    opacity: var(--sigchi-star-inactive-opacity);
-    fill: var(--sigchi-star-inactive);
-  }
-
   .star-item input {
     opacity: 0;
   }
 
+  .star {
+    fill: var(--sigchi-star-inactive);
+  }
+
   .star-item input:checked + svg .star {
-    opacity: 1;
     fill: var(--sigchi-star-active);
   }
 </style>
