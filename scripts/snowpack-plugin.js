@@ -1,16 +1,14 @@
 const fs = require("fs").promises;
+const convert = require("./convert.js");
 
 module.exports = function (
   snowpackConfig,
   { input, output, options = undefined }
 ) {
-  const convertModule = import("./convert.mjs");
-
   return {
-    name: "qoala-flat",
+    name: "web-program-gallery",
     resolve: { input, output },
     async load({ filePath }) {
-      const { default: convert } = await convertModule;
       const text = await fs.readFile(filePath, "utf8");
       const data = JSON.parse(text);
       const converted = convert(data, options);

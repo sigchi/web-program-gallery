@@ -1,7 +1,6 @@
 {
   "name": "web-program-gallery",
   "version": "0.0.1",
-  "main": "scripts/snowpack-plugin.js",
   "description": "SIGCHI/QOALA Web Gallery and related tools",
   "repository": "https://github.com/sigchi/web-program-gallery",
   "author": "John Sullivan <jsullivan@csumb.edu>",

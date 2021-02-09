@@ -136,7 +136,7 @@ function getTypeId(prog, tname) {
   return result ? result.id : undefined;
 }
 
-export default function convert(
+module.exports = function convert(
   prog,
   {
     tzOffset = 0,
@@ -201,4 +201,4 @@ export default function convert(
     authors: [...allAuthors],
     sessions: sessionInfo,
   };
-}
+};

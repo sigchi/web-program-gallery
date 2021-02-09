@@ -14,7 +14,7 @@ module.exports = {
   plugins: [
     "@snowpack/plugin-svelte",
     [
-      ".",
+      "./scripts/snowpack-plugin.js",
       {
         input: [".program.json"],
         output: [".json"],
