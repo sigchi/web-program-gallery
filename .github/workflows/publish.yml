@@ -29,6 +29,7 @@ jobs:
 
           rm -rf ${SITEPUB}/*
           cp -r $GITHUB_WORKSPACE/dist/* $SITEPUB
+          touch "${SITEPUB}/.nojekyll"
           git -C $SITEPUB add -A
           git -C $SITEPUB commit --amend -m "Publish gh-pages"
           git -C $SITEPUB push -f origin gh-pages
