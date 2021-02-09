@@ -5,6 +5,9 @@ Repo for the web gallery developed at UIST 2020.
 Deployed for UIST 2020 at
 http://uist.acm.org/uist2020/gallery.html?filter=titles
 
+See the current version here
+https://sigchi.github.io/web-program-gallery/
+
 ## Using the gallery
 
 To get started with the example setup, clone this repo with the `site-template`
