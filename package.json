@@ -21,7 +21,7 @@
   "scripts": {
     "start": "svite",
     "build": "svite build && rollup -c",
-    "programs": "scripts/qoala-convert.js convert -o public/data 'contrib/program-examples/*.json'",
+    "programs": "scripts/qoala-convert.js convert -o src/data 'contrib/program-examples/*.json'",
     "pretty": "prettier -w ."
   },
   "dependencies": {

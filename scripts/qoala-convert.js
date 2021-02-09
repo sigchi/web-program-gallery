@@ -49,7 +49,7 @@ require("yargs")
         }
       }
 
-      await fs.mkdir(argv.output);
+      await fs.mkdir(argv.output, { recursive: true });
 
       glob(argv.files, (e, files) => {
         files.forEach((fname) => convertFile(fname, argv.output, options));
