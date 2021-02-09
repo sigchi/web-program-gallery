@@ -12,6 +12,9 @@
   const links = Object.entries(content.links)
     .map(([name, href]) => `<a href="${href}">${name}</a>`)
     .join(" | ");
+
+  const videos = (content.videos && Object.entries(content.videos)) || [];
+  const images = (content.images && Object.entries(content.images)) || [];
 </script>
 
 <article>
@@ -31,13 +34,13 @@
     <p>{@html links}</p>
 
     <!-- Videos/Images -->
-    {#if mode !== "list" && content.images !== undefined && content.videos !== undefined}
+    {#if mode !== "list"}
       <div>
-        {#each Object.entries(content.videos) as [name, url]}
+        {#each videos as [name, url]}
           <VidThumb {name} {url} on:watch />
         {/each}
-        {#if Object.keys(content.videos).length === 0}
-          {#each Object.entries(content.images) as [name, url]}
+        {#if videos.length === 0}
+          {#each images as [name, url]}
             <img alt={name} src={url} />
           {/each}
         {/if}
