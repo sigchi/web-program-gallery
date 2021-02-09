@@ -20,7 +20,7 @@
   },
   "scripts": {
     "start": "svite",
-    "build": "svite build && rollup -c",
+    "build": "svite build --base '/web-program-gallery/' && rollup -c",
     "programs": "scripts/qoala-convert.js convert -o src/data 'contrib/program-examples/*.json'",
     "pretty": "prettier -w ."
   },
