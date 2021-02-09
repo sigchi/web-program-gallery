@@ -1,8 +1,8 @@
 import { promises as fs } from "fs";
 import Gallery from "../src/components/Gallery.svelte";
-import program from "../build/js/program.js";
+import program from "../src/data/uist-2020.program.json";
 
-const pages = ["./build/index.html", "./build/index-water.html"];
+const pages = ["./dist/index.html"];
 const { head, html } = Gallery.render({ program });
 
 pages.forEach((page) =>

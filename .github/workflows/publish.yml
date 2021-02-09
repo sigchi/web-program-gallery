@@ -27,7 +27,7 @@ jobs:
             "https://$GITHUB_ACTOR:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git" \
             $SITEPUB
 
-          cp -r $GITHUB_WORKSPACE/build/* $SITEPUB
+          cp -r $GITHUB_WORKSPACE/dist/* $SITEPUB
           git -C $SITEPUB add -A
           git -C $SITEPUB commit --amend -m "Publish gh-pages"
           git -C $SITEPUB push -f origin gh-pages

@@ -1,3 +1,5 @@
 build
+src/data
+.cache
 node_modules
 **/dist/*
