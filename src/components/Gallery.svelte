@@ -104,7 +104,11 @@
   $: selectedContents = shownCandidates || trackContents;
 </script>
 
-<form>
+<form
+  on:submit={(e) => {
+    e.preventDefault();
+  }}
+>
   <fieldset>
     <legend>Categories</legend>
     <label>
