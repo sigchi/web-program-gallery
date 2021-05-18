@@ -1,6 +1,6 @@
 import "./vars.css";
 import "./custom.css";
-import Gallery from "./components/Gallery.svelte";
+import Gallery from "web-program-gallery";
 import program from "./data/uist-2020.program.json";
 
 const element = document.querySelector("main");

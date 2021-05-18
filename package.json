@@ -1,50 +1,24 @@
 {
-  "name": "web-program-gallery",
-  "version": "0.0.1",
-  "svelte": "src/components/Gallery.svelte",
-  "description": "SIGCHI/QOALA Web Gallery and related tools",
-  "repository": "https://github.com/sigchi/web-program-gallery",
-  "author": "John Sullivan <jsullivan@csumb.edu>",
-  "license": "MIT",
-  "private": false,
-  "bin": {
-    "qoala-convert": "./scripts/qoala-convert.js"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.!(lock|gitignore)": "prettier -w"
-  },
   "scripts": {
     "start": "vite",
-    "build": "vite build --base '/web-program-gallery/' && rollup -c",
-    "programs": "scripts/qoala-convert.js convert -o src/data 'contrib/program-examples/*.json'",
-    "pretty": "prettier -w ."
+    "build": "vite build && rollup -c",
+    "programs": "qoala-convert convert -o src/data 'contrib/program-examples/*.json'"
   },
   "dependencies": {
-    "fuse.js": "^6.4.6",
-    "glob": "^7.1.7",
-    "svelte": "^3.32.0",
-    "yargs": "^16.2.0"
   },
   "devDependencies": {
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^11.1.0",
     "@rollup/plugin-run": "^2.0.2",
     "@sveltejs/vite-plugin-svelte": "^1.0.0-next.10",
-    "husky": "^4.3.8",
-    "lint-staged": "^10.5.4",
-    "prettier": "^2.2.1",
-    "prettier-plugin-svelte": "^2.1.2",
     "rollup": "^2.38.0",
     "rollup-plugin-css-only": "^3.1.0",
     "rollup-plugin-svelte": "^7.1.0",
+    "svelte": "^3.38.2",
     "svelte-hmr": "^0.11.6",
     "svelte-preprocess": "^4.6.3",
     "svite": "^0.9.0-6",
-    "vite": "^2.3.3"
+    "vite": "^2.3.3",
+    "web-program-gallery": "git+https://github.com/sigchi/web-program-gallery.git#0.1.4"
   }
 }

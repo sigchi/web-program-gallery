@@ -1,5 +1,5 @@
 import { promises as fs } from "fs";
-import Gallery from "../src/components/Gallery.svelte";
+import Gallery from "web-program-gallery";
 import program from "../src/data/uist-2020.program.json";
 
 const pages = ["./dist/index.html"];
