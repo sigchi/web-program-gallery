@@ -19,21 +19,23 @@
     "*.!(lock|gitignore)": "prettier -w"
   },
   "scripts": {
-    "start": "svite",
-    "build": "svite build --base '/web-program-gallery/' && rollup -c",
+    "start": "vite",
+    "build": "vite build --base '/web-program-gallery/' && rollup -c",
     "programs": "scripts/qoala-convert.js convert -o src/data 'contrib/program-examples/*.json'",
     "pretty": "prettier -w ."
   },
   "dependencies": {
     "fuse.js": "^6.4.6",
+    "glob": "^7.1.7",
     "svelte": "^3.32.0",
-    "node-glob": "^1.2.0",
+    "svite": "^0.9.0-6",
     "yargs": "^16.2.0"
   },
   "devDependencies": {
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^11.1.0",
     "@rollup/plugin-run": "^2.0.2",
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.10",
     "husky": "^4.3.8",
     "lint-staged": "^10.5.4",
     "prettier": "^2.2.1",
@@ -43,6 +45,6 @@
     "rollup-plugin-svelte": "^7.1.0",
     "svelte-hmr": "^0.11.6",
     "svelte-preprocess": "^4.6.3",
-    "svite": "^0.8.1"
+    "vite": "^2.3.3"
   }
 }
